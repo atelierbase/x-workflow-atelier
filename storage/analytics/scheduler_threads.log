@@ -1,0 +1,17 @@
+2026-05-26T16:22:50.886996+09:00 [threads] START slot=夜 dry_run=True skip_jitter=False
+2026-05-26T16:22:50.887255+09:00 [threads] credentials: file /Users/hirotomo.ishii/.config/threads-workflow/threads-credentials.json
+2026-05-26T16:22:50.887413+09:00 [threads] No pending post for slot=夜
+2026-05-26T16:23:07.081144+09:00 [threads] START slot=夜 dry_run=True skip_jitter=False
+2026-05-26T16:23:07.081348+09:00 [threads] credentials: file /Users/hirotomo.ishii/.config/threads-workflow/threads-credentials.json
+2026-05-26T16:23:07.081555+09:00 [threads] Text preview: はじめまして、ひろ｜AI実業家です☺️
+
+Threadsでも... (139 chars)
+2026-05-26T16:23:07.081588+09:00 [threads] DRY RUN - skipping actual post
+2026-05-26T16:23:25.004184+09:00 [threads] START slot=夜 dry_run=False skip_jitter=True
+2026-05-26T16:23:25.004395+09:00 [threads] credentials: file /Users/hirotomo.ishii/.config/threads-workflow/threads-credentials.json
+2026-05-26T16:23:25.004674+09:00 [threads] Text preview: はじめまして、ひろ｜AI実業家です☺️
+
+Threadsでも... (139 chars)
+2026-05-26T16:23:27.167209+09:00 [threads] container_id=17890020195511951
+2026-05-26T16:23:32.878044+09:00 [threads] POSTED thread_id=18393912259083839
+2026-05-26T16:23:32.879848+09:00 [threads] DONE moved 2026-05-26-001 to posted
