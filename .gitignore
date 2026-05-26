@@ -1,0 +1,24 @@
+# 絶対に Git にコミットしない（API key 漏洩防止）
+x-credentials.json
+*-credentials.json
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# 実行ログ（大きくなりすぎる場合があるので、analytics/scheduler.log は手動コミット）
+storage/analytics/launchd_*.log
