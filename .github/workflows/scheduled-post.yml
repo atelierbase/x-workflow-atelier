@@ -2,13 +2,13 @@ name: Scheduled X Post
 
 on:
   schedule:
-    # GitHub Actions の cron は UTC 基準
-    # JST 07:00 = UTC 22:00（前日扱い）
-    # JST 12:00 = UTC 03:00
-    # JST 19:00 = UTC 10:00
-    - cron: '0 22 * * *'
-    - cron: '0 3 * * *'
-    - cron: '0 10 * * *'
+    # GitHub Actions の cron は UTC 基準・「0分」は混雑で遅延しやすいので「5分」に
+    # JST 07:05 = UTC 22:05（前日扱い）
+    # JST 12:05 = UTC 03:05
+    # JST 19:05 = UTC 10:05
+    - cron: '5 22 * * *'
+    - cron: '5 3 * * *'
+    - cron: '5 10 * * *'
 
   # 手動トリガーも可能
   workflow_dispatch:
