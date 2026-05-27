@@ -130,3 +130,26 @@ Anthropic API の SDK 体験を整える狙いがあると見られます。
 - ステータス: posted
 
 ---
+
+## 2026-05-29-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-28T03:50:55.337203+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059708947229970576
+- URL: https://twitter.com/status/2059708947229970576
+- 文面:
+
+今週、AI業界では大型提携の発表が相次ぎました。
+
+・KPMG × Anthropic（276,000人）
+・Dell × OpenAI（オンプレ Codex）
+・NVIDIA × OpenAI（GPT-5.5 インフラ）
+
+「AIをどこに置くか」が、企業選びの軸になっている感覚。
+
+AI実業家として、自社のサービスを「どの AI 基盤に乗せるか」を
+真剣に考えるタイミングが来ていると感じます。
+
+- ステータス: posted
+
+---
