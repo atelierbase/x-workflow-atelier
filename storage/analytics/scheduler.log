@@ -18,3 +18,9 @@ Webサービスって、... (104 chars)
 2026-05-27T20:52:05.967080+09:00 Tweet preview: 今週、Anthropic が「Routines for Cl... (181 chars)
 2026-05-27T20:52:06.432752+09:00 POSTED tweet_id=2059603549009371408
 2026-05-27T20:52:06.433211+09:00 DONE moved 2026-05-27-003 to posted
+2026-05-27T23:43:09.803673+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-27T23:43:09.803818+09:00 jitter=412s
+2026-05-27T23:50:01.804060+09:00 credentials: env vars
+2026-05-27T23:50:01.804664+09:00 Tweet preview: 先週、Anthropic が Stainless を買収しま... (185 chars)
+2026-05-27T23:50:02.727901+09:00 POSTED tweet_id=2059648328657158636
+2026-05-27T23:50:02.728337+09:00 DONE moved 2026-05-28-003 to posted
