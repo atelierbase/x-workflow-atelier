@@ -38,3 +38,10 @@ Webサービスって、... (104 chars)
 2026-05-28T21:01:56.674482+09:00 Tweet preview: Anthropic の最新モデル Claude Opus 4... (206 chars)
 2026-05-28T21:01:57.568536+09:00 POSTED tweet_id=2059968416232996894
 2026-05-28T21:01:57.569000+09:00 DONE moved 2026-05-30-003 to posted
+2026-05-28T23:57:06.884804+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-28T23:57:06.884884+09:00 jitter=369s
+2026-05-29T00:03:15.885183+09:00 credentials: env vars
+2026-05-29T00:03:15.885826+09:00 Tweet preview: 今週、Anthropic が法務向け MCP コネクタを
+2... (168 chars)
+2026-05-29T00:03:17.087697+09:00 POSTED tweet_id=2060014048318775297
+2026-05-29T00:03:17.088248+09:00 DONE moved 2026-05-31-003 to posted
