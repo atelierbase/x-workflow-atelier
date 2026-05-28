@@ -153,3 +153,25 @@ AI実業家として、自社のサービスを「どの AI 基盤に乗せる�
 - ステータス: posted
 
 ---
+
+## 2026-05-30-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-28T21:01:57.568773+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059968416232996894
+- URL: https://twitter.com/status/2059968416232996894
+- 文面:
+
+Anthropic の最新モデル Claude Opus 4.7、
+SWE-bench Verified で 87.6% を記録しています。
+
+これは vendor-reported では現時点のトップスコア。
+LMSYS Arena でも thinking mode で #1 です。
+
+数字だけ見ると「強い」の一言ですが、
+実際に使ってみると、コードを書かせた時の
+構造化の精度が上がっている印象があります。
+
+- ステータス: posted
+
+---

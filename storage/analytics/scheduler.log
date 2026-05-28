@@ -32,3 +32,9 @@ Webサービスって、... (104 chars)
 ・KPM... (199 chars)
 2026-05-28T03:50:55.336990+09:00 POSTED tweet_id=2059708947229970576
 2026-05-28T03:50:55.337425+09:00 DONE moved 2026-05-29-003 to posted
+2026-05-28T20:53:56.673522+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-28T20:53:56.673615+09:00 jitter=480s
+2026-05-28T21:01:56.673879+09:00 credentials: env vars
+2026-05-28T21:01:56.674482+09:00 Tweet preview: Anthropic の最新モデル Claude Opus 4... (206 chars)
+2026-05-28T21:01:57.568536+09:00 POSTED tweet_id=2059968416232996894
+2026-05-28T21:01:57.569000+09:00 DONE moved 2026-05-30-003 to posted
