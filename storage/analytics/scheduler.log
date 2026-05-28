@@ -45,3 +45,11 @@ Webサービスって、... (104 chars)
 2... (168 chars)
 2026-05-29T00:03:17.087697+09:00 POSTED tweet_id=2060014048318775297
 2026-05-29T00:03:17.088248+09:00 DONE moved 2026-05-31-003 to posted
+2026-05-29T04:45:11.067381+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-29T04:45:11.067471+09:00 jitter=855s
+2026-05-29T04:59:26.067711+09:00 credentials: env vars
+2026-05-29T04:59:26.068341+09:00 Tweet preview: 今週もAIの選択肢が、また増えました。
+
+・Claude C... (231 chars)
+2026-05-29T04:59:26.557317+09:00 POSTED tweet_id=2060088578844045732
+2026-05-29T04:59:26.557791+09:00 DONE moved 2026-06-01-003 to posted

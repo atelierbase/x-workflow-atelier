@@ -198,3 +198,27 @@ LMSYS Arena でも thinking mode で #1 です。
 - ステータス: posted
 
 ---
+
+## 2026-06-01-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-29T04:59:26.557565+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2060088578844045732
+- URL: https://twitter.com/status/2060088578844045732
+- 文面:
+
+今週もAIの選択肢が、また増えました。
+
+・Claude Code / Codex / Gemini CLI / Grok Build
+・GPT-5.5 / Claude Opus 4.7 / Gemini 3
+・Plugin / MCP / Routines / Hooks
+
+正直、選択疲れを感じる瞬間もあります。
+
+AI実業家として大事なのは、
+「全部使う」より「軸を決めて深く使う」こと。
+私は Claude Code をメインで使い続けると決めました。
+
+- ステータス: posted
+
+---
