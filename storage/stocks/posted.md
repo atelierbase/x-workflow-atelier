@@ -222,3 +222,28 @@ AI実業家として大事なのは、
 - ステータス: posted
 
 ---
+
+## 2026-06-02-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-29T20:01:53.038799+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2060315685645844489
+- URL: https://twitter.com/status/2060315685645844489
+- 文面:
+
+今週もAI周りで、たくさんのアップデートがありましたね。
+
+・KPMG × Anthropic 提携
+・OpenAI Codex の Appshots
+・Claude Code の Routines & Plugin マーケット
+・Lars Faye のバイラル記事
+
+特に印象的だったのは、AIの「導入規模」が
+個人開発者から大企業まで一気に広がっていること。
+
+AI実業家として、この流れの中で
+「自分の立ち位置」を確認する1週間でした。
+
+- ステータス: posted
+
+---
