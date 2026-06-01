@@ -93,3 +93,10 @@ Webサービスって、... (104 chars)
 2026-06-01T00:05:06.031847+09:00 jitter=856s
 2026-06-01T00:19:22.032087+09:00 credentials: env vars
 2026-06-01T00:19:22.032610+09:00 No pending post for slot=夜
+2026-06-01T20:34:27.239801+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-01T20:34:27.239880+09:00 jitter=490s
+2026-06-01T20:42:37.240122+09:00 credentials: env vars
+2026-06-01T20:42:37.240904+09:00 Tweet preview: OpenAI Codex の Goal Mode が正式版に... (127 chars), comments=0, image=yes
+2026-06-01T20:42:38.265557+09:00 media uploaded id=2061413103825211393
+2026-06-01T20:42:38.679734+09:00 POSTED main tweet_id=2061413106362863788
+2026-06-01T20:42:38.680270+09:00 DONE moved 2026-06-03-004 to posted (type=画像付き)
