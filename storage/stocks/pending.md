@@ -5,6 +5,25 @@
 
 ---
 
+## 2026-06-03-004
+- 種類: 画像付き
+- 投稿想定時刻: 夜（19:00-22:00）
+- 想定日: 2026-06-03（水）
+- 軸: 主軸 / 海外翻訳
+- ソース: OpenAI Codex Goal Mode 正式版（5月）
+- 画像プロンプト: A clean modern square infographic card (1:1) in Japanese for an AI/tech account. Title "Codex Goal Mode". Subtitle "目標を渡すと、数時間〜数日 自走するAI". Three bullet rows with simple line icons: 「目標を1つ渡すだけ」「CLI / IDE / アプリで使える」「長時間タスクを任せて放置OK」. Style: deep navy background, warm off-white text, single amber accent color, generous whitespace, rounded corners, minimal flat design, no photographs, no human faces. Bottom-right small handle "@AtelierBase_own".
+- 画像ファイル: storage/images/2026-06-03-004.png
+- 文面:
+
+OpenAI Codex の Goal Mode が正式版になりました。目標を渡すと、数時間〜数日かけてそこへ向かって動き続けてくれる機能です。
+
+私も長めのリファクタリングを任せてみたら、放っておく間に進んでいて驚きました。
+要点は画像にまとめました。
+
+- ステータス: pending
+
+---
+
 ## 2026-06-02-001
 - 種類: 単発
 - 投稿想定時刻: 朝（07:00-09:00）
@@ -58,25 +77,6 @@ Claude Code の /usage、最近のアップデートで「何が枠を食って�
 AIが10倍速く書くほど、人間が確かめきれなくなる。
 私が20億円ぶんの事業で学んだのも、速さより「間違いに早く気づける仕組み」が効くということでした。
 （出典: Developers Digest）
-
-- ステータス: pending
-
----
-
-## 2026-06-03-004
-- 種類: 画像付き
-- 投稿想定時刻: 朝（07:00-09:00）
-- 想定日: 2026-06-03（水）
-- 軸: 主軸 / 海外翻訳
-- ソース: OpenAI Codex Goal Mode 正式版（5月）
-- 画像プロンプト: A clean modern square infographic card (1:1) in Japanese for an AI/tech account. Title "Codex Goal Mode". Subtitle "目標を渡すと、数時間〜数日 自走するAI". Three bullet rows with simple line icons: 「目標を1つ渡すだけ」「CLI / IDE / アプリで使える」「長時間タスクを任せて放置OK」. Style: deep navy background, warm off-white text, single amber accent color, generous whitespace, rounded corners, minimal flat design, no photographs, no human faces. Bottom-right small handle "@AtelierBase_own".
-- 画像ファイル: storage/images/2026-06-03-004.png
-- 文面:
-
-OpenAI Codex の Goal Mode が正式版になりました。目標を渡すと、数時間〜数日かけてそこへ向かって動き続けてくれる機能です。
-
-私も長めのリファクタリングを任せてみたら、放っておく間に進んでいて驚きました。
-要点は画像にまとめました。
 
 - ステータス: pending
 
