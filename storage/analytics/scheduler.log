@@ -6,3 +6,8 @@
 Webサービスって、... (104 chars)
 2026-05-26T14:50:54.893768+09:00 POSTED tweet_id=2059150264200843592
 2026-05-26T14:50:54.894235+09:00 DONE moved 2026-05-27-002 to posted
+2026-06-01T18:00:59.598231+09:00 START slot=夜 dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/products/x-workflow-repo/storage/stocks/pending.md
+2026-06-01T18:00:59.598693+09:00 credentials: env vars
+2026-06-01T18:00:59.599044+09:00 Tweet preview: 2026年のAI開発、本当のボトルネックはもう「生成の速さ」... (75 chars), comments=1, image=no
+2026-06-01T18:00:59.599076+09:00 DRY RUN - skipping actual post
+2026-06-01T18:00:59.627801+09:00 画像ファイル指定あり (storage/images/2026-06-03-004.png) だが未配置 → 本文のみでフォールバック
