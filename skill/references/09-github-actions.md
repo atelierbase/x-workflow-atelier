@@ -54,7 +54,7 @@ PC の起動状態に関係なく、クラウド側で 24 時間動く。
 1. 残ストック数を確認（pending.md のエントリ数）
 2. オーナーから「最近の活動・気づき・撤退話」をヒアリング
 3. 21本（1日3本 × 7日）を生成
-4. ローカルの `~/atlier-base-v1/x-workflow-repo/storage/stocks/pending.md` に追記
+4. ローカルの `~/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md` に追記
 5. `git push` で GitHub に反映
 6. オーナーが **GitHub UI で内容確認 → 必要なら直接編集 → commit**
 
@@ -87,7 +87,7 @@ PC の起動状態に関係なく、クラウド側で 24 時間動く。
 
 ローカル → GitHub（私が生成した後）：
 ```bash
-cd /Users/hirotomo.ishii/atlier-base-v1/x-workflow-repo
+cd /Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x
 # pending.md を更新
 git add storage/stocks/pending.md
 git commit -m "stock: 7日分の新規生成"
@@ -96,7 +96,7 @@ git push
 
 GitHub → ローカル（オーナーが UI 編集した分を取り込む）：
 ```bash
-cd /Users/hirotomo.ishii/atlier-base-v1/x-workflow-repo
+cd /Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x
 git pull
 ```
 

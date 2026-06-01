@@ -36,8 +36,8 @@ if os.getenv("GITHUB_ACTIONS"):
     # GitHub Actions: リポジトリルートを起点に
     SKILL_DIR = Path(__file__).resolve().parent.parent
 else:
-    # ローカル: リポジトリを起点に（無ければ旧スキルディレクトリ）
-    _repo = Path.home() / "atlier-base-v1" / "products" / "x-workflow-repo"
+    # ローカル: リポジトリを起点に（移設後 = projects/sns-auto-post/x）
+    _repo = Path.home() / "atlier-base-v1" / "projects" / "sns-auto-post" / "x"
     SKILL_DIR = _repo if _repo.exists() else Path.home() / ".claude" / "skills" / "x-workflow"
 
 PENDING = SKILL_DIR / "storage" / "stocks" / "pending.md"

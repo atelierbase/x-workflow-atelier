@@ -141,7 +141,7 @@ WebSearch / grok-search の結果から、以下の基準で選別：
 
 ## 後処理
 
-ネタリストを `~/atlier-base-v1/x-workflow-repo/storage/stocks/drafts.md` に「ネタ起案」セクションとして追記。
+ネタリストを `~/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/drafts.md` に「ネタ起案」セクションとして追記。
 次フェーズ「生成」では、このネタリストから21本に絞り込んで投稿文を作成する。
 
 ## よくある失敗パターン（v3.1 改訂時に学んだ）

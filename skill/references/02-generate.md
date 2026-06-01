@@ -4,7 +4,7 @@
 
 ## 入力
 
-- `~/atlier-base-v1/x-workflow-repo/storage/stocks/drafts.md` の最新ネタリスト
+- `~/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/drafts.md` の最新ネタリスト
 - もしくはフェーズ①「ネタ仕入れ」の出力を直接
 
 ## 出力
@@ -145,7 +145,7 @@ AI実業家として、自社のサービスを「どの AI 基盤に乗せる�
 
 ### Step 5. pending.md への書き込み
 
-`~/atlier-base-v1/x-workflow-repo/storage/stocks/pending.md` を**書き換え**（追加でなく全置換も可）：
+`~/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md` を**書き換え**（追加でなく全置換も可）：
 
 各エントリのフォーマット：
 
@@ -168,7 +168,7 @@ AI実業家として、自社のサービスを「どの AI 基盤に乗せる�
 ### Step 6. git push
 
 ```bash
-cd ~/atlier-base-v1/x-workflow-repo
+cd ~/atlier-base-v1/projects/sns-auto-post/x
 git add storage/stocks/pending.md
 git commit -m "stock: 1週間分21本（直近1週間 [日付範囲] の海外ネタ）"
 git push

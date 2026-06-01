@@ -21,7 +21,7 @@
 6. commit & push（→ 次回クラウドの Writer が learnings を読む）
 
 ```bash
-cd ~/atlier-base-v1/products/x-workflow-repo
+cd ~/atlier-base-v1/projects/sns-auto-post/x
 git add storage/analytics/learnings.md
 git commit -m "analysis: weekly learnings update (X)"
 git push
