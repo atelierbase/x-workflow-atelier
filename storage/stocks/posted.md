@@ -64,3 +64,186 @@ Xでは短文中心、こちらでは少し対話寄りに書いていきます�
 - ステータス: posted
 
 ---
+
+## 2026-05-27-001（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-27T08:22:24.020545+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059414879170441354
+- URL: https://twitter.com/status/2059414879170441354
+- 文面:
+
+先週、Anthropic が "Code with Claude" という
+開発者向けカンファレンスを開催していました。
+ロンドンとサンフランシスコの2会場、同日開催。
+
+ちょうど Google I/O と同じ日にぶつけてきたあたり、
+かなり気合が入っているなと感じます。
+
+私もアーカイブを追いかけているところですが、
+2026年は「コーディングの未来」がさらに加速しそうですね。
+
+- ステータス: posted
+
+---
+
+## 2026-05-27-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-27T20:52:06.432979+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059603549009371408
+- URL: https://twitter.com/status/2059603549009371408
+- 文面:
+
+今週、Anthropic が「Routines for Claude Code」を発表しました。
+
+ざっくり言うと、Claude Code の処理を
+ルーティン化して、自動実行できる仕組みです。
+
+これまで人間が毎回プロンプトを書いていた作業を、
+あらかじめ「ルーティン」として保存しておく。
+
+私も自分のリポジトリの定期チェックを
+ルーティンに移し始めました。
+
+- ステータス: posted
+
+---
+
+## 2026-05-28-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-27T23:50:02.728119+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059648328657158636
+- URL: https://twitter.com/status/2059648328657158636
+- 文面:
+
+先週、Anthropic が Stainless を買収しました。
+あまり大きく報じられていませんが、地味に重要な動きです。
+
+Stainless は API クライアント自動生成の会社で、
+Anthropic API の SDK 体験を整える狙いがあると見られます。
+
+「使いやすさ」への投資ですね。
+モデル性能だけじゃなく、開発者体験で勝負していく姿勢が伝わります。
+
+- ステータス: posted
+
+---
+
+## 2026-05-29-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-28T03:50:55.337203+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059708947229970576
+- URL: https://twitter.com/status/2059708947229970576
+- 文面:
+
+今週、AI業界では大型提携の発表が相次ぎました。
+
+・KPMG × Anthropic（276,000人）
+・Dell × OpenAI（オンプレ Codex）
+・NVIDIA × OpenAI（GPT-5.5 インフラ）
+
+「AIをどこに置くか」が、企業選びの軸になっている感覚。
+
+AI実業家として、自社のサービスを「どの AI 基盤に乗せるか」を
+真剣に考えるタイミングが来ていると感じます。
+
+- ステータス: posted
+
+---
+
+## 2026-05-30-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-28T21:01:57.568773+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2059968416232996894
+- URL: https://twitter.com/status/2059968416232996894
+- 文面:
+
+Anthropic の最新モデル Claude Opus 4.7、
+SWE-bench Verified で 87.6% を記録しています。
+
+これは vendor-reported では現時点のトップスコア。
+LMSYS Arena でも thinking mode で #1 です。
+
+数字だけ見ると「強い」の一言ですが、
+実際に使ってみると、コードを書かせた時の
+構造化の精度が上がっている印象があります。
+
+- ステータス: posted
+
+---
+
+## 2026-05-31-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-29T00:03:17.087933+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2060014048318775297
+- URL: https://twitter.com/status/2060014048318775297
+- 文面:
+
+今週、Anthropic が法務向け MCP コネクタを
+20種類以上、一気にリリースしました。
+
+ターゲットは law firm と社内法務部。
+リサーチ・契約・ディスカバリー・案件管理など、
+12の実務領域をカバーしています。
+
+ここまで業種別に踏み込む姿勢、
+「Claude を業務に組み込む」を本気で
+進めているのが伝わります。
+
+- ステータス: posted
+
+---
+
+## 2026-06-01-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-29T04:59:26.557565+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2060088578844045732
+- URL: https://twitter.com/status/2060088578844045732
+- 文面:
+
+今週もAIの選択肢が、また増えました。
+
+・Claude Code / Codex / Gemini CLI / Grok Build
+・GPT-5.5 / Claude Opus 4.7 / Gemini 3
+・Plugin / MCP / Routines / Hooks
+
+正直、選択疲れを感じる瞬間もあります。
+
+AI実業家として大事なのは、
+「全部使う」より「軸を決めて深く使う」こと。
+私は Claude Code をメインで使い続けると決めました。
+
+- ステータス: posted
+
+---
+
+## 2026-06-02-003（自動配信 / GitHub Actions）
+- 種類: 単発
+- 投稿日時: 2026-05-29T20:01:53.038799+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2060315685645844489
+- URL: https://twitter.com/status/2060315685645844489
+- 文面:
+
+今週もAI周りで、たくさんのアップデートがありましたね。
+
+・KPMG × Anthropic 提携
+・OpenAI Codex の Appshots
+・Claude Code の Routines & Plugin マーケット
+・Lars Faye のバイラル記事
+
+特に印象的だったのは、AIの「導入規模」が
+個人開発者から大企業まで一気に広がっていること。
+
+AI実業家として、この流れの中で
+「自分の立ち位置」を確認する1週間でした。
+
+- ステータス: posted
+
+---

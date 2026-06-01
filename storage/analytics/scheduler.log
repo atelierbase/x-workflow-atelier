@@ -6,8 +6,90 @@
 Webサービスって、... (104 chars)
 2026-05-26T14:50:54.893768+09:00 POSTED tweet_id=2059150264200843592
 2026-05-26T14:50:54.894235+09:00 DONE moved 2026-05-27-002 to posted
-2026-06-01T18:00:59.598231+09:00 START slot=夜 dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/products/x-workflow-repo/storage/stocks/pending.md
-2026-06-01T18:00:59.598693+09:00 credentials: env vars
-2026-06-01T18:00:59.599044+09:00 Tweet preview: 2026年のAI開発、本当のボトルネックはもう「生成の速さ」... (75 chars), comments=1, image=no
-2026-06-01T18:00:59.599076+09:00 DRY RUN - skipping actual post
-2026-06-01T18:00:59.627801+09:00 画像ファイル指定あり (storage/images/2026-06-03-004.png) だが未配置 → 本文のみでフォールバック
+2026-05-27T08:18:23.914797+09:00 START slot=朝 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-27T08:18:23.914865+09:00 jitter=239s
+2026-05-27T08:22:22.915102+09:00 credentials: env vars
+2026-05-27T08:22:22.915735+09:00 Tweet preview: 先週、Anthropic が "Code with Clau... (191 chars)
+2026-05-27T08:22:24.020334+09:00 POSTED tweet_id=2059414879170441354
+2026-05-27T08:22:24.020766+09:00 DONE moved 2026-05-27-001 to posted
+2026-05-27T20:51:02.965745+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-27T20:51:02.965822+09:00 jitter=63s
+2026-05-27T20:52:05.966054+09:00 credentials: env vars
+2026-05-27T20:52:05.967080+09:00 Tweet preview: 今週、Anthropic が「Routines for Cl... (181 chars)
+2026-05-27T20:52:06.432752+09:00 POSTED tweet_id=2059603549009371408
+2026-05-27T20:52:06.433211+09:00 DONE moved 2026-05-27-003 to posted
+2026-05-27T23:43:09.803673+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-27T23:43:09.803818+09:00 jitter=412s
+2026-05-27T23:50:01.804060+09:00 credentials: env vars
+2026-05-27T23:50:01.804664+09:00 Tweet preview: 先週、Anthropic が Stainless を買収しま... (185 chars)
+2026-05-27T23:50:02.727901+09:00 POSTED tweet_id=2059648328657158636
+2026-05-27T23:50:02.728337+09:00 DONE moved 2026-05-28-003 to posted
+2026-05-28T03:37:07.825343+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-28T03:37:07.825430+09:00 jitter=827s
+2026-05-28T03:50:54.825654+09:00 credentials: env vars
+2026-05-28T03:50:54.826193+09:00 Tweet preview: 今週、AI業界では大型提携の発表が相次ぎました。
+
+・KPM... (199 chars)
+2026-05-28T03:50:55.336990+09:00 POSTED tweet_id=2059708947229970576
+2026-05-28T03:50:55.337425+09:00 DONE moved 2026-05-29-003 to posted
+2026-05-28T20:53:56.673522+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-28T20:53:56.673615+09:00 jitter=480s
+2026-05-28T21:01:56.673879+09:00 credentials: env vars
+2026-05-28T21:01:56.674482+09:00 Tweet preview: Anthropic の最新モデル Claude Opus 4... (206 chars)
+2026-05-28T21:01:57.568536+09:00 POSTED tweet_id=2059968416232996894
+2026-05-28T21:01:57.569000+09:00 DONE moved 2026-05-30-003 to posted
+2026-05-28T23:57:06.884804+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-28T23:57:06.884884+09:00 jitter=369s
+2026-05-29T00:03:15.885183+09:00 credentials: env vars
+2026-05-29T00:03:15.885826+09:00 Tweet preview: 今週、Anthropic が法務向け MCP コネクタを
+2... (168 chars)
+2026-05-29T00:03:17.087697+09:00 POSTED tweet_id=2060014048318775297
+2026-05-29T00:03:17.088248+09:00 DONE moved 2026-05-31-003 to posted
+2026-05-29T04:45:11.067381+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-29T04:45:11.067471+09:00 jitter=855s
+2026-05-29T04:59:26.067711+09:00 credentials: env vars
+2026-05-29T04:59:26.068341+09:00 Tweet preview: 今週もAIの選択肢が、また増えました。
+
+・Claude C... (231 chars)
+2026-05-29T04:59:26.557317+09:00 POSTED tweet_id=2060088578844045732
+2026-05-29T04:59:26.557791+09:00 DONE moved 2026-06-01-003 to posted
+2026-05-29T19:58:21.077156+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-29T19:58:21.077242+09:00 jitter=211s
+2026-05-29T20:01:52.077517+09:00 credentials: env vars
+2026-05-29T20:01:52.078057+09:00 Tweet preview: 今週もAI周りで、たくさんのアップデートがありましたね。
+
+... (221 chars)
+2026-05-29T20:01:53.038568+09:00 POSTED tweet_id=2060315685645844489
+2026-05-29T20:01:53.039021+09:00 DONE moved 2026-06-02-003 to posted
+2026-05-29T23:17:00.276879+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-29T23:17:00.276954+09:00 jitter=364s
+2026-05-29T23:23:04.277178+09:00 credentials: env vars
+2026-05-29T23:23:04.277562+09:00 No pending post for slot=夜
+2026-05-30T04:39:44.034846+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-30T04:39:44.034927+09:00 jitter=424s
+2026-05-30T04:46:48.035204+09:00 credentials: env vars
+2026-05-30T04:46:48.035722+09:00 No pending post for slot=夜
+2026-05-30T17:02:09.618106+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-30T17:02:09.618175+09:00 jitter=402s
+2026-05-30T17:08:51.618398+09:00 credentials: env vars
+2026-05-30T17:08:51.618867+09:00 No pending post for slot=夜
+2026-05-30T19:20:24.621457+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-30T19:20:24.621521+09:00 jitter=661s
+2026-05-30T19:31:25.621703+09:00 credentials: env vars
+2026-05-30T19:31:25.622083+09:00 No pending post for slot=夜
+2026-05-30T23:53:37.343419+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-30T23:53:37.343498+09:00 jitter=694s
+2026-05-31T00:05:11.343769+09:00 credentials: env vars
+2026-05-31T00:05:11.344217+09:00 No pending post for slot=夜
+2026-05-31T17:30:06.993282+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-31T17:30:06.993362+09:00 jitter=557s
+2026-05-31T17:39:23.993603+09:00 credentials: env vars
+2026-05-31T17:39:23.994115+09:00 No pending post for slot=夜
+2026-05-31T19:33:01.511643+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-05-31T19:33:01.511726+09:00 jitter=523s
+2026-05-31T19:41:44.511962+09:00 credentials: env vars
+2026-05-31T19:41:44.512398+09:00 No pending post for slot=夜
+2026-06-01T00:05:06.031773+09:00 START slot=夜 dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-01T00:05:06.031847+09:00 jitter=856s
+2026-06-01T00:19:22.032087+09:00 credentials: env vars
+2026-06-01T00:19:22.032610+09:00 No pending post for slot=夜
