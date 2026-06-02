@@ -121,3 +121,10 @@ Webサービスって、... (104 chars)
 2026-06-02T19:37:08.840137+09:00 DONE moved 2026-06-04-009 to posted (type=単発)
 2026-06-02T20:01:12.981824+09:00 START slot=夜 (source=clock) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
 2026-06-02T20:01:12.981950+09:00 SKIP slot=夜 は本日すでに投稿済み（冗長クロンの重複起動）
+2026-06-02T21:30:27.709477+09:00 START slot=朝 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-02T21:30:27.709648+09:00 jitter=79s
+2026-06-02T21:31:46.709883+09:00 credentials: env vars
+2026-06-02T21:31:46.710504+09:00 Tweet preview: 今週、Anthropic が Claude Code に s... (165 chars), comments=1, image=no
+2026-06-02T21:31:47.280224+09:00 POSTED main tweet_id=2061787861935104485
+2026-06-02T21:31:49.606669+09:00 POSTED comment 1 tweet_id=2061787871649140969
+2026-06-02T21:31:49.607496+09:00 DONE moved 2026-06-04-007 to posted (type=コメント仕込み)
