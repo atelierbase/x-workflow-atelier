@@ -134,3 +134,9 @@ Webサービスって、... (104 chars)
 2026-06-03T03:16:57.543845+09:00 Tweet preview: Claude Code の Dynamic Workflow... (143 chars), comments=0, image=no
 2026-06-03T03:16:58.136197+09:00 POSTED main tweet_id=2061874729758118354
 2026-06-03T03:16:58.136939+09:00 DONE moved 2026-06-03-005 to posted (type=単発)
+2026-06-03T05:30:53.481047+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-03T05:30:53.481196+09:00 jitter=126s
+2026-06-03T05:32:59.481461+09:00 credentials: env vars
+2026-06-03T05:32:59.482093+09:00 Tweet preview: Anthropic が自己ホスト型サンドボックスを公開ベータ... (181 chars), comments=0, image=no
+2026-06-03T05:33:00.418658+09:00 POSTED main tweet_id=2061908964946665853
+2026-06-03T05:33:00.419440+09:00 DONE moved 2026-06-05-011 to posted (type=単発)
