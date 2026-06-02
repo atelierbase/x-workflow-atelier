@@ -113,3 +113,9 @@ Webサービスって、... (104 chars)
 2026-06-02T05:17:02.847409+09:00 Tweet preview: 6月15日から、Anthropic の Claude のクレ... (169 chars), comments=0, image=no
 2026-06-02T05:17:03.293781+09:00 POSTED main tweet_id=2061542562595246221
 2026-06-02T05:17:03.294307+09:00 DONE moved 2026-06-03-006 to posted (type=単発)
+2026-06-02T19:34:48.952139+09:00 START slot=夜 (source=clock) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-02T19:34:48.952227+09:00 jitter=139s
+2026-06-02T19:37:07.952453+09:00 credentials: env vars
+2026-06-02T19:37:07.953169+09:00 Tweet preview: 先週、Claude Code のレート制限が2倍に引き上げら... (163 chars), comments=0, image=no
+2026-06-02T19:37:08.839550+09:00 POSTED main tweet_id=2061759011796455848
+2026-06-02T19:37:08.840137+09:00 DONE moved 2026-06-04-009 to posted (type=単発)
