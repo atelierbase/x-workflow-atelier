@@ -45,6 +45,8 @@ POSTED = SKILL_DIR / "storage" / "stocks" / "posted.md"
 CREDS = Path.home() / ".config" / "x-workflow" / "x-credentials.json"
 LOG_DIR = SKILL_DIR / "storage" / "analytics"
 LOG = LOG_DIR / "scheduler.log"
+# 日×枠ごとの投稿済みマーカー（冗長クロンの二重投稿を防ぐ冪等ガード用）
+STATE = LOG_DIR / "post-state.json"
 
 # === タイムゾーン: JST 固定 ===
 JST = timezone(timedelta(hours=9))
@@ -57,6 +59,64 @@ def log(msg: str) -> None:
     with open(LOG, "a", encoding="utf-8") as f:
         f.write(line + "\n")
     print(line)
+
+
+def _today() -> str:
+    return datetime.now(JST).strftime("%Y-%m-%d")
+
+
+def load_state() -> dict:
+    try:
+        return json.loads(STATE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def already_posted(slot: str) -> bool:
+    """この日×この枠が既に投稿済みなら True（冗長クロンの二重投稿を防ぐ）。"""
+    return slot in load_state().get(_today(), [])
+
+
+def mark_posted(slot: str) -> None:
+    """この日×この枠を投稿済みとして記録。直近14日分のみ保持。"""
+    st = load_state()
+    st.setdefault(_today(), [])
+    if slot not in st[_today()]:
+        st[_today()].append(slot)
+    for k in sorted(st.keys())[:-14]:
+        del st[k]
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    STATE.write_text(json.dumps(st, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def err_detail(e: Exception) -> str:
+    """例外から X API の生レスポンス本文を取り出す（403 の本当の理由を残すため）。"""
+    resp = getattr(e, "response", None)
+    if resp is None:
+        return ""
+    try:
+        return f" status={resp.status_code} body={resp.text[:500]}"
+    except Exception:
+        return ""
+
+
+def is_transient(e: Exception) -> bool:
+    """一過性（リトライする価値あり）のエラーか。429/5xx と、今朝のような瞬間的 403 を含む。"""
+    status = getattr(getattr(e, "response", None), "status_code", None)
+    return status in (403, 429, 500, 502, 503, 504)
+
+
+def post_main_with_retry(make_call, attempts: int = 3):
+    """メイン投稿を一過性エラーに対して指数バックオフでリトライする。"""
+    for i in range(1, attempts + 1):
+        try:
+            return make_call()
+        except Exception as e:
+            log(f"main post attempt {i}/{attempts} failed: {e}{err_detail(e)}")
+            if i < attempts and is_transient(e):
+                time.sleep(min(60, 10 * i))
+                continue
+            raise
 
 
 def load_credentials() -> dict:
@@ -116,6 +176,12 @@ def main(dry_run: bool = False) -> None:
     # → GitHub Actions の発火時刻ズレで「夜投稿が朝に出る」のを防ぐ。
     slot = os.getenv("POST_SLOT") or current_slot()
     log(f"START slot={slot} (source={'POST_SLOT' if os.getenv('POST_SLOT') else 'clock'}) dry_run={dry_run} pending={PENDING}")
+
+    # 冪等ガード: 同じ日×同じ枠が既に投稿済みなら何もしない。
+    # → 冗長クロン（各枠を複数回発火させてドロップ対策）でも二重投稿しない。
+    if not dry_run and already_posted(slot):
+        log(f"SKIP slot={slot} は本日すでに投稿済み（冗長クロンの重複起動）")
+        sys.exit(0)
 
     # ジッター（凍結リスク回避のため 0〜15 分のランダム遅延）
     if not dry_run:
@@ -219,24 +285,35 @@ def main(dry_run: bool = False) -> None:
                 log(f"media upload failed, posting text-only: {e}")
                 media_ids = None
 
-        # メイン投稿
-        response = client.create_tweet(text=main_text, media_ids=media_ids)
+        # メイン投稿（一過性エラーはリトライ）
+        response = post_main_with_retry(
+            lambda: client.create_tweet(text=main_text, media_ids=media_ids)
+        )
         tweet_id = response.data["id"]
         log(f"POSTED main tweet_id={tweet_id}")
+    except Exception as e:
+        # メイン投稿が出ていない＝この枠は未消費。次の冗長クロンが再試行する。
+        log(f"POST FAILED (main): {e}{err_detail(e)}")
+        sys.exit(1)
 
-        # コメントをセルフリプライで連投
-        reply_to = tweet_id
-        comment_ids = []
-        for i, comment in enumerate(comments, 1):
+    # ここから先はメイン投稿成功済み。コメントが失敗しても枠は消費して確定させる
+    # （でないと次の冗長クロンがメインを二重投稿してしまう）。
+    reply_to = tweet_id
+    comment_ids = []
+    for i, comment in enumerate(comments, 1):
+        try:
             time.sleep(2)
             cresp = client.create_tweet(text=comment, in_reply_to_tweet_id=reply_to)
             cid = cresp.data["id"]
             comment_ids.append(cid)
             reply_to = cid
             log(f"POSTED comment {i} tweet_id={cid}")
-    except Exception as e:
-        log(f"POST FAILED: {e}")
-        sys.exit(1)
+        except Exception as e:
+            log(f"COMMENT {i} FAILED (本文は投稿済み・続行): {e}{err_detail(e)}")
+            break
+
+    # この日×この枠を投稿済みとして記録（冪等ガード用）
+    mark_posted(slot)
 
     # posted.md に追記
     id_match = re.search(r"## (\d{4}-\d{2}-\d{2}-\d{3})", target_post)

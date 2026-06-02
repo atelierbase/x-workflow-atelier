@@ -2,16 +2,30 @@ name: Scheduled X Post
 
 on:
   schedule:
-    # GitHub Actions の cron は UTC 基準・「0分」は混雑で遅延しやすいので「5分」に
-    # JST 07:05 = UTC 22:05（前日扱い）
-    # JST 12:05 = UTC 03:05
-    # JST 19:05 = UTC 10:05
+    # GitHub Actions の schedule はベストエフォートで遅延・ドロップする。
+    # 各枠を「主＋予備2回」の計3回発火させ、1発落ちても後続が拾う冗長構成にする。
+    # スクリプト側の冪等ガード（日×枠で1回だけ投稿）が二重投稿を防ぐ。
+    # 発火間隔は 35〜40分（ジッター最大15分＋投稿処理を吸収できる安全マージン）。
+    # --- 朝 JST 07:05/07:40/08:20 = UTC 22:05/22:40/23:20（前日扱い）---
     - cron: '5 22 * * *'
+    - cron: '40 22 * * *'
+    - cron: '20 23 * * *'
+    # --- 昼 JST 12:05/12:40/13:20 = UTC 03:05/03:40/04:20 ---
     - cron: '5 3 * * *'
+    - cron: '40 3 * * *'
+    - cron: '20 4 * * *'
+    # --- 夜 JST 19:05/19:40/20:20 = UTC 10:05/10:40/11:20 ---
     - cron: '5 10 * * *'
+    - cron: '40 10 * * *'
+    - cron: '20 11 * * *'
 
   # 手動トリガーも可能
   workflow_dispatch:
+
+# 同一ワークフローの多重起動を直列化（冗長クロンが重なっても二重投稿しない保険）
+concurrency:
+  group: scheduled-x-post
+  cancel-in-progress: false
 
 jobs:
   post:
@@ -44,15 +58,15 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           TZ: Asia/Tokyo
           # 起動した cron からスロットを固定する（GitHub の発火時刻ズレ対策）。
-          # 5 22→朝 / 5 3→昼 / 5 10→夜。手動dispatchは空→スクリプトが時計判定にフォールバック。
-          POST_SLOT: ${{ github.event.schedule == '5 22 * * *' && '朝' || github.event.schedule == '5 3 * * *' && '昼' || github.event.schedule == '5 10 * * *' && '夜' || '' }}
+          # 各枠3本の cron すべてを同じスロットへマップ。手動dispatchは空→時計判定にフォールバック。
+          POST_SLOT: ${{ (github.event.schedule == '5 22 * * *' || github.event.schedule == '40 22 * * *' || github.event.schedule == '20 23 * * *') && '朝' || (github.event.schedule == '5 3 * * *' || github.event.schedule == '40 3 * * *' || github.event.schedule == '20 4 * * *') && '昼' || (github.event.schedule == '5 10 * * *' || github.event.schedule == '40 10 * * *' || github.event.schedule == '20 11 * * *') && '夜' || '' }}
         run: python scripts/scheduled_poster.py
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add storage/stocks/pending.md storage/stocks/posted.md storage/analytics/scheduler.log
+          git add storage/stocks/pending.md storage/stocks/posted.md storage/analytics/scheduler.log storage/analytics/post-state.json
           if ! git diff --cached --quiet; then
             git commit -m "auto: post tweet at $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
             git push
