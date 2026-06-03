@@ -184,7 +184,8 @@ def main(dry_run: bool = False) -> None:
         sys.exit(0)
 
     # ジッター（凍結リスク回避のため 0〜15 分のランダム遅延）
-    if not dry_run:
+    # SKIP_JITTER=1 ならスキップ（直投稿モード=Routineが正確な時刻で発火するので不要）。
+    if not dry_run and not os.getenv("SKIP_JITTER"):
         jitter = random.randint(0, 15 * 60)
         log(f"jitter={jitter}s")
         time.sleep(jitter)
