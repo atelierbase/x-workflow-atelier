@@ -142,3 +142,5 @@ Webサービスって、... (104 chars)
 2026-06-03T05:33:00.419440+09:00 DONE moved 2026-06-05-011 to posted (type=単発)
 2026-06-03T07:05:03.210019+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
 2026-06-03T07:05:03.210151+09:00 SKIP slot=夜 は本日すでに投稿済み（冗長クロンの重複起動）
+2026-06-03T22:26:32.227722+09:00 START slot=夜 (source=clock) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-03T22:26:32.227857+09:00 SKIP slot=夜 は本日すでに投稿済み（冗長クロンの重複起動）
