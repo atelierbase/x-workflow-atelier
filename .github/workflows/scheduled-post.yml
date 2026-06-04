@@ -1,20 +1,32 @@
 name: Scheduled X Post
 
-# === 送信専用ワークフロー（GitHub cron は廃止）===
-# 配信の「時計」はクラウドRoutineが持つ。Routine が定時に投稿文を生成して
-# pending.md を push した瞬間に、このワークフローが起動して X へ送信する。
+# === 送信専用ワークフロー（予備経路）===
+# 本命の毎日3スロット画像付き投稿は auto-image-post.yml が担当する。
+# このワークフローは、手動または外部生成で pending.md に積まれた投稿を
+# push / dispatch で X へ送信するためのバックアップ経路。
 #
 # なぜ cron を捨てたか:
 #   GitHub Actions の schedule cron は発火が数時間ズレ・ドロップし、
 #   投稿が深夜に固まる/日中が空になる事故を起こしたため（2026-06-03 に確認）。
-#   「いつ投稿するか」は正確な時計を持つRoutineがpushタイミングでConfigし、
-#   GitHub Actions は「Secretsを使って確実に送る」エンジンに徹する。
+#   今回のスケジュール投稿は auto-image-post.yml に分離し、このファイルは
+#   「Secretsを使って確実に送る」エンジンとして残す。
 on:
   push:
     branches: [main]
     paths:
       - 'storage/stocks/pending.md'   # Routine が1本積んだ時だけ起動
   workflow_dispatch:                  # 手動送信（緊急の取りこぼし救済など）
+    inputs:
+      slot:
+        description: '送信する投稿枠'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - 朝
+          - 昼
+          - 夜
 
 # 多重起動を直列化（保険）
 concurrency:
@@ -27,7 +39,14 @@ jobs:
     # 無限ループ防止: poster 自身の結果コミット（著者=github-actions[bot]）では起動しない。
     # ※GitHub は GITHUB_TOKEN による push では workflow を再起動しない仕様なので二重の保険。
     # ※Routine の生成 push は著者が Claude / atelierbase なので通る。dispatch は head_commit 無し→常に通す。
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.head_commit.author.name != 'github-actions[bot]' }}
+    if: >-
+      ${{
+        github.event_name == 'workflow_dispatch' ||
+        (
+          github.event.head_commit.author.name != 'github-actions[bot]' &&
+          !contains(github.event.head_commit.message, '[skip-send]')
+        )
+      }}
     permissions:
       contents: write  # pending.md / posted.md をコミットするために必要
 
@@ -47,6 +66,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install tweepy
 
+      - name: Resolve slot
+        id: slot
+        env:
+          DISPATCH_SLOT: ${{ github.event.inputs.slot }}
+        run: |
+          slot="$DISPATCH_SLOT"
+          if [ -z "$slot" ] || [ "$slot" = "auto" ]; then
+            hour="$(TZ=Asia/Tokyo date +%H)"
+            if [ "$hour" -ge 6 ] && [ "$hour" -le 10 ]; then
+              slot="朝"
+            elif [ "$hour" -ge 11 ] && [ "$hour" -le 14 ]; then
+              slot="昼"
+            else
+              slot="夜"
+            fi
+          fi
+          echo "slot=$slot" >> "$GITHUB_OUTPUT"
+
       - name: Send the queued post
         env:
           X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
@@ -54,8 +91,8 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           TZ: Asia/Tokyo
-          # 時計はRoutineが正確に持つので、poster は実行時刻=正しいスロットで判定してよい
-          # （旧 POST_SLOT ハックは不要）。直投稿なのでジッターも切る。
+          POST_SLOT: ${{ steps.slot.outputs.slot }}
+          REQUIRE_IMAGE: "1"
           SKIP_JITTER: "1"
         run: python scripts/scheduled_poster.py
 
