@@ -9,3 +9,5 @@ GitHub Actions（送信専用）が X へ投稿して posted.md に移すと、�
 - フォーマットは `.claude/skills/x-post-now/SKILL.md` / `skill/agents/writer.md` 準拠。
 
 ---
+
+<!-- wiring-test 2026-06-04 10:45 JST : この行は配線確認用。posterは ## エントリが無いので何も投稿しない -->
