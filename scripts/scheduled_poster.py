@@ -8,7 +8,8 @@ posted.md に移動する。
 対応する投稿タイプ:
   - 単発: 文面を1本投稿
   - コメント仕込み: メイン投稿 → セルフリプライでコメントを連投
-  - 画像付き: 画像ファイルがあれば添付（無ければ本文のみでフォールバック）
+  - 画像付き: 画像ファイルがあれば添付
+    - REQUIRE_IMAGE=1 の場合、画像を添付できなければ投稿せず失敗する
 
 GitHub Actions / ローカル launchd / cron / 手動実行 すべてに対応。
 
@@ -31,15 +32,10 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 
-# === パス定義（環境によって自動切替）===
-if os.getenv("GITHUB_ACTIONS"):
-    # GitHub Actions: リポジトリルートを起点に
-    SKILL_DIR = Path(__file__).resolve().parent.parent
-else:
-    # ローカル: リポジトリを起点に（移設後 = projects/sns-auto-post/x）
-    # それも無ければスクリプト相対の repo ルート（Codexクラウド等・どこから clone しても動く）。
-    _repo = Path.home() / "atlier-base-v1" / "projects" / "sns-auto-post" / "x"
-    SKILL_DIR = _repo if _repo.exists() else Path(__file__).resolve().parent.parent
+# === パス定義 ===
+# GitHub Actions / ローカル / Codex worktree のどこで実行しても、このスクリプトが
+# 置かれているリポジトリを正とする。
+SKILL_DIR = Path(__file__).resolve().parent.parent
 
 PENDING = SKILL_DIR / "storage" / "stocks" / "pending.md"
 POSTED = SKILL_DIR / "storage" / "stocks" / "posted.md"
@@ -167,7 +163,7 @@ def resolve_image(target_post: str):
     path = (SKILL_DIR / rel).resolve()
     if path.exists():
         return path
-    log(f"画像ファイル指定あり ({rel}) だが未配置 → 本文のみでフォールバック")
+    log(f"画像ファイル指定あり ({rel}) だが未配置")
     return None
 
 
@@ -236,13 +232,21 @@ def main(dry_run: bool = False) -> None:
         log("Failed to parse text from post")
         sys.exit(1)
 
+    type_match = re.search(r"-\s*種類:\s*(\S+)", target_post)
+    post_type = type_match.group(1) if type_match else "単発"
+
     raw_text = match.group(1).strip()
     main_text, comments = parse_main_and_comments(raw_text)
     image_path = resolve_image(target_post)
+    require_image = os.getenv("REQUIRE_IMAGE") == "1" or post_type == "画像付き"
     log(
         f"Tweet preview: {main_text[:30]}... ({len(main_text)} chars), "
         f"comments={len(comments)}, image={'yes' if image_path else 'no'}"
     )
+
+    if require_image and not image_path:
+        log("REQUIRE_IMAGE=1 but no usable image file was found; aborting before post")
+        sys.exit(1)
 
     if dry_run:
         log("DRY RUN - skipping actual post")
@@ -269,7 +273,8 @@ def main(dry_run: bool = False) -> None:
             access_token_secret=creds["access_token_secret"],
         )
 
-        # 画像があれば v1.1 media/upload でアップロード（失敗しても本文のみで続行）
+        # 画像があれば v1.1 media/upload でアップロードする。
+        # REQUIRE_IMAGE=1 の場合、失敗時に本文のみ投稿へフォールバックしない。
         media_ids = None
         if image_path:
             try:
@@ -284,6 +289,9 @@ def main(dry_run: bool = False) -> None:
                 media_ids = [media.media_id_string]
                 log(f"media uploaded id={media.media_id_string}")
             except Exception as e:
+                if require_image:
+                    log(f"media upload failed and REQUIRE_IMAGE=1; aborting: {e}")
+                    sys.exit(1)
                 log(f"media upload failed, posting text-only: {e}")
                 media_ids = None
 
@@ -320,9 +328,6 @@ def main(dry_run: bool = False) -> None:
     # posted.md に追記
     id_match = re.search(r"## (\d{4}-\d{2}-\d{2}-\d{3})", target_post)
     post_id = id_match.group(1) if id_match else "unknown"
-    type_match = re.search(r"-\s*種類:\s*(\S+)", target_post)
-    post_type = type_match.group(1) if type_match else "単発"
-
     runner = "GitHub Actions" if os.getenv("GITHUB_ACTIONS") else "ローカル"
     extra = ""
     if comment_ids:
