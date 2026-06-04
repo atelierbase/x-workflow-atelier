@@ -1,5 +1,9 @@
 # ROUTINE — X（@AtelierBase_own / ひろ｜AI実業家）ストック自動補充
 
+> ⚠️ **2026-06-04 廃止（DEPRECATED）**: 在庫補充モデルは終了。現在は**直投稿アーキ**。
+> Routine は各スロットに `.claude/skills/x-post-now/SKILL.md` を発動し、1本生成→push→送信専用Actionsが配信する。
+> この補充手順は使わない（参考保存）。最新は repo直下の README / ハブの CLAUDE.md・ROUTINE-SETUP.md を見ること。
+
 > **Claude Code の Routines（クラウド・スケジュール実行）が無人で実行する標準指示書。**
 > 必要な知識はすべてこの repo 内（`skill/` 配下）に同梱。ローカルのスキルや grok には依存しない。
 
