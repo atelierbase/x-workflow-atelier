@@ -180,3 +180,12 @@ Webサービスって、... (104 chars)
 2026-06-04T21:58:45.286307+09:00 credentials: env vars
 2026-06-04T21:58:45.286661+09:00 Tweet preview: OpenAI公式リリースノートで、5/29にCodexのWi... (172 chars), comments=0, image=yes
 2026-06-04T21:58:45.412713+09:00 media upload failed and REQUIRE_IMAGE=1; aborting: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Max retries exceeded with url: /1.1/media/upload.json (Caused by NameResolutionError("HTTPSConnection(host='upload.twitter.com', port=443): Failed to resolve 'upload.twitter.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-04T22:32:13.594290+09:00 START slot=夜 (source=POST_SLOT) dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T22:32:13.594533+09:00 credentials: env vars
+2026-06-04T22:32:13.594802+09:00 No pending posts.
+2026-06-04T22:41:43.757180+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T22:41:43.758283+09:00 credentials: env vars
+2026-06-04T22:41:43.758612+09:00 Tweet preview: OpenAIの5/29リリースノートで、CodexにWind... (141 chars), comments=0, image=yes
+2026-06-04T22:41:44.551181+09:00 media uploaded id=2062530241034412032
+2026-06-04T22:41:44.946431+09:00 POSTED main tweet_id=2062530243647439148
+2026-06-04T22:41:44.948878+09:00 DONE moved 2026-06-04-904 to posted (type=画像付き)
