@@ -144,3 +144,6 @@ Webサービスって、... (104 chars)
 2026-06-03T07:05:03.210151+09:00 SKIP slot=夜 は本日すでに投稿済み（冗長クロンの重複起動）
 2026-06-03T22:26:32.227722+09:00 START slot=夜 (source=clock) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
 2026-06-03T22:26:32.227857+09:00 SKIP slot=夜 は本日すでに投稿済み（冗長クロンの重複起動）
+2026-06-04T10:46:32.217299+09:00 START slot=朝 (source=clock) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-04T10:46:32.217436+09:00 credentials: env vars
+2026-06-04T10:46:32.217606+09:00 No pending posts.
