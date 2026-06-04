@@ -160,3 +160,23 @@ Webサービスって、... (104 chars)
 2026-06-04T20:34:27.564812+09:00 credentials: env vars
 2026-06-04T20:34:27.565284+09:00 Tweet preview: 5/29のOpenAI公式リリースノートで、CodexのCo... (171 chars), comments=0, image=yes
 2026-06-04T20:34:27.675589+09:00 media upload failed and REQUIRE_IMAGE=1; aborting: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Max retries exceeded with url: /1.1/media/upload.json (Caused by NameResolutionError("HTTPSConnection(host='upload.twitter.com', port=443): Failed to resolve 'upload.twitter.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-04T21:52:18.171019+09:00 START slot=夜 (source=clock) dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T21:52:18.171348+09:00 credentials: env vars
+2026-06-04T21:52:18.171703+09:00 Tweet preview: OpenAI公式リリースノートで、5/29にCodexのWi... (172 chars), comments=0, image=yes
+2026-06-04T21:52:18.171750+09:00 DRY RUN - skipping actual post
+2026-06-04T21:52:25.405874+09:00 START slot=夜 (source=clock) dry_run=False pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T21:52:25.406336+09:00 credentials: env vars
+2026-06-04T21:52:25.406652+09:00 Tweet preview: OpenAI公式リリースノートで、5/29にCodexのWi... (172 chars), comments=0, image=yes
+2026-06-04T21:52:25.406724+09:00 ERROR: tweepy not installed. Run: pip install tweepy
+2026-06-04T21:54:12.876259+09:00 START slot=夜 (source=clock) dry_run=False pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T21:54:12.876709+09:00 credentials: env vars
+2026-06-04T21:54:12.877239+09:00 Tweet preview: OpenAI公式リリースノートで、5/29にCodexのWi... (172 chars), comments=0, image=yes
+2026-06-04T21:54:12.976374+09:00 media upload failed and REQUIRE_IMAGE=1; aborting: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Max retries exceeded with url: /1.1/media/upload.json (Caused by NameResolutionError("HTTPSConnection(host='upload.twitter.com', port=443): Failed to resolve 'upload.twitter.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-04T21:56:32.993210+09:00 START slot=夜 (source=clock) dry_run=False pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T21:56:32.993635+09:00 credentials: env vars
+2026-06-04T21:56:32.994004+09:00 Tweet preview: OpenAI公式リリースノートで、5/29にCodexのWi... (172 chars), comments=0, image=yes
+2026-06-04T21:56:33.106460+09:00 media upload failed and REQUIRE_IMAGE=1; aborting: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Max retries exceeded with url: /1.1/media/upload.json (Caused by NameResolutionError("HTTPSConnection(host='upload.twitter.com', port=443): Failed to resolve 'upload.twitter.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-04T21:58:45.285812+09:00 START slot=夜 (source=clock) dry_run=False pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/x/storage/stocks/pending.md
+2026-06-04T21:58:45.286307+09:00 credentials: env vars
+2026-06-04T21:58:45.286661+09:00 Tweet preview: OpenAI公式リリースノートで、5/29にCodexのWi... (172 chars), comments=0, image=yes
+2026-06-04T21:58:45.412713+09:00 media upload failed and REQUIRE_IMAGE=1; aborting: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Max retries exceeded with url: /1.1/media/upload.json (Caused by NameResolutionError("HTTPSConnection(host='upload.twitter.com', port=443): Failed to resolve 'upload.twitter.com' ([Errno 8] nodename nor servname provided, or not known)"))
