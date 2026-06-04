@@ -37,8 +37,9 @@ if os.getenv("GITHUB_ACTIONS"):
     SKILL_DIR = Path(__file__).resolve().parent.parent
 else:
     # ローカル: リポジトリを起点に（移設後 = projects/sns-auto-post/x）
+    # それも無ければスクリプト相対の repo ルート（Codexクラウド等・どこから clone しても動く）。
     _repo = Path.home() / "atlier-base-v1" / "projects" / "sns-auto-post" / "x"
-    SKILL_DIR = _repo if _repo.exists() else Path.home() / ".claude" / "skills" / "x-workflow"
+    SKILL_DIR = _repo if _repo.exists() else Path(__file__).resolve().parent.parent
 
 PENDING = SKILL_DIR / "storage" / "stocks" / "pending.md"
 POSTED = SKILL_DIR / "storage" / "stocks" / "posted.md"
