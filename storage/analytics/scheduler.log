@@ -156,3 +156,7 @@ Webサービスって、... (104 chars)
 2026-06-04T15:32:45.028318+09:00 media uploaded id=2062422281620692992
 2026-06-04T15:32:45.463673+09:00 POSTED main tweet_id=2062422284443533532
 2026-06-04T15:32:45.466833+09:00 DONE moved 2026-06-04-901 to posted (type=画像付き)
+2026-06-04T20:34:27.564251+09:00 START slot=夜 (source=clock) dry_run=False pending=/Users/hirotomo.ishii/.codex/worktrees/90d1/x/storage/stocks/pending.md
+2026-06-04T20:34:27.564812+09:00 credentials: env vars
+2026-06-04T20:34:27.565284+09:00 Tweet preview: 5/29のOpenAI公式リリースノートで、CodexのCo... (171 chars), comments=0, image=yes
+2026-06-04T20:34:27.675589+09:00 media upload failed and REQUIRE_IMAGE=1; aborting: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Max retries exceeded with url: /1.1/media/upload.json (Caused by NameResolutionError("HTTPSConnection(host='upload.twitter.com', port=443): Failed to resolve 'upload.twitter.com' ([Errno 8] nodename nor servname provided, or not known)"))

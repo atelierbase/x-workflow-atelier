@@ -2,3 +2,4 @@
 2026-06-02 06:14 JST | generated 4 | pending 5→9
 2026-06-03 06:16 JST | generated 3 | pending 6→9
 2026-06-04 06:07 JST | generated 0 | skip: x-refill superseded by direct-post arch (commit 62e2dac, 2026-06-03). pending.md is now a stock-less send-queue; stockpiling would trigger scheduled-post.yml and risk mass-posting. No-op. Use x-post-now for delivery. pending.md untouched.
+2026-06-04 20:34 JST | skip: 2026-06-04-703 media upload failed; upload.twitter.com DNS resolution failed; REQUIRE_IMAGE=1 prevented text-only post. Image generated and validated locally.
