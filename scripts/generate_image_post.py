@@ -217,6 +217,34 @@ def parse_json_object(text: str) -> dict[str, Any]:
     raise ValueError(f"No JSON object found in model output: {text[:500]}")
 
 
+def repair_json_text(text: str, text_model: str) -> dict[str, Any]:
+    prompt = f"""
+次のモデル出力を、有効なJSONオブジェクトだけに修復してください。
+説明文やMarkdownは不要です。JSON文字列内の改行は \\n としてエスケープしてください。
+必須キー: source_title, source_url, freshness_date, axis, post_text, image_prompt
+
+モデル出力:
+{text[:6000]}
+""".strip()
+    data = openai_post(
+        "responses",
+        {
+            "model": text_model,
+            "input": prompt,
+            "max_output_tokens": 2500,
+        },
+    )
+    return parse_json_object(response_text(data))
+
+
+def parse_model_json(text: str, text_model: str) -> dict[str, Any]:
+    try:
+        return parse_json_object(text)
+    except ValueError as exc:
+        log(f"repairing malformed JSON output: {exc}")
+        return repair_json_text(text, text_model)
+
+
 def generate_post(slot: str, post_id: str, config: dict[str, Any]) -> dict[str, Any]:
     text_model = os.environ.get("OPENAI_TEXT_MODEL", "gpt-5-mini")
     context = read_context(config)
@@ -247,6 +275,7 @@ def generate_post(slot: str, post_id: str, config: dict[str, Any]) -> dict[str, 
   "post_text": "投稿本文",
   "image_prompt": "GPT Imageに渡す画像生成プロンプト。日本語の視覚要約カードとして、画面内に入れる短い日本語見出しやラベルも明示する"
 }}
+JSON文字列内の改行は必ず \\n としてエスケープし、JSON以外の文字は出さないでください。
 
 参考ルール:
 {context}
@@ -257,10 +286,10 @@ def generate_post(slot: str, post_id: str, config: dict[str, Any]) -> dict[str, 
             "model": text_model,
             "input": prompt,
             "tools": [{"type": "web_search"}],
-            "max_output_tokens": 3000,
+            "max_output_tokens": 5000,
         },
     )
-    return parse_json_object(response_text(data))
+    return parse_model_json(response_text(data), text_model)
 
 
 def repair_post(post: dict[str, Any], errors: list[str], config: dict[str, Any]) -> dict[str, Any]:
@@ -282,7 +311,7 @@ JSON:
             "max_output_tokens": 1600,
         },
     )
-    return parse_json_object(response_text(data))
+    return parse_model_json(response_text(data), text_model)
 
 
 def validate_post(post: dict[str, Any], config: dict[str, Any]) -> list[str]:
