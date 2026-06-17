@@ -189,3 +189,9 @@ Webサービスって、... (104 chars)
 2026-06-04T22:41:44.551181+09:00 media uploaded id=2062530241034412032
 2026-06-04T22:41:44.946431+09:00 POSTED main tweet_id=2062530243647439148
 2026-06-04T22:41:44.948878+09:00 DONE moved 2026-06-04-904 to posted (type=画像付き)
+2026-06-17T09:58:12.667507+09:00 START slot=朝 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-17T09:58:12.667684+09:00 credentials: env vars
+2026-06-17T09:58:12.668209+09:00 Tweet preview: 今朝の注目（6/12更新）：AnthropicがClaude... (217 chars), comments=0, image=yes
+2026-06-17T09:58:13.825526+09:00 media uploaded id=2067049138080952320
+2026-06-17T09:58:14.184210+09:00 POSTED main tweet_id=2067049141662777646
+2026-06-17T09:58:14.184879+09:00 DONE moved 2026-06-17-701 to posted (type=画像付き)
