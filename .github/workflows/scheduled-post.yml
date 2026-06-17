@@ -93,11 +93,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add storage/stocks/pending.md storage/stocks/posted.md storage/analytics/scheduler.log storage/analytics/post-state.json
-          if ! git diff --cached --quiet; then
+          if git diff --quiet -- storage/stocks/pending.md storage/stocks/posted.md storage/analytics/post-state.json; then
+            echo "No post result changes (nothing was queued to send)."
+          else
+            git add storage/stocks/pending.md storage/stocks/posted.md storage/analytics/scheduler.log storage/analytics/post-state.json
             # [skip-send] を付けて、この結果コミットの push で自分自身を再起動しないようにする。
             git commit -m "auto: sent X post at $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST') [skip-send]"
             git push
-          else
-            echo "No changes to commit (nothing was queued to send)."
           fi
