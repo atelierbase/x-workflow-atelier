@@ -1,20 +1,15 @@
-name: Scheduled X Post
+name: Scheduled X Image2 Post
 
-# === 送信専用ワークフロー（予備経路）===
-# 本命の毎日3スロット画像付き投稿は auto-image-post.yml が担当する。
-# このワークフローは、手動または外部生成で pending.md に積まれた投稿を
-# push / dispatch で X へ送信するためのバックアップ経路。
-#
-# なぜ cron を捨てたか:
-#   GitHub Actions の schedule cron は発火が数時間ズレ・ドロップし、
-#   投稿が深夜に固まる/日中が空になる事故を起こしたため（2026-06-03 に確認）。
-#   今回のスケジュール投稿は auto-image-post.yml に分離し、このファイルは
-#   「Secretsを使って確実に送る」エンジンとして残す。
+# === image2生成済み画像の送信専用ワークフロー ===
+# 画像生成は行わない。ChatGPT image2で作成し、repo にコミット済みの
+# storage/images/{投稿ID}.png を pending.md から参照して投稿する。
+# PCを閉じていても GitHub Actions が指定スロットで送信する。
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'storage/stocks/pending.md'   # Routine が1本積んだ時だけ起動
+  schedule:
+    # GitHub cron is UTC. These are JST 07:05 / 12:05 / 19:05.
+    - cron: '5 22 * * *'
+    - cron: '5 3 * * *'
+    - cron: '5 10 * * *'
   workflow_dispatch:                  # 手動送信（緊急の取りこぼし救済など）
     inputs:
       slot:
@@ -36,17 +31,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    # 無限ループ防止: poster 自身の結果コミット（著者=github-actions[bot]）では起動しない。
-    # ※GitHub は GITHUB_TOKEN による push では workflow を再起動しない仕様なので二重の保険。
-    # ※Routine の生成 push は著者が Claude / atelierbase なので通る。dispatch は head_commit 無し→常に通す。
-    if: >-
-      ${{
-        github.event_name == 'workflow_dispatch' ||
-        (
-          github.event.head_commit.author.name != 'github-actions[bot]' &&
-          !contains(github.event.head_commit.message, '[skip-send]')
-        )
-      }}
+    # schedule では pending.md に該当スロットの image2投稿が無ければ no-op。
     permissions:
       contents: write  # pending.md / posted.md をコミットするために必要
 
@@ -70,17 +55,25 @@ jobs:
         id: slot
         env:
           DISPATCH_SLOT: ${{ github.event.inputs.slot }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
           slot="$DISPATCH_SLOT"
           if [ -z "$slot" ] || [ "$slot" = "auto" ]; then
-            hour="$(TZ=Asia/Tokyo date +%H)"
-            if [ "$hour" -ge 6 ] && [ "$hour" -le 10 ]; then
-              slot="朝"
-            elif [ "$hour" -ge 11 ] && [ "$hour" -le 14 ]; then
-              slot="昼"
-            else
-              slot="夜"
-            fi
+            case "$EVENT_SCHEDULE" in
+              "5 22 * * *") slot="朝" ;;
+              "5 3 * * *") slot="昼" ;;
+              "5 10 * * *") slot="夜" ;;
+              *)
+                hour="$(TZ=Asia/Tokyo date +%H)"
+                if [ "$hour" -ge 6 ] && [ "$hour" -le 10 ]; then
+                  slot="朝"
+                elif [ "$hour" -ge 11 ] && [ "$hour" -le 14 ]; then
+                  slot="昼"
+                else
+                  slot="夜"
+                fi
+                ;;
+            esac
           fi
           echo "slot=$slot" >> "$GITHUB_OUTPUT"
 

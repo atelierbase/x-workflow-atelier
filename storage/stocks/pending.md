@@ -1,11 +1,12 @@
-# 受け渡しキュー（直投稿モード / 在庫は溜めない）
+# 受け渡しキュー（image2生成済み画像 / 定期投稿）
 
-このファイルは **クラウドRoutine → GitHub Actions の受け渡し場所**。
-Routine（x-post-now スキル）が発火時に**1本だけ**生成して追記し、push をトリガーに
-GitHub Actions（送信専用）が X へ投稿して posted.md に移すと、ここは再び空になる。
+このファイルは **image2で生成したPNG + 投稿文 → GitHub Actions の受け渡し場所**。
+`storage/images/{投稿ID}.png` に画像を置き、このファイルに同じ投稿IDの画像付き投稿を積む。
+GitHub Actions（送信専用）が該当スロットで X へ投稿して posted.md に移すと、ここは再び空になる。
 
-- 在庫(ストック)は溜めない。ここに長く残る投稿があれば「送信ワークフローが動いていない」サイン。
+- GitHub Actions は画像を生成しない。画像は必ず ChatGPT image2 で作成してから置く。
+- ここに長く残る投稿があれば「送信ワークフローが動いていない」または「該当スロット待ち」のサイン。
 - 旧来の事前ストックは `archive/pending-pre-directpost-2026-06-03.md` に退避済み。
-- フォーマットは `.claude/skills/x-post-now/SKILL.md` / `skill/agents/writer.md` 準拠。
+- フォーマットは `skill/agents/writer.md` と `storage/analytics/image-requests.md` 準拠。
 
 ---
