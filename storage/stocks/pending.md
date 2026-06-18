@@ -10,3 +10,24 @@ GitHub Actions（送信専用）が該当スロットで X へ投稿して poste
 - フォーマットは `skill/agents/writer.md` と `storage/analytics/image-requests.md` 準拠。
 
 ---
+## 2026-06-18-901
+- 種類: 画像付き
+- 投稿想定時刻: 夜（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-06-18（木）
+- 軸: サブ軸2 / 実業家視点
+- ソース: OpenAI status / Codex reliability note, 2026-06-16
+- 画像プロンプト: Use case: productivity-visual. Asset type: social media post image for X, generated with image2 only. Primary request: polished conceptual visual about automation reliability: an AI posting pipeline that checks whether content is queued before posting. No readable text, letters, numbers, logos, brand names, or watermark. 16:9 landscape. Clean modern SaaS operations feel with image creation, queue, scheduled post, and a gentle amber empty-queue alert.
+- 画像ファイル: storage/images/2026-06-18-901.png
+- 文面:
+
+Codexの障害復旧ニュースを見て、あらためて思いました。
+
+自動化で怖いのは「失敗」より「成功扱いの空振り」です。
+
+私も今日、投稿キューが空なのに配信側だけ動く状態を見直しました。
+
+AI運用は、作るより検知と復旧が大事ですね。
+
+- ステータス: pending
+
+---
