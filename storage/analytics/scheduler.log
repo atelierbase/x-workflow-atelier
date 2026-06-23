@@ -195,3 +195,10 @@ Webサービスって、... (104 chars)
 2026-06-17T09:58:13.825526+09:00 media uploaded id=2067049138080952320
 2026-06-17T09:58:14.184210+09:00 POSTED main tweet_id=2067049141662777646
 2026-06-17T09:58:14.184879+09:00 DONE moved 2026-06-17-701 to posted (type=画像付き)
+2026-06-23T17:17:35.096658+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-23T17:17:35.096791+09:00 credentials: env vars
+2026-06-23T17:17:35.097267+09:00 Tweet preview: Codexの障害復旧ニュースを見て、あらためて思いました。
+... (116 chars), comments=0, image=yes
+2026-06-23T17:17:36.480252+09:00 media uploaded id=2069334039127891968
+2026-06-23T17:17:37.087821+09:00 POSTED main tweet_id=2069334042353262952
+2026-06-23T17:17:37.088419+09:00 DONE moved 2026-06-18-901 to posted (type=画像付き)
