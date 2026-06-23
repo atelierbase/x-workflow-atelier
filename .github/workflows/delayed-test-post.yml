@@ -1,0 +1,89 @@
+name: Manual Delayed X Image2 Test Post
+
+on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: '送信する投稿枠'
+        required: false
+        default: '夜'
+        type: choice
+        options:
+          - 朝
+          - 昼
+          - 夜
+      delay_seconds:
+        description: '投稿前に待つ秒数'
+        required: false
+        default: '600'
+
+concurrency:
+  group: delayed-x-test-post
+  cancel-in-progress: false
+
+jobs:
+  delayed-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Validate delay
+        id: delay
+        env:
+          DELAY_SECONDS: ${{ github.event.inputs.delay_seconds }}
+        run: |
+          delay="${DELAY_SECONDS:-600}"
+          case "$delay" in
+            ''|*[!0-9]*)
+              echo "delay_seconds must be an integer"
+              exit 1
+              ;;
+          esac
+          if [ "$delay" -gt 1800 ]; then
+            echo "delay_seconds must be 1800 or less"
+            exit 1
+          fi
+          echo "seconds=$delay" >> "$GITHUB_OUTPUT"
+
+      - name: Wait before posting
+        run: sleep "${{ steps.delay.outputs.seconds }}"
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install tweepy
+
+      - name: Send the queued post
+        env:
+          X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
+          X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          TZ: Asia/Tokyo
+          POST_SLOT: ${{ github.event.inputs.slot }}
+          REQUIRE_IMAGE: "1"
+          SKIP_JITTER: "1"
+        run: python scripts/scheduled_poster.py
+
+      - name: Commit and push result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- storage/stocks/pending.md storage/stocks/posted.md storage/analytics/post-state.json; then
+            echo "No post result changes (nothing was queued to send)."
+          else
+            git add storage/stocks/pending.md storage/stocks/posted.md storage/analytics/scheduler.log storage/analytics/post-state.json
+            git commit -m "auto: delayed X test post at $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST') [skip-send]"
+            git push
+          fi
