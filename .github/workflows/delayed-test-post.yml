@@ -74,6 +74,7 @@ jobs:
           POST_SLOT: ${{ github.event.inputs.slot }}
           REQUIRE_IMAGE: "1"
           SKIP_JITTER: "1"
+          ALLOW_DUPLICATE_SLOT: "1"
         run: python scripts/scheduled_poster.py
 
       - name: Commit and push result

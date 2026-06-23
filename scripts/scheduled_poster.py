@@ -202,7 +202,7 @@ def main(dry_run: bool = False) -> None:
 
     # 冪等ガード: 同じ日×同じ枠が既に投稿済みなら何もしない。
     # → 冗長クロン（各枠を複数回発火させてドロップ対策）でも二重投稿しない。
-    if not dry_run and already_posted(slot):
+    if not dry_run and not os.getenv("ALLOW_DUPLICATE_SLOT") and already_posted(slot):
         log(f"SKIP slot={slot} は本日すでに投稿済み（冗長クロンの重複起動）")
         sys.exit(0)
 
