@@ -202,3 +202,9 @@ Webサービスって、... (104 chars)
 2026-06-23T17:17:36.480252+09:00 media uploaded id=2069334039127891968
 2026-06-23T17:17:37.087821+09:00 POSTED main tweet_id=2069334042353262952
 2026-06-23T17:17:37.088419+09:00 DONE moved 2026-06-18-901 to posted (type=画像付き)
+2026-06-23T18:12:00.309169+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-23T18:12:00.309238+09:00 credentials: env vars
+2026-06-23T18:12:00.309752+09:00 Tweet preview: Claudeのステータスで、6/23に Opus 4.8 の... (127 chars), comments=0, image=yes
+2026-06-23T18:12:01.933794+09:00 media uploaded id=2069347735891787776
+2026-06-23T18:12:02.285066+09:00 POSTED main tweet_id=2069347738085450183
+2026-06-23T18:12:02.285590+09:00 DONE moved 2026-06-23-703 to posted (type=画像付き)
