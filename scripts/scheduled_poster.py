@@ -232,6 +232,9 @@ def main(dry_run: bool = False) -> None:
     parts = re.split(r"\n(?=## \d{4}-\d{2}-\d{2}-\d{3})", content)
     if len(parts) < 2:
         log("No pending posts.")
+        if os.getenv("REQUIRE_PENDING") == "1":
+            log("REQUIRE_PENDING=1; failing because the generation queue is empty")
+            sys.exit(2)
         sys.exit(0)
 
     header = parts[0]
@@ -246,6 +249,9 @@ def main(dry_run: bool = False) -> None:
 
     if target_idx is None:
         log(f"No pending post for slot={slot}")
+        if os.getenv("REQUIRE_PENDING") == "1":
+            log(f"REQUIRE_PENDING=1; failing because no post is queued for slot={slot}")
+            sys.exit(2)
         sys.exit(0)
 
     target_post = posts[target_idx]
