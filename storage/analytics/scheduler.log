@@ -208,3 +208,9 @@ Webサービスって、... (104 chars)
 2026-06-23T18:12:01.933794+09:00 media uploaded id=2069347735891787776
 2026-06-23T18:12:02.285066+09:00 POSTED main tweet_id=2069347738085450183
 2026-06-23T18:12:02.285590+09:00 DONE moved 2026-06-23-703 to posted (type=画像付き)
+2026-06-26T08:22:31.135600+09:00 START slot=朝 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-26T08:22:31.135772+09:00 credentials: env vars
+2026-06-26T08:22:31.136340+09:00 Tweet preview: Axiosが6/25に、Codexの使われ方が「チャット」か... (150 chars), comments=0, image=yes
+2026-06-26T08:22:31.998184+09:00 media uploaded id=2070286546998054912
+2026-06-26T08:22:32.407966+09:00 POSTED main tweet_id=2070286549539754187
+2026-06-26T08:22:32.408594+09:00 DONE moved 2026-06-26-701 to posted (type=画像付き)
