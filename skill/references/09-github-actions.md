@@ -164,11 +164,12 @@ git pull
 
 ### 二重投稿が起きた
 
-- ローカル launchd が再起動していないか確認:
+- 配信元は GitHub Actions のみ。古いローカル launchd は廃止済み。
+- 念のため、古い launchd 設定が残っていないか確認:
   ```bash
   launchctl list | grep atelierbase
   ```
-- 動いていたら停止:
+- 動いていたら停止し、`~/Library/LaunchAgents/` から該当 plist を退避:
   ```bash
   launchctl unload ~/Library/LaunchAgents/com.atelierbase.x-workflow.scheduled-poster.plist
   ```
