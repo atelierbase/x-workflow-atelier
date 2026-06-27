@@ -503,3 +503,22 @@ MCPツールがTool Searchで見つけやすくなり、リスクのあるPowerS
 - ステータス: posted
 
 ---
+
+## 2026-06-27-702（自動配信 / GitHub Actions）
+- 種類: 画像付き
+- 投稿日時: 2026-06-27T15:33:29.003444+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2070757387070276002
+- URL: https://twitter.com/AtelierBase_own/status/2070757387070276002
+- 画像: 2026-06-27-702.png
+- 文面:
+
+6月23日のAI coding agents調査、刺さりました。
+
+AI coding agentsは、コード変更まで任せるAIのこと。180M以上のGitリポジトリを見た研究で、Claude Code由来のコミットは85万件超。bot名だけだと3.3%しか拾えないそうです。
+
+私も速さより、依頼内容とレビュー結果を残す運用に寄せています。
+
+- ステータス: posted
+
+---
