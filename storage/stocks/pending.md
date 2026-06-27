@@ -29,3 +29,22 @@ GitHub Actions（送信専用）が該当スロットで X へ投稿して poste
 - ステータス: pending
 
 ---
+## 2026-06-27-702
+- 種類: 画像付き
+- 投稿想定時刻: 昼（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-06-27（土）
+- 軸: サブ軸1 / 自分の実例
+- ソース: https://arxiv.org/abs/2606.24429
+- 画像プロンプト: Create a 1536x1024 landscape PNG-style Japanese information card for an X post. This is a data/information-card infographic, not an atmosphere image. It must be understandable from the image alone: conclusion, background, and practical action. Topic: A June 23, 2026 arXiv study examined 180M+ Git repositories and found that AI coding agent work is often invisible unless traces are designed and detected through multiple signals. Practical takeaway: when using Claude Code or Codex in real projects, keep clear request, execution, and review records. Visual structure: clean three-column comparison / workflow. Top-left large headline. Small source label top-right. Three concise middle modules with simple abstract line icons only: repository network, hidden signal/magnifier, checklist shield. Slim footer action strip. Exact Japanese text to render, no extra words: Main headline: "AI作業は記録が命" Small source label: "180M repo調査" Three module labels: "85万+" / "3.3%" / "レビュー記録" Bottom action label: "依頼→実行→確認を残す" Style: crisp modern editorial SaaS productivity infographic, Japanese tech founder account, flat design with subtle depth, strong hierarchy, high contrast, readable at mobile size. Warm off-white background, deep ink text, teal and amber accents, a small muted green accent only for the repository growth icon. Avoid one-note purple/blue gradients. Strict constraints: Use only the specified Japanese text. Keep Japanese characters clean, short, high-contrast, and legible. Spell numbers exactly. No logos, no watermark, no decorative-only scene. Absolutely no robots, no humanoid faces, no mascot, no laptop photo, no glowing brain, no code rain, no stock-photo feel, no tiny paragraphs, no misspelled Japanese, no distorted numbers, no extra captions.
+- 画像ファイル: storage/images/2026-06-27-702.png
+- 文面:
+
+6月23日のAI coding agents調査、刺さりました。
+
+AI coding agentsは、コード変更まで任せるAIのこと。180M以上のGitリポジトリを見た研究で、Claude Code由来のコミットは85万件超。bot名だけだと3.3%しか拾えないそうです。
+
+私も速さより、依頼内容とレビュー結果を残す運用に寄せています。
+
+- ステータス: pending
+
+---
