@@ -47,3 +47,22 @@ hook matcherの厳密化、background jobsの復旧、MCP auth再接続など。
 - ステータス: pending
 
 ---
+## 2026-06-28-702
+- 種類: 画像付き
+- 投稿想定時刻: 昼（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-06-28（日）
+- 軸: サブ軸1 / 自分の実例
+- ソース: https://arxiv.org/abs/2606.26979
+- 画像プロンプト: Use case: infographic-diagram Asset type: X post information-card, LANDSCAPE 1536x1024 PNG Primary request: Create one polished Japanese business infographic card summarizing a post about a recent code agents research paper on deterministic anchoring for Codex-style AI coding agents. This must be an information card, not a mood image, not generic AI atmosphere, and not a decorative scene. A viewer should understand the conclusion, background, and practical action from the image alone. Meaning to communicate visually: - Conclusion: AI coding agents navigate better when the repo includes a simple code map / structural anchors. - Background: recent research using Codex found lightweight structure tags can reduce navigation variance and improve first-run reliability. - Practical action: for larger repos, leave concise anchors for entry points, dependencies, and change scope. STRICT TEXT RULE: Render ONLY the exact text blocks below. Do not add any other letters, numbers, words, UI text, captions, labels, punctuation, dates, watermark, or logo anywhere in the image. Icons and diagrams must be simple abstract shapes with no internal text. Exact text to render: 1. AIにはコード地図を渡す 2. Codex研究 3. 構造タグ 4. ブレ半減 5. 通過率 +3.4pt 6. 入口・依存・変更範囲 Layout: Wide 1536x1024 horizontal card with generous margins. Top: large strong headline "AIにはコード地図を渡す". Top-right small pill: "Codex研究". Middle: three clean columns with short labels only: "構造タグ", "ブレ半減", "通過率 +3.4pt". Use simple abstract icons only: a map pin over connected code blocks, a stable route line with reduced branching, and a checklist/checkmark shield. Bottom footer action strip: "入口・依存・変更範囲". Style: modern Japanese SaaS/productivity information card, warm off-white background, deep charcoal text, restrained accents in teal, muted amber, and small green reliability marks, crisp flat vector-like illustration, high contrast, readable on mobile, professional spacing. Avoid: generic AI atmosphere, glowing brain, robot, humanoid face, random laptop, code rain, fake UI screenshots, stock-photo scene, decorative-only scene, extra text, tiny paragraphs, misspelled Japanese, distorted letters, distorted English, wrong or extra numbers, purple/blue gradient, square crop.
+- 画像ファイル: storage/images/2026-06-28-702.png
+- 文面:
+
+6月25日のCode agents研究、実務にかなり近いです。
+
+Codexに軽い構造タグ（誰が誰を呼ぶか等）を見せると、探索のブレがほぼ半減し、Pass@1（1回目で通る率）も+3.4pt。構造タグは、AIがrepo内で迷子にならないための道しるべです。
+
+私も大きいrepoほど、入口・依存関係・変更範囲を短く残すようにしています。
+
+- ステータス: pending
+
+---
