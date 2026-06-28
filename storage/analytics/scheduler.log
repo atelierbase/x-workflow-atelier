@@ -226,3 +226,9 @@ Webサービスって、... (104 chars)
 2026-06-27T15:33:28.421218+09:00 media uploaded id=2070757384448827392
 2026-06-27T15:33:29.002983+09:00 POSTED main tweet_id=2070757387070276002
 2026-06-27T15:33:29.003601+09:00 DONE moved 2026-06-27-702 to posted (type=画像付き)
+2026-06-28T16:06:36.423167+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-28T16:06:36.423306+09:00 credentials: env vars
+2026-06-28T16:06:36.423921+09:00 Tweet preview: 6月25日のCode agents研究、実務にかなり近いです... (168 chars), comments=0, image=yes
+2026-06-28T16:06:37.701218+09:00 media uploaded id=2071128116152479744
+2026-06-28T16:06:38.083178+09:00 POSTED main tweet_id=2071128118593569242
+2026-06-28T16:06:38.083806+09:00 DONE moved 2026-06-28-702 to posted (type=画像付き)
