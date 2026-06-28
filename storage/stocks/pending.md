@@ -38,7 +38,7 @@ GitHub Actions（送信専用）が該当スロットで X へ投稿して poste
 - 画像ファイル: storage/images/2026-06-28-701.png
 - 文面:
 
-6/26更新のClaude Code changelog、派手な新機能より「運用品質」の改善が多くて面白いです。
+直近のClaude Code changelog、派手な新機能より「運用品質」の改善が多くて面白いです。
 
 hook matcherの厳密化、background jobsの復旧、MCP auth再接続など。hookは操作時に処理を走らせる設定、MCPはAIに外部ツールをつなぐ仕組みです。
 
