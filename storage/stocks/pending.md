@@ -64,3 +64,24 @@ hook matcherの厳密化、background jobsの復旧、MCP auth再接続など。
 - ステータス: pending
 
 ---
+## 2026-06-29-703
+- 種類: 画像付き
+- 投稿想定時刻: 夜（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-06-29（月）
+- 軸: サブ軸2 / 実業家視点
+- ソース: https://arxiv.org/abs/2606.24429
+- 画像プロンプト: Use case: infographic-diagram Asset type: X post information-card, LANDSCAPE 1536x1024 PNG. Primary request: Create one polished Japanese business infographic card summarizing a post about a recent overseas arXiv study on detecting AI coding agent traces across 180M+ repositories. This must be an information card, not a mood image or generic AI atmosphere. A viewer should understand the conclusion, background, and practical action from the image alone. Meaning to communicate visually: - Conclusion: AI development-agent work should be protected by visible evidence trails, not only by trusting final output. - Background: the study found Claude Code activity can be undercounted by about 30x when relying on bot-account lookup alone, while multi-method detection identified more than 850,000 Claude Code commits in one snapshot. - Practical action: when using Claude Code, Codex, or other coding agents, record what was delegated, what changed, and what was reviewed. STRICT TEXT RULE: Render ONLY the exact Japanese text blocks below. Do not add any other letters, numbers, source names, UI text, fake code text, captions, labels, dates, punctuation, watermark, or logo anywhere in the image. Icons and diagram shapes must contain no internal text. Exact text to render: 1. AI作業は証跡で守る 2. 海外研究: 180M超 3. 30倍見落とし 4. 85万件超 5. レビュー確認 6. 任せた仕事を追える形に Layout: - Wide horizontal card, 1536x1024, generous margins. - Top: large strong headline "AI作業は証跡で守る". - Top-right small pill: "海外研究: 180M超". - Middle: three clean columns with one concise label each: "30倍見落とし", "85万件超", "レビュー確認". - Use simple abstract icons only: hidden layered commit cards under a magnifying glass, an audit trail line with blank task cards and check dots, a review checkpoint with a shield/check mark. - Bottom footer action strip: "任せた仕事を追える形に". Style: modern Japanese SaaS/productivity information card, warm off-white background, deep charcoal/navy text, restrained accents in teal, muted amber, and small green reliability marks, crisp flat vector-like illustration, high contrast, readable on mobile, professional spacing. Avoid: generic AI atmosphere, glowing brain, robot, humanoid face, people, random laptop, code rain, fake UI screenshots, stock-photo scene, decorative-only scene, extra text, tiny paragraphs, misspelled Japanese, distorted letters, distorted English, wrong or extra numbers, purple/blue gradient, square crop.
+- 画像ファイル: storage/images/2026-06-29-703.png
+- 文面:
+
+6月23日のAI coding agents研究、実業家視点で刺さりました。
+
+180M超のリポジトリを調べると、Claude Codeの痕跡はbot名だけでは約30倍見落とす可能性があるそうです。
+
+証跡は「AIに何を任せ、何を人が確認したか」の記録。
+
+私も自動化を増やすほど、成果物より先にログとレビュー欄を設計しています。
+
+- ステータス: pending
+
+---
