@@ -45,8 +45,7 @@ hook matcherの厳密化、background jobsの復旧、MCP auth再接続など。
 
 - ステータス: pending
 
----
-## 2026-06-29-701
+---## 2026-06-29-701
 - 種類: 画像付き
 - 投稿想定時刻: 朝（image2生成済み・GitHub Actions配信）
 - 想定日: 2026-06-29（月）
@@ -61,25 +60,6 @@ hook matcherの厳密化、background jobsの復旧、MCP auth再接続など。
 利用者の26.6%が「skills」を使っているそうです。skillsは、複雑な作業手順をAIに共有できる指示セットのこと。
 
 私も毎回プロンプトを書く作業ほど、手順を短い型にしています。これは楽になります。
-
-- ステータス: pending
-
----
-## 2026-06-29-702
-- 種類: 画像付き
-- 投稿想定時刻: 昼（image2生成済み・GitHub Actions配信）
-- 想定日: 2026-06-29（月）
-- 軸: サブ軸1 / 自分の実例
-- ソース: https://status.claude.com/incidents/jbhf20wjmzrf
-- 画像プロンプト: Use case: infographic-diagram Asset type: X post information-card, LANDSCAPE 1536x1024 PNG. Primary request: Create one polished Japanese business infographic card summarizing a post about the June 2026 official Claude status incident. This must be an information card, not a mood image or generic AI atmosphere. A viewer should understand the conclusion, background, and practical action from the image alone. Meaning to communicate visually: - Conclusion: AI agent operations should be designed assuming services can stop. - Background: an official Claude status incident reported elevated error rates for multiple models for about 85 minutes, and Claude Code was affected. - Practical action: for scheduled or delegated agent work, prepare detection, fallback, and recovery-check procedures before increasing automation. STRICT TEXT RULE: Render ONLY the exact text blocks below. Do not add any other letters, numbers, words, UI text, captions, labels, dates, source labels, punctuation, watermark, or logo anywhere in the image. Icons and diagram shapes must contain no internal text. Exact text to render: 1. AI運用は止まる前提で作る 2. Claude公式ステータス 3. 約85分 4. Claude Code影響 5. 検知・代替・復旧 6. 定刻作業は手順で守る Layout: - Wide horizontal card, 1536x1024, generous margins. - Top: large strong headline "AI運用は止まる前提で作る". - Top-right small pill: "Claude公式ステータス". - Middle: three clean columns with one concise label each: "約85分", "Claude Code影響", "検知・代替・復旧". - Use simple abstract icons only: alert timeline, agent task node, checklist with circular recovery arrow. - Bottom footer action strip: "定刻作業は手順で守る". Style: modern Japanese SaaS/productivity information card, warm off-white background, deep charcoal/navy text, restrained accents in teal, muted amber, and small green reliability marks, crisp flat vector-like illustration, high contrast, readable on mobile, professional spacing. Avoid: generic AI atmosphere, glowing brain, robot, humanoid face, random laptop, code rain, fake UI screenshots, stock-photo scene, decorative-only scene, extra text, tiny paragraphs, misspelled Japanese, distorted letters, distorted English, wrong or extra numbers, purple/blue gradient, square crop.
-- 画像ファイル: storage/images/2026-06-29-702.png
-- 文面:
-
-6月23日のClaude公式ステータスでは、複数モデルのエラー率上昇が約85分続き、Claude Codeにも影響したと出ています。
-
-エージェントAIは「作業を任せるAI」。動く前提だけで組むと、止まった時に手が止まります。
-
-私も定刻作業は、検知・代替・復旧確認を先に置くようにしています。これ、かなり落ち着けます。
 
 - ステータス: pending
 

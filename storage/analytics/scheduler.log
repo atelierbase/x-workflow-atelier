@@ -232,3 +232,9 @@ Webサービスって、... (104 chars)
 2026-06-28T16:06:37.701218+09:00 media uploaded id=2071128116152479744
 2026-06-28T16:06:38.083178+09:00 POSTED main tweet_id=2071128118593569242
 2026-06-28T16:06:38.083806+09:00 DONE moved 2026-06-28-702 to posted (type=画像付き)
+2026-06-29T17:20:34.585447+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-29T17:20:34.585601+09:00 credentials: env vars
+2026-06-29T17:20:34.586220+09:00 Tweet preview: 6月23日のClaude公式ステータスでは、複数モデルのエラ... (160 chars), comments=0, image=yes
+2026-06-29T17:20:35.903619+09:00 media uploaded id=2071509119123533824
+2026-06-29T17:20:36.317882+09:00 POSTED main tweet_id=2071509121782648976
+2026-06-29T17:20:36.318578+09:00 DONE moved 2026-06-29-702 to posted (type=画像付き)
