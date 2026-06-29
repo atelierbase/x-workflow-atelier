@@ -238,3 +238,11 @@ Webサービスって、... (104 chars)
 2026-06-29T17:20:35.903619+09:00 media uploaded id=2071509119123533824
 2026-06-29T17:20:36.317882+09:00 POSTED main tweet_id=2071509121782648976
 2026-06-29T17:20:36.318578+09:00 DONE moved 2026-06-29-702 to posted (type=画像付き)
+2026-06-30T08:02:35.736472+09:00 START slot=朝 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-30T08:02:35.736621+09:00 credentials: env vars
+2026-06-30T08:02:35.737219+09:00 Tweet preview: AIに書かせるほど、変更の追跡が詰まりやすくなります。
+
+最... (182 chars), comments=0, image=yes
+2026-06-30T08:02:36.563210+09:00 media uploaded id=2071731084568801280
+2026-06-30T08:02:36.949790+09:00 POSTED main tweet_id=2071731087106302261
+2026-06-30T08:02:36.950448+09:00 DONE moved 2026-06-30-701 to posted (type=画像付き)
