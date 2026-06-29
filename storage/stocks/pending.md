@@ -46,3 +46,22 @@ hook matcherの厳密化、background jobsの復旧、MCP auth再接続など。
 - ステータス: pending
 
 ---
+## 2026-06-29-701
+- 種類: 画像付き
+- 投稿想定時刻: 朝（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-06-29（月）
+- 軸: 主軸 / 海外翻訳
+- ソース: https://arxiv.org/abs/2606.26959
+- 画像プロンプト: Use case: infographic-diagram Asset type: X post information-card, LANDSCAPE 1536x1024 PNG. Primary request: Create one polished Japanese business infographic card summarizing a post about recent Codex usage research. This must be an information card, not a mood image or generic AI atmosphere. A viewer should understand the conclusion, background, and practical action from the image alone. Meaning to communicate visually: Conclusion: AI agent work is shifting from one-off prompts to reusable skills and workflow assets. Background: recent Codex usage research found 26.6% of users use skills, and requests for tasks estimated over 8 hours for an experienced human increased nearly tenfold. Practical action: convert repeated prompts into small reusable procedures with inputs, steps, and review checks. STRICT TEXT RULE: Render ONLY the exact text blocks below. Do not add any other letters, numbers, words, UI text, captions, labels, punctuation, dates, watermark, or logo anywhere in the image. Icons and diagram shapes must contain no internal text. Exact text to render: 1. AI作業はスキル化へ 2. Codex利用研究 3. 26.6% 4. 8時間級 5. 手順を資産化 6. 毎回頼むより、型にする Layout: Wide 1536x1024 horizontal card with generous margins. Top: large strong headline "AI作業はスキル化へ". Top-right small pill: "Codex利用研究". Middle: three clean columns, each with one concise label: "26.6%", "8時間級", "手順を資産化". Use simple abstract icons only: reusable instruction card/library, long task timer, checklist template. Bottom footer action strip: "毎回頼むより、型にする". Style: modern Japanese SaaS/productivity information card, warm off-white background, deep charcoal/navy text, restrained accents in teal, muted amber, and small green reliability marks, crisp flat vector-like illustration, high contrast, readable on mobile, professional spacing. Avoid: generic AI atmosphere, glowing brain, robot, humanoid face, random laptop, code rain, fake UI screenshots, stock-photo scene, decorative-only scene, extra text, tiny paragraphs, misspelled Japanese, distorted letters, distorted English, wrong or extra numbers, purple/blue gradient, square crop.
+- 画像ファイル: storage/images/2026-06-29-701.png
+- 文面:
+
+6月25日のCodex利用研究で、気になった数字がもう1つあります。
+
+利用者の26.6%が「skills」を使っているそうです。skillsは、複雑な作業手順をAIに共有できる指示セットのこと。
+
+私も毎回プロンプトを書く作業ほど、手順を短い型にしています。これは楽になります。
+
+- ステータス: pending
+
+---
