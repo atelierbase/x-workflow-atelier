@@ -252,3 +252,9 @@ Webサービスって、... (104 chars)
 2026-06-30T15:59:57.876919+09:00 media uploaded id=2071851214958964737
 2026-06-30T15:59:58.444954+09:00 POSTED main tweet_id=2071851218087940439
 2026-06-30T15:59:58.445455+09:00 DONE moved 2026-06-30-702 to posted (type=画像付き)
+2026-06-30T21:14:08.926446+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-06-30T21:14:08.926592+09:00 credentials: env vars
+2026-06-30T21:14:08.927205+09:00 Tweet preview: AIエージェントに外部リポジトリを触らせる時は、速さより先に... (202 chars), comments=0, image=yes
+2026-06-30T21:14:10.276022+09:00 media uploaded id=2071930287408214016
+2026-06-30T21:14:10.797624+09:00 POSTED main tweet_id=2071930290147352908
+2026-06-30T21:14:10.798300+09:00 DONE moved 2026-06-30-703 to posted (type=画像付き)
