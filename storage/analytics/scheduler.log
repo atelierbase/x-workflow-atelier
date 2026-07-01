@@ -264,3 +264,11 @@ Webサービスって、... (104 chars)
 2026-07-01T16:16:57.229045+09:00 media uploaded id=2072217878330241024
 2026-07-01T16:16:57.614985+09:00 POSTED main tweet_id=2072217880708387165
 2026-07-01T16:16:57.615730+09:00 DONE moved 2026-07-01-702 to posted (type=画像付き)
+2026-07-01T21:37:35.902032+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-01T21:37:35.902184+09:00 credentials: env vars
+2026-07-01T21:37:35.902756+09:00 Tweet preview: AIに道具を増やすほど、逆に迷わせます。
+
+6/29公開のM... (181 chars), comments=0, image=yes
+2026-07-01T21:37:36.792866+09:00 media uploaded id=2072298574872719360
+2026-07-01T21:37:37.287784+09:00 POSTED main tweet_id=2072298577620058344
+2026-07-01T21:37:37.288526+09:00 DONE moved 2026-07-01-703 to posted (type=画像付き)
