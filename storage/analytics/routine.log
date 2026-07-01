@@ -6,3 +6,4 @@
 2026-06-04 21:59 JST | skip: 2026-06-04-703 media upload failed after 3 attempts; upload.twitter.com DNS resolution failed; REQUIRE_IMAGE=1 prevented text-only post. Image regenerated and validated locally; pending.md restored to empty queue.
 2026-06-17T09:57:14.503414+09:00 [generate-image-post] start generation platform=x slot=朝 id=2026-06-17-701
 2026-06-17T09:58:11.211520+09:00 [generate-image-post] queued 2026-06-17-701 image=storage/images/2026-06-17-701.png
+2026-07-01T08:15:12+09:00 [codex-image2-queue] skip: missed target slot for 朝; GitHub Actions target 07:05 JST plus 20-minute window ended 07:25 JST. No image generated and pending.md untouched.
