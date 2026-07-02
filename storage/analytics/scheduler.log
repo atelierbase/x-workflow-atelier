@@ -280,3 +280,9 @@ Webサービスって、... (104 chars)
 2026-07-02T08:19:39.802420+09:00 media uploaded id=2072460151919972352
 2026-07-02T08:19:40.262166+09:00 POSTED main tweet_id=2072460154793083039
 2026-07-02T08:19:40.262895+09:00 DONE moved 2026-07-02-701 to posted (type=画像付き)
+2026-07-02T15:46:31.634952+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-02T15:46:31.635093+09:00 credentials: env vars
+2026-07-02T15:46:31.635732+09:00 Tweet preview: AIに長い仕事を任せるほど、先に出口を決める方が大事です。出... (190 chars), comments=0, image=yes
+2026-07-02T15:46:32.643271+09:00 media uploaded id=2072572613176569856
+2026-07-02T15:46:33.104593+09:00 POSTED main tweet_id=2072572615886057868
+2026-07-02T15:46:33.105464+09:00 DONE moved 2026-07-02-702 to posted (type=画像付き)
