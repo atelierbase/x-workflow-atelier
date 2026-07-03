@@ -298,3 +298,9 @@ Webサービスって、... (104 chars)
 2026-07-03T15:37:23.633100+09:00 media uploaded id=2072932698255925248
 2026-07-03T15:37:24.184326+09:00 POSTED main tweet_id=2072932701464600671
 2026-07-03T15:37:24.184986+09:00 DONE moved 2026-07-03-702 to posted (type=画像付き)
+2026-07-03T21:11:50.601647+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-03T21:11:50.601761+09:00 credentials: env vars
+2026-07-03T21:11:50.602088+09:00 Tweet preview: 社内ツールをAIにつなぐ時は、外へ公開する前に一度止まった方... (202 chars), comments=0, image=yes
+2026-07-03T21:11:53.368477+09:00 media uploaded id=2073016876893093888
+2026-07-03T21:11:53.825210+09:00 POSTED main tweet_id=2073016879699144730
+2026-07-03T21:11:53.825747+09:00 DONE moved 2026-07-03-703 to posted (type=画像付き)
