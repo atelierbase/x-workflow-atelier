@@ -316,3 +316,11 @@ Webサービスって、... (104 chars)
 2026-07-06T22:51:22.804221+09:00 media uploaded id=2074129078127357952
 2026-07-06T22:51:23.252565+09:00 POSTED main tweet_id=2074129080891396433
 2026-07-06T22:51:23.253234+09:00 DONE moved 2026-07-06-703 to posted (type=画像付き)
+2026-07-08T08:06:29.445421+09:00 START slot=朝 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-08T08:06:29.445569+09:00 credentials: env vars
+2026-07-08T08:06:29.446181+09:00 Tweet preview: AI開発エージェントは、配るだけだと定着しません。
+
+Mic... (186 chars), comments=0, image=yes
+2026-07-08T08:06:30.249713+09:00 media uploaded id=2074631167597293569
+2026-07-08T08:06:30.672486+09:00 POSTED main tweet_id=2074631170092929405
+2026-07-08T08:06:30.673115+09:00 DONE moved 2026-07-08-701 to posted (type=画像付き)
