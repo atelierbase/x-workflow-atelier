@@ -336,3 +336,9 @@ Mic... (186 chars), comments=0, image=yes
 2026-07-08T20:49:29.542055+09:00 media uploaded id=2074823180049596416
 2026-07-08T20:49:29.924954+09:00 POSTED main tweet_id=2074823182394294510
 2026-07-08T20:49:29.925892+09:00 DONE moved 2026-07-08-703 to posted (type=画像付き)
+2026-07-10T08:16:47.070261+09:00 START slot=朝 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-10T08:16:47.070412+09:00 credentials: env vars
+2026-07-10T08:16:47.070909+09:00 Tweet preview: AIに任せる数を増やす前に、使用量のブレーキを先に置きたいで... (196 chars), comments=0, image=yes
+2026-07-10T08:16:47.987674+09:00 media uploaded id=2075358534187769856
+2026-07-10T08:16:48.388898+09:00 POSTED main tweet_id=2075358536872108484
+2026-07-10T08:16:48.389522+09:00 DONE moved 2026-07-10-701 to posted (type=画像付き)
