@@ -883,3 +883,22 @@ Claude Codeの最新CHANGELOGでは、/doctorが「コードから分かる内�
 - ステータス: posted
 
 ---
+
+## 2026-07-10-703（自動配信 / GitHub Actions）
+- 種類: 画像付き
+- 投稿日時: 2026-07-10T21:28:28.469774+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2075557766677119432
+- URL: https://twitter.com/AtelierBase_own/status/2075557766677119432
+- 画像: 2026-07-10-703.png
+- 文面:
+
+AIに任せるほど、「承認したこと」の確認はログ側に分けた方がいいです。
+
+Claude Codeの最新CHANGELOGでは、Background task通知に「人間の入力はなかった」と明記する改善が入りました。Background taskは、裏で動くAI作業のことです。
+
+私の実務判断は、AIの自己申告より操作ログを見ること。今日、承認が必要なコマンドを1つだけ手動確認に戻してください。
+
+- ステータス: posted
+
+---

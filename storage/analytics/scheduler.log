@@ -350,3 +350,9 @@ Cl... (196 chars), comments=0, image=yes
 2026-07-10T15:50:50.042772+09:00 media uploaded id=2075472795606163456
 2026-07-10T15:50:50.425015+09:00 POSTED main tweet_id=2075472798265262279
 2026-07-10T15:50:50.425690+09:00 DONE moved 2026-07-10-702 to posted (type=画像付き)
+2026-07-10T21:28:27.211026+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-10T21:28:27.211206+09:00 credentials: env vars
+2026-07-10T21:28:27.211832+09:00 Tweet preview: AIに任せるほど、「承認したこと」の確認はログ側に分けた方が... (198 chars), comments=0, image=yes
+2026-07-10T21:28:28.099378+09:00 media uploaded id=2075557764231839744
+2026-07-10T21:28:28.469268+09:00 POSTED main tweet_id=2075557766677119432
+2026-07-10T21:28:28.469946+09:00 DONE moved 2026-07-10-703 to posted (type=画像付き)
