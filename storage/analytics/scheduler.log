@@ -342,3 +342,11 @@ Mic... (186 chars), comments=0, image=yes
 2026-07-10T08:16:47.987674+09:00 media uploaded id=2075358534187769856
 2026-07-10T08:16:48.388898+09:00 POSTED main tweet_id=2075358536872108484
 2026-07-10T08:16:48.389522+09:00 DONE moved 2026-07-10-701 to posted (type=画像付き)
+2026-07-10T15:50:48.943418+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-10T15:50:48.943577+09:00 credentials: env vars
+2026-07-10T15:50:48.944174+09:00 Tweet preview: AIへの指示書は、増やすほど強くなるとは限りません。
+
+Cl... (196 chars), comments=0, image=yes
+2026-07-10T15:50:50.042772+09:00 media uploaded id=2075472795606163456
+2026-07-10T15:50:50.425015+09:00 POSTED main tweet_id=2075472798265262279
+2026-07-10T15:50:50.425690+09:00 DONE moved 2026-07-10-702 to posted (type=画像付き)
