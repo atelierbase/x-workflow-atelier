@@ -902,3 +902,22 @@ Claude Codeの最新CHANGELOGでは、Background task通知に「人間の入力
 - ステータス: posted
 
 ---
+
+## 2026-07-12-702（自動配信 / GitHub Actions）
+- 種類: 画像付き
+- 投稿日時: 2026-07-12T15:09:52.397843+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2076187264347254942
+- URL: https://twitter.com/AtelierBase_own/status/2076187264347254942
+- 画像: 2026-07-12-702.png
+- 文面:
+
+AIに指示を足すほど、逆に迷子になることがあります。
+
+Claude Codeの最新CHANGELOGでは、/doctorがchecked-in CLAUDE.mdの削りどころを提案するようになりました。CLAUDE.mdは、プロジェクトごとのAIへの指示書です。
+
+私の実務判断は、追加より先に棚卸し。今日、自分のCLAUDE.mdから「コードを見れば分かる指示」を1つ消してみてください。
+
+- ステータス: posted
+
+---

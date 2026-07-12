@@ -356,3 +356,11 @@ Cl... (196 chars), comments=0, image=yes
 2026-07-10T21:28:28.099378+09:00 media uploaded id=2075557764231839744
 2026-07-10T21:28:28.469268+09:00 POSTED main tweet_id=2075557766677119432
 2026-07-10T21:28:28.469946+09:00 DONE moved 2026-07-10-703 to posted (type=画像付き)
+2026-07-12T15:09:51.309345+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-12T15:09:51.309503+09:00 credentials: env vars
+2026-07-12T15:09:51.310107+09:00 Tweet preview: AIに指示を足すほど、逆に迷子になることがあります。
+
+Cl... (196 chars), comments=0, image=yes
+2026-07-12T15:09:52.033102+09:00 media uploaded id=2076187262111670272
+2026-07-12T15:09:52.397323+09:00 POSTED main tweet_id=2076187264347254942
+2026-07-12T15:09:52.397992+09:00 DONE moved 2026-07-12-702 to posted (type=画像付き)
