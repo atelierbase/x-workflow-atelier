@@ -921,3 +921,22 @@ Claude Codeの最新CHANGELOGでは、/doctorがchecked-in CLAUDE.mdの削りど
 - ステータス: posted
 
 ---
+
+## 2026-07-12-703（自動配信 / GitHub Actions）
+- 種類: 画像付き
+- 投稿日時: 2026-07-12T20:15:12.519625+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2076264104520712436
+- URL: https://twitter.com/AtelierBase_own/status/2076264104520712436
+- 画像: 2026-07-12-703.png
+- 文面:
+
+AIに任せた仕事ほど、「最後に人が見る」だけでは不安が残ります。
+
+7月7日の検証研究では、Claude Codeに証明を書かせ、Coqで通ったものだけ採用する形で4,257件を自動化。Coqは、正しさを機械で確認する道具です。
+
+私の実務判断は、信じる前に合格条件を作ること。今日、Codexに任せる1作業へ「通ったらOK」の確認コマンドを1つ付けてみてください。
+
+- ステータス: posted
+
+---
