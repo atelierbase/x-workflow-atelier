@@ -370,3 +370,11 @@ Cl... (196 chars), comments=0, image=yes
 2026-07-12T20:15:12.168899+09:00 media uploaded id=2076264102444589056
 2026-07-12T20:15:12.519081+09:00 POSTED main tweet_id=2076264104520712436
 2026-07-12T20:15:12.519768+09:00 DONE moved 2026-07-12-703 to posted (type=画像付き)
+2026-07-13T15:25:18.510760+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-13T15:25:18.510909+09:00 credentials: env vars
+2026-07-13T15:25:18.511469+09:00 Tweet preview: AI開発で怖いのは、精度より「起動しない日」です。
+
+Cod... (193 chars), comments=0, image=yes
+2026-07-13T15:25:19.382781+09:00 media uploaded id=2076553539141185536
+2026-07-13T15:25:19.791898+09:00 POSTED main tweet_id=2076553541913542946
+2026-07-13T15:25:19.792517+09:00 DONE moved 2026-07-13-702 to posted (type=画像付き)
