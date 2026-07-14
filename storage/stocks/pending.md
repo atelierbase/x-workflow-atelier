@@ -10,7 +10,8 @@ GitHub Actions（送信専用）が該当スロットで X へ投稿して poste
 - 2026-06-29 の伸び悩み対応で、古い未消化キューは `archive/pending-stale-growth-reset-2026-06-29.md` に退避済み。
 - フォーマットは `skill/agents/writer.md` と `storage/analytics/image-requests.md` 準拠。
 
----## 2026-07-14-703
+---
+## 2026-07-14-703
 - 種類: 画像付き
 - 投稿想定時刻: 夜（image2生成済み・GitHub Actions配信）
 - 想定日: 2026-07-14（火）
