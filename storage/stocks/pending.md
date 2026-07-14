@@ -30,3 +30,22 @@ AI開発エージェントは、モデル名だけで選ぶと判断を間違え
 - ステータス: pending
 
 ---
+## 2026-07-14-702
+- 種類: 画像付き
+- 投稿想定時刻: 昼（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-07-14（火）
+- 軸: サブ軸1 / 自分の実例
+- ソース: ITPro: Flaws in some of the most popular AI coding tools left developers wide open to attack (Wiz GhostApproval report) https://www.itpro.com/security/flaws-in-some-of-the-most-popular-ai-coding-tools-left-developers-wide-open-to-attack
+- 画像プロンプト: Use case: infographic-diagram. Asset type: X post summary card, landscape PNG, 1536x1024. Create a clean Japanese social post summary card about AI coding agent approval safety. This is NOT a research card, NOT a UI screenshot, NOT a news card. It should feel like a practical one-second warning for a builder using coding agents. CRITICAL TEXT RULE: Use ONLY these five Japanese text blocks as visible text. No other letters, no file names, no folder names, no button text, no English, no numbers, no dates, no source labels, no footer, no watermark: 1. 「承認前に実パスを見る」 2. 「見えている場所」 3. 「本当の保存先」 4. 「作業外に注意」 5. 「声に出して確認」 Visual structure: abstract path-resolution flow. Top: the main headline 「承認前に実パスを見る」 in very large bold type. Left: a simple outlined project box with generic folder/file icons only, labeled 「見えている場所」. Middle: a chain-link/symlink icon and a curved dashed arrow leaving the project boundary. Right: a destination box with a generic target icon only, labeled 「本当の保存先」. Near the boundary crossing: small caution triangle plus label 「作業外に注意」. Bottom right: checkmark badge plus label 「声に出して確認」. Do not draw any realistic app permission dialog, terminal screen, file tree, file path, filenames, folder names, approve/reject buttons, or code snippets. Style: modern Japanese business infographic, high readability, off-white background, deep charcoal headline, calm teal path/check accents, restrained red-orange caution accent, generous spacing, strong hierarchy. Maximum five text blocks total. Avoid: generic AI atmosphere, random laptop, decorative-only scene, robot mascot, dense UI, research paper layout, source/date labels, 3-column fixed card, purple-blue gradient dominance, beige/brown dominance, malformed Japanese, extra readable text.
+- 画像ファイル: storage/images/2026-07-14-702.png
+- 文面:
+
+AI開発エージェントに任せるほど、「承認したつもり」の範囲が怖くなります。
+
+ITProが紹介したWizのGhostApproval調査では、symlinkで作業フォルダ外へ書き込めるケースが複数ツールで確認されました。symlinkは別ファイルへの近道です。
+
+私の実務判断は、許可前に実パスを見ること。今日から1回だけ、差分の保存先を声に出して確認すると安心です。
+
+- ステータス: pending
+
+---
