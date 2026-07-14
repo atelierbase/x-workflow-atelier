@@ -384,3 +384,9 @@ Cod... (193 chars), comments=0, image=yes
 2026-07-14T14:36:51.889577+09:00 media uploaded id=2076903732147601408
 2026-07-14T14:36:52.435947+09:00 POSTED main tweet_id=2076903735180042572
 2026-07-14T14:36:52.436718+09:00 DONE moved 2026-07-14-702 to posted (type=画像付き)
+2026-07-14T20:35:16.478069+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-14T20:35:16.478208+09:00 credentials: env vars
+2026-07-14T20:35:16.478812+09:00 Tweet preview: AI開発エージェントは、モデル名だけで選ぶと判断を間違えます... (187 chars), comments=0, image=yes
+2026-07-14T20:35:17.155648+09:00 media uploaded id=2076993932114685952
+2026-07-14T20:35:17.593022+09:00 POSTED main tweet_id=2076993934417440971
+2026-07-14T20:35:17.593685+09:00 DONE moved 2026-07-14-703 to posted (type=画像付き)
