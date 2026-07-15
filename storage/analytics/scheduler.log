@@ -396,3 +396,11 @@ Cod... (193 chars), comments=0, image=yes
 2026-07-15T14:37:56.765540+09:00 media uploaded id=2077266392441872384
 2026-07-15T14:37:57.151345+09:00 POSTED main tweet_id=2077266394828427637
 2026-07-15T14:37:57.152012+09:00 DONE moved 2026-07-15-702 to posted (type=画像付き)
+2026-07-15T20:38:35.878979+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-15T20:38:35.879132+09:00 credentials: env vars
+2026-07-15T20:38:35.879723+09:00 Tweet preview: MCPを増やすほど、AIが賢くなるとは限りません。
+
+Cla... (186 chars), comments=0, image=yes
+2026-07-15T20:38:36.730405+09:00 media uploaded id=2077357156437729280
+2026-07-15T20:38:37.199217+09:00 POSTED main tweet_id=2077357159545811194
+2026-07-15T20:38:37.199879+09:00 DONE moved 2026-07-15-703 to posted (type=画像付き)
