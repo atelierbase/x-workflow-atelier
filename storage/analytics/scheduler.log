@@ -390,3 +390,9 @@ Cod... (193 chars), comments=0, image=yes
 2026-07-14T20:35:17.155648+09:00 media uploaded id=2076993932114685952
 2026-07-14T20:35:17.593022+09:00 POSTED main tweet_id=2076993934417440971
 2026-07-14T20:35:17.593685+09:00 DONE moved 2026-07-14-703 to posted (type=画像付き)
+2026-07-15T14:37:55.939571+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-15T14:37:55.939743+09:00 credentials: env vars
+2026-07-15T14:37:55.940357+09:00 Tweet preview: AIに任せるほど、怖いのは「どこを編集したか」が曖昧になるこ... (200 chars), comments=0, image=yes
+2026-07-15T14:37:56.765540+09:00 media uploaded id=2077266392441872384
+2026-07-15T14:37:57.151345+09:00 POSTED main tweet_id=2077266394828427637
+2026-07-15T14:37:57.152012+09:00 DONE moved 2026-07-15-702 to posted (type=画像付き)
