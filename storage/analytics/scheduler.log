@@ -404,3 +404,9 @@ Cla... (186 chars), comments=0, image=yes
 2026-07-15T20:38:36.730405+09:00 media uploaded id=2077357156437729280
 2026-07-15T20:38:37.199217+09:00 POSTED main tweet_id=2077357159545811194
 2026-07-15T20:38:37.199879+09:00 DONE moved 2026-07-15-703 to posted (type=画像付き)
+2026-07-16T14:45:37.138829+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-16T14:45:37.138986+09:00 credentials: env vars
+2026-07-16T14:45:37.139607+09:00 Tweet preview: AIエージェントに任せるほど、次に怖いのは「今どこで止まって... (185 chars), comments=0, image=yes
+2026-07-16T14:45:37.895542+09:00 media uploaded id=2077630714456264704
+2026-07-16T14:45:38.291952+09:00 POSTED main tweet_id=2077630716754665967
+2026-07-16T14:45:38.292650+09:00 DONE moved 2026-07-16-702 to posted (type=画像付き)
