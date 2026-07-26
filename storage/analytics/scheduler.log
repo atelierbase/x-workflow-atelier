@@ -410,3 +410,9 @@ Cla... (186 chars), comments=0, image=yes
 2026-07-16T14:45:37.895542+09:00 media uploaded id=2077630714456264704
 2026-07-16T14:45:38.291952+09:00 POSTED main tweet_id=2077630716754665967
 2026-07-16T14:45:38.292650+09:00 DONE moved 2026-07-16-702 to posted (type=画像付き)
+2026-07-26T20:22:48.152220+09:00 START slot=夜 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-26T20:22:48.152406+09:00 credentials: env vars
+2026-07-26T20:22:48.153026+09:00 Tweet preview: AIエージェントを入れるなら、まず“AIが書ける場所”を減ら... (180 chars), comments=0, image=yes
+2026-07-26T20:22:48.937469+09:00 media uploaded id=2081339448374239232
+2026-07-26T20:22:49.389381+09:00 POSTED main tweet_id=2081339450639224922
+2026-07-26T20:22:49.390082+09:00 DONE moved 2026-07-26-703 to posted (type=画像付き)

@@ -1055,3 +1055,18 @@ OpenAIのCodex Microは、完了・要確認・エラーをキーの色で見せ
 - ステータス: posted
 
 ---
+
+## 2026-07-26-703（自動配信 / GitHub Actions）
+- 種類: 画像付き
+- 投稿日時: 2026-07-26T20:22:49.389895+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2081339450639224922
+- URL: https://twitter.com/AtelierBase_own/status/2081339450639224922
+- 画像: 2026-07-26-703.png
+- 文面:
+
+AIエージェントを入れるなら、まず“AIが書ける場所”を減らすのが先です。PillarがCodex CLIなどで示したのは、sandbox（実行範囲を閉じる箱）を壊さず、AIが書いた設定を外側のツールが後で信じるリスク。私なら新規repoはDocker・hooks・自動実行を一度止めて渡します。今日は`.vscode`とGit hooksだけ見直しましょう。
+
+- ステータス: posted
+
+---
