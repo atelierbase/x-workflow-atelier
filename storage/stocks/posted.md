@@ -1070,3 +1070,18 @@ AIエージェントを入れるなら、まず“AIが書ける場所”を減�
 - ステータス: posted
 
 ---
+
+## 2026-07-27-702（自動配信 / GitHub Actions）
+- 種類: 画像付き
+- 投稿日時: 2026-07-27T15:35:48.065253+09:00
+- 配信モード: api（GitHub Actions + tweepy）
+- tweet_id: 2081629607107690673
+- URL: https://twitter.com/AtelierBase_own/status/2081629607107690673
+- 画像: 2026-07-27-702.png
+- 文面:
+
+AIエージェントの費用が読めないなら、まず“考えさせる量”を分けるのが先です。AnthropicはManaged Agentsでeffortをモデル設定に入れ、Opus 5でもlow〜maxを主な操作軸にしました。effortはAIにどれだけ深く考えさせるかの設定。私なら軽い修正はlow、設計判断だけhigh以上にします。今日は定期タスクを3段階に分けておきましょう。
+
+- ステータス: posted
+
+---

@@ -416,3 +416,9 @@ Cla... (186 chars), comments=0, image=yes
 2026-07-26T20:22:48.937469+09:00 media uploaded id=2081339448374239232
 2026-07-26T20:22:49.389381+09:00 POSTED main tweet_id=2081339450639224922
 2026-07-26T20:22:49.390082+09:00 DONE moved 2026-07-26-703 to posted (type=画像付き)
+2026-07-27T15:35:46.752936+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-07-27T15:35:46.753155+09:00 credentials: env vars
+2026-07-27T15:35:46.753782+09:00 Tweet preview: AIエージェントの費用が読めないなら、まず“考えさせる量”を... (185 chars), comments=0, image=yes
+2026-07-27T15:35:47.647171+09:00 media uploaded id=2081629604612067328
+2026-07-27T15:35:48.064561+09:00 POSTED main tweet_id=2081629607107690673
+2026-07-27T15:35:48.065423+09:00 DONE moved 2026-07-27-702 to posted (type=画像付き)
