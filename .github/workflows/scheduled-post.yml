@@ -5,11 +5,8 @@ name: Scheduled X Image2 Post
 # storage/images/{投稿ID}.png を pending.md から参照して投稿する。
 # PCを閉じていても GitHub Actions が指定スロットで送信する。
 on:
-  schedule:
-    # GitHub cron is UTC. These are JST 07:05 / 12:05 / 19:05.
-    - cron: '5 22 * * *'
-    - cron: '5 3 * * *'
-    - cron: '5 10 * * *'
+  # Schedule temporarily stopped on 2026-08-04 because automated runs are firing unexpectedly.
+  # Keep workflow_dispatch so queued posts can still be sent manually if needed.
   workflow_dispatch:                  # 手動送信（緊急の取りこぼし救済など）
     inputs:
       slot:
