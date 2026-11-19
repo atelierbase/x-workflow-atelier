@@ -30,3 +30,6 @@ archive/2026-11-19-ai-account/deletion-rate-limit.json
 archive/2026-11-19-ai-account/x-timeline-after-delete.json
 archive/2026-11-19-ai-account/x-account-after-delete.json
 archive/2026-11-19-ai-account/local-ids-not-in-timeline.json
+archive/2026-11-19-ai-account/x-search-coverage.json
+archive/2026-11-19-ai-account/legacy-timeline.json
+archive/2026-11-19-ai-account/x-delete-verification.json
