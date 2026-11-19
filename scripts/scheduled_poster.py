@@ -31,6 +31,7 @@ import sys
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from x_text import weighted_length
 
 
 # === パス定義 ===
@@ -213,13 +214,6 @@ def main(dry_run: bool = False) -> None:
         log(f"jitter={jitter}s")
         time.sleep(jitter)
 
-    # 認証情報読み込み
-    try:
-        creds = load_credentials()
-    except Exception as e:
-        log(f"FAILED to load credentials: {e}")
-        sys.exit(1)
-
     # pending.md 読み込み
     try:
         with open(PENDING, encoding="utf-8") as f:
@@ -269,6 +263,9 @@ def main(dry_run: bool = False) -> None:
 
     raw_text = match.group(1).strip()
     main_text, comments = parse_main_and_comments(raw_text)
+    if any(weighted_length(segment) > 280 for segment in [main_text, *comments]):
+        log("Post exceeds X weighted character limit; aborting")
+        sys.exit(1)
     image_path = resolve_image(target_post)
     require_image = os.getenv("REQUIRE_IMAGE") == "1" or post_type == "画像付き"
     log(
@@ -290,6 +287,15 @@ def main(dry_run: bool = False) -> None:
         print("---")
         return
 
+    try:
+        creds = load_credentials()
+        account = json.loads((SKILL_DIR / "config" / "account.json").read_text(encoding="utf-8"))
+        if not account.get("user_id"):
+            raise ValueError("expected account user_id is required")
+    except Exception as e:
+        log(f"FAILED to load delivery configuration: {e}")
+        sys.exit(1)
+
     # 投稿実行
     try:
         import tweepy
@@ -304,6 +310,11 @@ def main(dry_run: bool = False) -> None:
             access_token=creds["access_token"],
             access_token_secret=creds["access_token_secret"],
         )
+        me = client.get_me(user_auth=True)
+        if not me.data or str(me.data.id) != str(account["user_id"]):
+            raise ValueError("Authenticated X account does not match config/account.json")
+        username = me.data.username
+        log(f"verified destination: @{username} ({me.data.id})")
 
         # 画像があれば v1.1 media/upload でアップロードする。
         # REQUIRE_IMAGE=1 の場合、失敗時に本文のみ投稿へフォールバックしない。
@@ -372,7 +383,7 @@ def main(dry_run: bool = False) -> None:
 - 投稿日時: {datetime.now(JST).isoformat()}
 - 配信モード: api（{runner} + tweepy）
 - tweet_id: {tweet_id}
-- URL: https://twitter.com/AtelierBase_own/status/{tweet_id}
+- URL: https://x.com/{username}/status/{tweet_id}
 {extra}- 文面:
 
 {raw_text}

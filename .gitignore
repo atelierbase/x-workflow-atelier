@@ -22,3 +22,8 @@ Thumbs.db
 
 # 実行ログ（大きくなりすぎる場合があるので、analytics/scheduler.log は手動コミット）
 storage/analytics/launchd_*.log
+
+# Local controls for the user-authorized removal of former X posts
+archive/2026-11-19-ai-account/x-public-posts-before-delete.json
+archive/2026-11-19-ai-account/x-delete-results.json
+archive/2026-11-19-ai-account/deletion-rate-limit.json

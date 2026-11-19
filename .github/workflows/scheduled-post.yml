@@ -1,12 +1,11 @@
-name: Scheduled X Image2 Post
+name: Yarikuri X Image2 Post
 
 # === image2生成済み画像の送信専用ワークフロー ===
 # 画像生成は行わない。ChatGPT image2で作成し、repo にコミット済みの
 # storage/images/{投稿ID}.png を pending.md から参照して投稿する。
 # PCを閉じていても GitHub Actions が指定スロットで送信する。
 on:
-  # Schedule temporarily stopped on 2026-08-04 because automated runs are firing unexpectedly.
-  # Keep workflow_dispatch so queued posts can still be sent manually if needed.
+  # 2026-11-19: rebranded to yarikuri. Keep manual delivery until a schedule is requested.
   workflow_dispatch:                  # 手動送信（緊急の取りこぼし救済など）
     inputs:
       slot:

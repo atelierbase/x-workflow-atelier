@@ -1,20 +1,4 @@
-# ROUTINE.md - legacy notice
+# 配信の起動
 
-このrepoの生成担当は旧Routineではなく **Codex Automation**。
-
-正本:
-
-- `AGENTS.md`
-- 親ディレクトリの `CODEX-AUTOMATION-SETUP.md`
-
-現行フロー:
-
-```text
-Codex Automation
-  research -> write -> image2 PNG -> scripts/queue_image2_post.py -> commit & push
-
-GitHub Actions
-  scheduled-post.yml -> scripts/scheduled_poster.py -> X投稿
-```
-
-Codex AutomationはXへ直接投稿しない。`scripts/scheduled_poster.py` はGitHub Actionsだけが実行する。
+定期実行は停止中。明示された投稿依頼ごとに原稿と画像をcommit & pushし、GitHub Actionsの `scheduled-post.yml` を枠指定でdispatchする。
+旧RoutineのAIニュース生成プロンプトは使用しない。手順はAGENTS.md。

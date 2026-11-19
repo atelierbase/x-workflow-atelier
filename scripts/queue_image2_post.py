@@ -14,6 +14,7 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from x_text import weighted_length
 
 
 REPO_DIR = Path(__file__).resolve().parent.parent
@@ -72,8 +73,9 @@ def validate_post(args: argparse.Namespace, text: str, image_prompt: str) -> lis
         if word in text or word in image_prompt:
             errors.append(f"forbidden word appears: {word}")
     for i, segment in enumerate(parse_segments(text), 1):
-        if len(segment) > 280:
-            errors.append(f"text segment {i} exceeds 280 chars: {len(segment)}")
+        length = weighted_length(segment)
+        if length > 280:
+            errors.append(f"text segment {i} exceeds 280 weighted chars: {length}")
 
     rel_image = Path(args.image)
     if rel_image.is_absolute():
@@ -85,6 +87,9 @@ def validate_post(args: argparse.Namespace, text: str, image_prompt: str) -> lis
     pending_text = PENDING.read_text(encoding="utf-8") if PENDING.exists() else ""
     if f"## {args.post_id}\n" in pending_text:
         errors.append(f"pending already contains {args.post_id}")
+    posted = REPO_DIR / "storage" / "stocks" / "posted.md"
+    if posted.exists() and re.search(rf"^## {re.escape(args.post_id)}(?:\W|$)", posted.read_text(encoding="utf-8"), re.M):
+        errors.append(f"post-id was already posted: {args.post_id}")
     if not args.allow_existing_slot and f"投稿想定時刻: {args.slot}" in pending_text:
         errors.append(f"pending already contains a post for slot {args.slot}")
     return errors

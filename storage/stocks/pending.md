@@ -1,13 +1,26 @@
-# 受け渡しキュー（image2生成済み画像 / 定期投稿）
+# やりくり X 配信キュー
 
-このファイルは **image2で生成したPNG + 投稿文 → GitHub Actions の受け渡し場所**。
-`storage/images/{投稿ID}.png` に画像を置き、このファイルに同じ投稿IDの画像付き投稿を積む。
-GitHub Actions（送信専用）が該当スロットで X へ投稿して posted.md に移すと、ここは再び空になる。
+image2生成済みPNGと検査済み本文をGitHub Actionsへ渡す。
 
-- GitHub Actions は画像を生成しない。画像は必ず ChatGPT image2 で作成してから置く。
-- ここに長く残る投稿があれば「送信ワークフローが動いていない」または「該当スロット待ち」のサイン。
-- 旧来の事前ストックは `archive/pending-pre-directpost-2026-06-03.md` に退避済み。
-- 2026-06-29 の伸び悩み対応で、古い未消化キューは `archive/pending-stale-growth-reset-2026-06-29.md` に退避済み。
-- フォーマットは `skill/agents/writer.md` と `storage/analytics/image-requests.md` 準拠。
+---
+## 2026-11-19-703
+- 種類: 画像付き
+- 投稿想定時刻: 夜（image2生成済み・GitHub Actions配信）
+- 想定日: 2026-11-19（木）
+- 軸: リニューアル告知 / 給料日前の金欠対策
+- ソース: https://note.com/yarikuri_app/n/n0a079b0500f4
+- 画像ファイル: storage/images/2026-11-19-703.png
+- 文面:
+
+このアカウントは「やりくり公式」に生まれ変わります！
+
+のこらん「私、今月こそ給料日前にあわてない！」
+たまるん「うんうん！ 支払日を一緒に見てみようね♪」
+
+家計の困りごとを、会話と図解でやさしく。
+最初の5つの方法はこちら。
+https://note.com/yarikuri_app/n/n0a079b0500f4
+
+- ステータス: pending
 
 ---
