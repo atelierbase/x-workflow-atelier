@@ -1,7 +1,7 @@
 # やりくり｜X
 
 「たまるんとのこらん｜やりくり公式」のX運用フォルダ。
-既存のXアカウントと配信repo [atelierbase/x-workflow-atelier](https://github.com/atelierbase/x-workflow-atelier) を引き継ぐ。
+X [@yarikuri_app](https://x.com/yarikuri_app) と配信repo [atelierbase/x-workflow-atelier](https://github.com/atelierbase/x-workflow-atelier) を引き継ぐ。
 
 - 方針・投稿手順: `AGENTS.md`
 - プロフィール: `profile.md`

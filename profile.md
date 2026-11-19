@@ -1,7 +1,7 @@
 # Xプロフィール
 
 - アカウントID: `1736331586814271488`（引き継ぎ）
-- 希望ユーザー名: `yarikuri_app`（空きと保存を確認してから確定）
+- ユーザー名: `yarikuri_app`（ユーザー変更後、画面とAPIで反映を確認）
 - 旧ユーザー名: `AtelierBase_own`
 - 表示名: たまるんとのこらん｜やりくり公式
 - Webサイト: https://yarikuri.atelierbase.app/
