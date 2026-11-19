@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Atelier Base / ひろ｜AI実業家 - Scheduled X Poster
+やりくり公式 - X Image Poster
 
 pending.md から現在の時間帯に該当する次の投稿を取り出して X に投稿し、
 posted.md に移動する。
@@ -20,6 +20,8 @@ GitHub Actions / ローカル launchd / cron / 手動実行 すべてに対応�
 Usage:
     python3 scheduled_poster.py [--dry-run]
 """
+
+from __future__ import annotations
 
 import argparse
 import json
@@ -192,8 +194,19 @@ def resolve_image(target_post: str):
     return None
 
 
-def main(dry_run: bool = False) -> None:
+def main(dry_run: bool = False, requested_post_id: str | None = None) -> None:
     load_env_file()
+
+    # 手動の追加投稿はIDで選び、同じIDの再配信を防ぐ。
+    # 定期枠の冪等ガードは通常どおり残す。
+    if requested_post_id:
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}-\d{3}", requested_post_id):
+            log("Invalid requested post ID")
+            sys.exit(1)
+        posted_text = POSTED.read_text(encoding="utf-8") if POSTED.exists() else ""
+        if re.search(rf"^## {re.escape(requested_post_id)}(?:\W|$)", posted_text, re.M):
+            log(f"SKIP post {requested_post_id} was already sent")
+            sys.exit(0)
 
     # POST_SLOT（起動cronから決まる固定スロット）があれば優先。
     # 無い時（手動dispatch等）のみ実行時刻から判定する。
@@ -203,7 +216,7 @@ def main(dry_run: bool = False) -> None:
 
     # 冪等ガード: 同じ日×同じ枠が既に投稿済みなら何もしない。
     # → 冗長クロン（各枠を複数回発火させてドロップ対策）でも二重投稿しない。
-    if not dry_run and already_posted(slot):
+    if not dry_run and not requested_post_id and already_posted(slot):
         log(f"SKIP slot={slot} は本日すでに投稿済み（冗長クロンの重複起動）")
         sys.exit(0)
 
@@ -237,13 +250,15 @@ def main(dry_run: bool = False) -> None:
     # 該当時間帯のストックを探す
     target_idx = None
     for i, post in enumerate(posts):
+        if requested_post_id and not re.match(rf"## {re.escape(requested_post_id)}\s*\n", post):
+            continue
         if f"投稿想定時刻: {slot}" in post:
             target_idx = i
             break
 
     if target_idx is None:
         log(f"No pending post for slot={slot}")
-        if os.getenv("REQUIRE_PENDING") == "1":
+        if requested_post_id or os.getenv("REQUIRE_PENDING") == "1":
             log(f"REQUIRE_PENDING=1; failing because no post is queued for slot={slot}")
             sys.exit(2)
         sys.exit(0)
@@ -408,5 +423,6 @@ def main(dry_run: bool = False) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="投稿せずに動作確認")
+    parser.add_argument("--post-id", help="明示された追加投稿をIDで選ぶ。同じIDは再配信しない")
     args = parser.parse_args()
-    main(dry_run=args.dry_run)
+    main(dry_run=args.dry_run, requested_post_id=args.post_id)

@@ -18,6 +18,11 @@ on:
           - 朝
           - 昼
           - 夜
+      post_id:
+        description: '追加投稿のID（空欄なら通常の1日1枠ガード）'
+        required: false
+        default: ''
+        type: string
 
 # 多重起動を直列化（保険）
 concurrency:
@@ -84,7 +89,13 @@ jobs:
           REQUIRE_IMAGE: "1"
           REQUIRE_PENDING: "1"
           SKIP_JITTER: "1"
-        run: python scripts/scheduled_poster.py
+          REQUESTED_POST_ID: ${{ github.event.inputs.post_id }}
+        run: |
+          args=()
+          if [ -n "$REQUESTED_POST_ID" ]; then
+            args+=(--post-id "$REQUESTED_POST_ID")
+          fi
+          python scripts/scheduled_poster.py "${args[@]}"
 
       - name: Commit and push result
         run: |

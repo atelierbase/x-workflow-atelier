@@ -1,0 +1,140 @@
+{
+  "collected_at": "2026-11-19T22:06:40.059768+09:00",
+  "candidate_unique_count": 53,
+  "selected": [
+    {
+      "id": "2117473908312232124",
+      "username": "nanayotsuki",
+      "url": "https://x.com/nanayotsuki/status/2117473908312232124",
+      "created_at": "2026-11-03T04:28:15.000Z",
+      "metrics": {
+        "bookmark_count": 1011,
+        "impression_count": 4032924,
+        "like_count": 21276,
+        "quote_count": 95,
+        "reply_count": 31,
+        "retweet_count": 544
+      },
+      "account_followers_at_collection": 559,
+      "pattern": "小さな数字から始まる日常の話",
+      "observation": "家計簿の小さな不一致から場面と疑問が生まれる。",
+      "adaptation": "今後の通常投稿では「何を確かめるか」を1つに絞る。結論を出し惜しみする形は採用しない。",
+      "reviewed": "文面"
+    },
+    {
+      "id": "2116727176103952776",
+      "username": "precure_stage",
+      "url": "https://x.com/precure_stage/status/2116727176103952776",
+      "created_at": "2026-11-01T03:01:00.000Z",
+      "metrics": {
+        "bookmark_count": 38,
+        "impression_count": 50429,
+        "like_count": 1094,
+        "quote_count": 112,
+        "reply_count": 2,
+        "retweet_count": 411
+      },
+      "account_followers_at_collection": 20228,
+      "pattern": "キャラクター本人の挨拶",
+      "observation": "語り手の名前と口調、今後届ける内容を短く伝える。",
+      "adaptation": "挨拶だけで終えず、家計の困りごとを一緒に考えることを添える。",
+      "reviewed": "文面"
+    },
+    {
+      "id": "2115096180803711012",
+      "username": "spindlehorsejp",
+      "url": "https://x.com/spindlehorsejp/status/2115096180803711012",
+      "created_at": "2026-10-27T15:00:00.000Z",
+      "metrics": {
+        "bookmark_count": 911,
+        "impression_count": 458997,
+        "like_count": 9407,
+        "quote_count": 153,
+        "reply_count": 27,
+        "retweet_count": 1901
+      },
+      "account_followers_at_collection": 19585,
+      "pattern": "名前と提供価値を明確にする挨拶",
+      "observation": "アカウントの名前、何をする人か、覚えてほしいことが分かる。",
+      "adaptation": "二人の名前と家計管理の発信であることを簡潔に示す。",
+      "reviewed": "文面"
+    },
+    {
+      "id": "2123167488548696219",
+      "username": "k_r_r_l_l_",
+      "url": "https://x.com/k_r_r_l_l_/status/2123167488548696219",
+      "created_at": "2026-11-18T21:32:30.000Z",
+      "metrics": {
+        "bookmark_count": 440,
+        "impression_count": 163787,
+        "like_count": 14679,
+        "quote_count": 53,
+        "reply_count": 56,
+        "retweet_count": 2690
+      },
+      "account_followers_at_collection": 426107,
+      "pattern": "短い見出し＋一場面",
+      "observation": "本文が短く、画像の表情と場面が主役。",
+      "adaptation": "読者の気持ちを短い見出しで言葉にし、二人の表情で伝える。",
+      "reviewed": "画像・文面"
+    },
+    {
+      "id": "2122092920912425096",
+      "username": "k_r_r_l_l_",
+      "url": "https://x.com/k_r_r_l_l_/status/2122092920912425096",
+      "created_at": "2026-11-15T22:22:33.000Z",
+      "metrics": {
+        "bookmark_count": 678,
+        "impression_count": 202363,
+        "like_count": 13947,
+        "quote_count": 52,
+        "reply_count": 74,
+        "retweet_count": 2218
+      },
+      "account_followers_at_collection": 426107,
+      "pattern": "失敗した場面を優しく受け止める",
+      "observation": "日常の小さな失敗を入口に、肯定するキャラクターとの関係を描く。",
+      "adaptation": "のこらんの言い訳に、たまるんが優しく具体的に応じる。",
+      "reviewed": "画像・文面"
+    },
+    {
+      "id": "2112849781093724216",
+      "username": "kotoharu_Ni501",
+      "url": "https://x.com/kotoharu_Ni501/status/2112849781093724216",
+      "created_at": "2026-10-21T10:13:37.000Z",
+      "metrics": {
+        "bookmark_count": 222,
+        "impression_count": 185898,
+        "like_count": 7182,
+        "quote_count": 68,
+        "reply_count": 1,
+        "retweet_count": 273
+      },
+      "account_followers_at_collection": 730,
+      "pattern": "お金のあるあるを一文にする",
+      "observation": "理想と手元の現実との落差が一文で分かる。",
+      "adaptation": "生活の失敗を小さく具体的に描く。実在利用者の体験談や金額は移植しない。",
+      "reviewed": "文面"
+    },
+    {
+      "id": "1981687147943055797",
+      "username": "Ishiyowachan_",
+      "url": "https://x.com/Ishiyowachan_/status/1981687147943055797",
+      "created_at": "2025-10-24T11:40:08.000Z",
+      "metrics": {
+        "bookmark_count": 730,
+        "impression_count": 612517,
+        "like_count": 7848,
+        "quote_count": 234,
+        "reply_count": 20,
+        "retweet_count": 1251
+      },
+      "account_followers_at_collection": 136784,
+      "pattern": "名前＋性格の紹介",
+      "observation": "名前と性格を画像内にまとめ、本文は短い。紹介資料として残せる。",
+      "adaptation": "二人の名前を大きく、性格は1行ずつ。既存キャラの絵柄・設定・文面は借りない。",
+      "reviewed": "画像・文面"
+    }
+  ],
+  "note": "Descriptive observations, not causal proof. Current follower counts are not counts at publication. No original post bodies or media republished."
+}

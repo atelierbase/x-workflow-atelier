@@ -13,6 +13,7 @@
 - `skill/templates/single-post-templates.md`
 - `skill/agents/writer.md`
 - `storage/analytics/learnings.md`
+- `CONTENT-PLAYBOOK.md`（参考投稿の選び方と今回の検証方針）
 
 ## 内容
 
@@ -27,6 +28,7 @@
 - 毎回 `種類: 画像付き`。組み込みimage_gen/image2のみで制作する。
 - 採用済みnote画像の再利用可。加工が必要ならimage_genを使う。
 - 新規画像は `brand/character-reference.png` を参照。クリーム・茶・ミルクグレー基調。
+- 挨拶・自己紹介では、名前と性格・二人の関係が伝わる短い場面を主役にしてよい。
 - 投稿の結論と具体的な確認方法を図解。日付・数字・日本語を目視検査する。
 - PNG、5MB以下。`storage/images/<ID>.png` に保存。
 - X加重文字数280以内。日本語は多くが2、URLは23。絵文字連結は検査が保守的に数えるため短くする。
@@ -38,6 +40,8 @@
 生成側はXへ直接投稿しない。画像と原稿をcommit & pushし、GitHub Actionsで配信する。
 現在は定期実行停止を引き継ぐ。明示された投稿依頼ごとに手動dispatchで1本を送る。
 pushだけでは送信されない。自動投稿スケジュールは別途設定するまで追加しない。
+同日に同じ枠へ追加投稿する依頼では、新しいIDを付けて `post_id` 入力でその1本を明示する。
+投稿状態ファイルや過去の投稿履歴を消して枠ガードを回避しない。同じIDは再配信されない。
 
 ```bash
 python3 scripts/scheduled_poster.py --dry-run
@@ -45,6 +49,8 @@ git add <今回変更したファイル>
 git commit -m "queue: yarikuri X image post"
 git push origin main
 gh workflow run scheduled-post.yml -R atelierbase/x-workflow-atelier -f slot=夜
+# 明示された同枠の追加投稿の場合
+gh workflow run scheduled-post.yml -R atelierbase/x-workflow-atelier -f slot=夜 -f post_id=<新しいID>
 ```
 
 dry-runは認証・ネットワーク不要。実配信はアカウントIDを照合してから画像をアップロードする。
