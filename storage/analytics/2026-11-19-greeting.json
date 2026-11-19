@@ -1,0 +1,32 @@
+{
+  "post_id": "2026-11-19-704",
+  "url": "https://x.com/yarikuri_app/status/2123404641777971465",
+  "collected_at": "2026-11-19T22:15:49.015746+09:00",
+  "post": {
+    "attachments": {
+      "media_keys": [
+        "3_2123404639441690624"
+      ]
+    },
+    "author_id": "1736331586814271488",
+    "created_at": "2026-11-19T13:14:52.000Z",
+    "edit_history_tweet_ids": [
+      "2123404641777971465"
+    ],
+    "id": "2123404641777971465",
+    "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "text": "はじめまして。\n「ためる」と決めた日に、おやつを買うハムスターです。\n\nのこらん「……おやつは別です。」\nたまるん「うんうん！ おやつの分も残せるといいね♪」\n\nたまるんとのこらんです。\n家計の「困った」を、ふたりで一緒に考えます。\nあなたはコツコツ派？ つい買っちゃう派？ https://t.co/NgUQPOcn6g"
+  },
+  "media_types": [
+    "photo"
+  ],
+  "interpretation": "Immediate snapshot only; not evidence of a successful pattern yet.",
+  "workflow_url": "https://github.com/atelierbase/x-workflow-atelier/actions/runs/44531525766"
+}
