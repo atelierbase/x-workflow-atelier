@@ -1,0 +1,13 @@
+{
+  "post_id": "2026-11-20-702",
+  "generator": "built-in image_gen",
+  "reference": "brand/character-reference.png",
+  "file": "storage/images/2026-11-20-702.png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 2634911,
+  "sha256": "44e9a52ecc9e765b79efab3051a85cc891d3ae317062c3f822f0cae2cab1c268",
+  "weighted_text_length": 236,
+  "prompt": "storage/drafts/2026-11-20-702-image-prompt.txt",
+  "visual_qa": "Accepted: correct hamster identities and names, bubble speakers, payday/card-debit contrast, Japanese text, no invented dates or numerical amounts, useful action strip."
+}
