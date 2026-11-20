@@ -44,4 +44,10 @@
 
 Xプロフィールのアイコン・ヘッダー・紹介文をAPIで更新し、アカウントIDと公開画面を確認。のこらんは空の頬と口・小さめの顔、たまるんは種を残した片頬に変更。現行素材は `brand/README.md`。API結果は `storage/analytics/2026-11-20-sunflower-profile.json`。
 
-投稿済みの3件は画像だけの置換ができないため、削除・再投稿の選択をユーザーへ確認中。新版の画像は `brand/refresh/` に準備済み。回答までは元の投稿と配信記録を保持する。
+ユーザーが旧3件の削除・新版での再投稿を選択。アカウントと対象IDを照合し、旧3件を削除して不存在を確認後、同文面・新画像でGitHub Actionsから再投稿した。旧投稿の記録と元画像は履歴として保持する。新旧の対応は `brand/refresh/replacement-plan.json`、削除と再投稿のAPI確認は `storage/analytics/2026-11-20-sunflower-replacement/`。
+
+### 新しい投稿URL
+
+- お知らせ: https://x.com/yarikuri_app/status/2123625924864455069
+- 挨拶: https://x.com/yarikuri_app/status/2123626511525904578
+- 給料日とカード代: https://x.com/yarikuri_app/status/2123626757869944942

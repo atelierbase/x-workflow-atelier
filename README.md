@@ -5,7 +5,7 @@ X [@yarikuri_app](https://x.com/yarikuri_app) と配信repo [atelierbase/x-workf
 
 - 方針・投稿手順: `AGENTS.md`
 - 参考分析と投稿の型: `CONTENT-PLAYBOOK.md`
-- キャラクター挨拶: https://x.com/yarikuri_app/status/2123404641777971465
+- キャラクター挨拶: https://x.com/yarikuri_app/status/2123626511525904578
 - プロフィール: `profile.md`
 - キャラクター・製品の根拠: `skill/references/`
 - 原稿・画像: `storage/stocks/pending.md` / `storage/images/`

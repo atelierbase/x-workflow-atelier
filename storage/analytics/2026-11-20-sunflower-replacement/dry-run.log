@@ -1,0 +1,13 @@
+2026-11-20T12:52:51.600333+09:00 START slot=昼 (source=POST_SLOT) dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/yarikuri/x/storage/stocks/pending.md
+2026-11-20T12:52:51.600953+09:00 Tweet preview: このアカウントは「やりくり公式」に生まれ変わります！
+
+のこ... (160 chars), comments=0, image=yes
+2026-11-20T12:52:51.600990+09:00 DRY RUN - skipping actual post
+2026-11-20T12:52:51.672148+09:00 START slot=昼 (source=POST_SLOT) dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/yarikuri/x/storage/stocks/pending.md
+2026-11-20T12:52:51.672775+09:00 Tweet preview: はじめまして。
+「ためる」と決めた日に、おやつを買うハムスタ... (137 chars), comments=0, image=yes
+2026-11-20T12:52:51.672823+09:00 DRY RUN - skipping actual post
+2026-11-20T12:52:51.744580+09:00 START slot=昼 (source=POST_SLOT) dry_run=True pending=/Users/hirotomo.ishii/atlier-base-v1/projects/sns-auto-post/yarikuri/x/storage/stocks/pending.md
+2026-11-20T12:52:51.745062+09:00 Tweet preview: のこらん「給料日！ 今月の私は無敵！」
+たまるん「うんうん！... (122 chars), comments=0, image=yes
+2026-11-20T12:52:51.745106+09:00 DRY RUN - skipping actual post

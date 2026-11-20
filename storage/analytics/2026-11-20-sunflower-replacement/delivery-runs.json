@@ -1,0 +1,16 @@
+{
+  "successful_runs": {
+    "2026-11-20-704": 44670782444,
+    "2026-11-20-705": 44671031857,
+    "2026-11-20-706": 44671132121
+  },
+  "failed_run": {
+    "id": 44670840917,
+    "reason": "Queue header lost newline after first delivery; no second post sent; fixed in 78c1357"
+  },
+  "checks": {
+    "unit_tests_passed": 6,
+    "account_and_text_and_image_verified": true,
+    "old_posts_deleted": 3
+  }
+}
