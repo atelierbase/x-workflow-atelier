@@ -1,0 +1,143 @@
+{
+  "verified_at": "2026-11-20T12:01:46.785Z",
+  "account": "yarikuri_app",
+  "count": 9,
+  "notes": "X regenerates media URLs when saving an existing scheduled post. No media edit controls were used.",
+  "posts": [
+    {
+      "id": "2026-11-21-701",
+      "scheduled_at": "2026-11-21T08:43:00+09:00",
+      "x_date_label": "2026年11月21日(土)の午前8:43に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkMiK1bIAA0zq_.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRpmqbYAA6G2P.jpg",
+      "image": {
+        "complete": true,
+        "height": 219,
+        "src": "https://pbs.twimg.com/media/HXkRpmqbYAA6G2P?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-21-702",
+      "scheduled_at": "2026-11-21T11:43:00+09:00",
+      "x_date_label": "2026年11月21日(土)の午前11:43に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkNv7FbgAAiQXy.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRf_fb0AEtoUO.jpg",
+      "image": {
+        "complete": true,
+        "height": 240,
+        "src": "https://pbs.twimg.com/media/HXkRf_fb0AEtoUO?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-21-703",
+      "scheduled_at": "2026-11-21T22:08:00+09:00",
+      "x_date_label": "2026年11月21日(土)の午後10:08に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkOupQaEAAnj90.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRuIUaMAAaOsv.jpg",
+      "image": {
+        "complete": true,
+        "height": 219,
+        "src": "https://pbs.twimg.com/media/HXkRuIUaMAAaOsv?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-22-701",
+      "scheduled_at": "2026-11-22T09:28:00+09:00",
+      "x_date_label": "2026年11月22日(日)の午前9:28に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkO1robEAAMG-v.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRvgQbIAA67Mb.jpg",
+      "image": {
+        "complete": true,
+        "height": 180,
+        "src": "https://pbs.twimg.com/media/HXkRvgQbIAA67Mb?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-22-702",
+      "scheduled_at": "2026-11-22T11:44:00+09:00",
+      "x_date_label": "2026年11月22日(日)の午前11:44に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkO4nJbwAAHyxI.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRySPb0AAkAKm.jpg",
+      "image": {
+        "complete": true,
+        "height": 219,
+        "src": "https://pbs.twimg.com/media/HXkRySPb0AAkAKm?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-22-703",
+      "scheduled_at": "2026-11-22T21:02:00+09:00",
+      "x_date_label": "2026年11月22日(日)の午後9:02に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkPKwGboAAxqaC.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRztIaMAAfIoF.jpg",
+      "image": {
+        "complete": true,
+        "height": 180,
+        "src": "https://pbs.twimg.com/media/HXkRztIaMAAfIoF?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-23-701",
+      "scheduled_at": "2026-11-23T07:52:00+09:00",
+      "x_date_label": "2026年11月23日(月)の午前7:52に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkPQAvasAAJ_F9.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkR3yEa0AALl3W.jpg",
+      "image": {
+        "complete": true,
+        "height": 219,
+        "src": "https://pbs.twimg.com/media/HXkR3yEa0AALl3W?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-23-702",
+      "scheduled_at": "2026-11-23T12:12:00+09:00",
+      "x_date_label": "2026年11月23日(月)の午後0:12に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkPVyYacAAvz-d.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkR5JUaMAAHO4W.jpg",
+      "image": {
+        "complete": true,
+        "height": 180,
+        "src": "https://pbs.twimg.com/media/HXkR5JUaMAAHO4W?format=jpg&name=240x240",
+        "width": 240
+      }
+    },
+    {
+      "id": "2026-11-23-703",
+      "scheduled_at": "2026-11-23T20:14:00+09:00",
+      "x_date_label": "2026年11月23日(月)の午後8:14に送信されます",
+      "text_exact": true,
+      "image_attached": true,
+      "previous_x_media_url": "https://pbs.twimg.com/media/HXkPhuqagAATz2T.jpg",
+      "x_media_url": "https://pbs.twimg.com/media/HXkR-FwaYAAcVlJ.jpg",
+      "image": {
+        "complete": true,
+        "height": 240,
+        "src": "https://pbs.twimg.com/media/HXkR-FwaYAAcVlJ?format=jpg&name=240x240",
+        "width": 240
+      }
+    }
+  ]
+}

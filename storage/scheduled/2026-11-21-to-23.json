@@ -6,7 +6,7 @@
   "posts": [
     {
       "id": "2026-11-21-701",
-      "scheduled_at": "2026-11-21T08:10:00+09:00",
+      "scheduled_at": "2026-11-21T08:43:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-21-701.png",
       "title": "送料無料の方が200円高い",
@@ -25,12 +25,21 @@
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
       "verified_in_x": true,
-      "x_date_label": "2026年11月21日(土)の午前8:10に送信されます",
-      "x_media_url": "https://pbs.twimg.com/media/HXkMiK1bIAA0zq_.jpg"
+      "x_date_label": "2026年11月21日(土)の午前8:43に送信されます",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRpmqbYAA6G2P.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-21T08:10:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkMiK1bIAA0zq_.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-21-702",
-      "scheduled_at": "2026-11-21T12:15:00+09:00",
+      "scheduled_at": "2026-11-21T11:43:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-21-702.png",
       "title": "カードを使った日に取り置く",
@@ -51,12 +60,21 @@
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
       "verified_in_x": true,
-      "x_date_label": "2026年11月21日(土)の午後0:15に送信されます",
-      "x_media_url": "https://pbs.twimg.com/media/HXkNv7FbgAAiQXy.jpg"
+      "x_date_label": "2026年11月21日(土)の午前11:43に送信されます",
+      "x_media_url": "https://pbs.twimg.com/media/HXkRf_fb0AEtoUO.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-21T12:15:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkNv7FbgAAiQXy.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-21-703",
-      "scheduled_at": "2026-11-21T20:30:00+09:00",
+      "scheduled_at": "2026-11-21T22:08:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-21-703.png",
       "title": "消す前に解約する",
@@ -77,13 +95,22 @@
         1199
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月21日(土)の午後8:30に送信されます",
+      "x_date_label": "2026年11月21日(土)の午後10:08に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkOupQaEAAnj90.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkRuIUaMAAaOsv.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-21T20:30:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkOupQaEAAnj90.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-22-701",
-      "scheduled_at": "2026-11-22T08:10:00+09:00",
+      "scheduled_at": "2026-11-22T09:28:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-22-701.png",
       "title": "生活費は給料日から区切る",
@@ -101,13 +128,22 @@
         1086
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月22日(日)の午前8:10に送信されます",
+      "x_date_label": "2026年11月22日(日)の午前9:28に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkO1robEAAMG-v.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkRvgQbIAA67Mb.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-22T08:10:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkO1robEAAMG-v.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-22-702",
-      "scheduled_at": "2026-11-22T12:15:00+09:00",
+      "scheduled_at": "2026-11-22T11:44:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-22-702.png",
       "title": "年払いは間に合う給料で割る",
@@ -125,13 +161,22 @@
         1199
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月22日(日)の午後0:15に送信されます",
+      "x_date_label": "2026年11月22日(日)の午前11:44に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkO4nJbwAAHyxI.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkRySPb0AAkAKm.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-22T12:15:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkO4nJbwAAHyxI.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-22-703",
-      "scheduled_at": "2026-11-22T20:30:00+09:00",
+      "scheduled_at": "2026-11-22T21:02:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-22-703.png",
       "title": "チャージと買い物を二重に足さない",
@@ -151,13 +196,22 @@
         1086
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月22日(日)の午後8:30に送信されます",
+      "x_date_label": "2026年11月22日(日)の午後9:02に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkPKwGboAAxqaC.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkRztIaMAAfIoF.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-22T20:30:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkPKwGboAAxqaC.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-23-701",
-      "scheduled_at": "2026-11-23T08:10:00+09:00",
+      "scheduled_at": "2026-11-23T07:52:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-23-701.png",
       "title": "使いすぎた週の予算を再計算",
@@ -175,13 +229,22 @@
         1199
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月23日(月)の午前8:10に送信されます",
+      "x_date_label": "2026年11月23日(月)の午前7:52に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkPQAvasAAJ_F9.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkR3yEa0AALl3W.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-23T08:10:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkPQAvasAAJ_F9.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-23-702",
-      "scheduled_at": "2026-11-23T12:15:00+09:00",
+      "scheduled_at": "2026-11-23T12:12:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-23-702.png",
       "title": "追加出費は最低残高から逆算",
@@ -199,13 +262,22 @@
         1086
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月23日(月)の午後0:15に送信されます",
+      "x_date_label": "2026年11月23日(月)の午後0:12に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkPVyYacAAvz-d.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkR5JUaMAAHO4W.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-23T12:15:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkPVyYacAAvz-d.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     },
     {
       "id": "2026-11-23-703",
-      "scheduled_at": "2026-11-23T20:30:00+09:00",
+      "scheduled_at": "2026-11-23T20:14:00+09:00",
       "route": "X native scheduled posts",
       "image": "storage/images/2026-11-23-703.png",
       "title": "過去を埋めず3行で再開",
@@ -223,9 +295,30 @@
         1254
       ],
       "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
-      "x_date_label": "2026年11月23日(月)の午後8:30に送信されます",
+      "x_date_label": "2026年11月23日(月)の午後8:14に送信されます",
       "verified_in_x": true,
-      "x_media_url": "https://pbs.twimg.com/media/HXkPhuqagAATz2T.jpg"
+      "x_media_url": "https://pbs.twimg.com/media/HXkR-FwaYAAcVlJ.jpg",
+      "schedule_history": [
+        {
+          "scheduled_at": "2026-11-23T20:30:00+09:00",
+          "x_media_url": "https://pbs.twimg.com/media/HXkPhuqagAATz2T.jpg",
+          "changed_on": "2026-11-20",
+          "reason": "User requested variable times within morning, midday and evening windows"
+        }
+      ],
+      "verified_at": "2026-11-20T12:01:46.785Z"
     }
-  ]
+  ],
+  "timing_policy": {
+    "fixed_times": false,
+    "timezone": "Asia/Tokyo",
+    "windows": {
+      "morning": "07:15–09:35",
+      "midday": "11:40–13:35",
+      "evening": "19:10–22:10"
+    },
+    "method": "SystemRandom independent draw per slot, unique HH:MM, preserving dates and order",
+    "requested_on": "2026-11-20"
+  },
+  "timing_verified_at": "2026-11-20T12:01:46.785Z"
 }
