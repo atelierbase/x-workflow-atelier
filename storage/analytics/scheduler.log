@@ -447,3 +447,12 @@ Cla... (186 chars), comments=0, image=yes
 2026-11-20T11:43:40.688888+09:00 media uploaded id=2123608182530375680
 2026-11-20T11:43:41.102622+09:00 POSTED main tweet_id=2123608185298686138
 2026-11-20T11:43:41.103221+09:00 DONE moved 2026-11-20-702 to posted (type=画像付き)
+2026-11-20T12:54:09.094601+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-11-20T12:54:09.095753+09:00 Tweet preview: このアカウントは「やりくり公式」に生まれ変わります！
+
+のこ... (160 chars), comments=0, image=yes
+2026-11-20T12:54:09.095803+09:00 credentials: env vars
+2026-11-20T12:54:09.370798+09:00 verified destination: @yarikuri_app (1736331586814271488)
+2026-11-20T12:54:10.112464+09:00 media uploaded id=2123625922490519552
+2026-11-20T12:54:10.460932+09:00 POSTED main tweet_id=2123625924864455069
+2026-11-20T12:54:10.461635+09:00 DONE moved 2026-11-20-704 to posted (type=画像付き)
