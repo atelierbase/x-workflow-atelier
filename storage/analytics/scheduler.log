@@ -456,3 +456,11 @@ Cla... (186 chars), comments=0, image=yes
 2026-11-20T12:54:10.112464+09:00 media uploaded id=2123625922490519552
 2026-11-20T12:54:10.460932+09:00 POSTED main tweet_id=2123625924864455069
 2026-11-20T12:54:10.461635+09:00 DONE moved 2026-11-20-704 to posted (type=画像付き)
+2026-11-20T12:56:29.137678+09:00 START slot=昼 (source=POST_SLOT) dry_run=False pending=/home/runner/work/x-workflow-atelier/x-workflow-atelier/storage/stocks/pending.md
+2026-11-20T12:56:29.138740+09:00 Tweet preview: はじめまして。
+「ためる」と決めた日に、おやつを買うハムスタ... (137 chars), comments=0, image=yes
+2026-11-20T12:56:29.138787+09:00 credentials: env vars
+2026-11-20T12:56:29.371830+09:00 verified destination: @yarikuri_app (1736331586814271488)
+2026-11-20T12:56:30.029693+09:00 media uploaded id=2123626509391060992
+2026-11-20T12:56:30.319202+09:00 POSTED main tweet_id=2123626511525904578
+2026-11-20T12:56:30.319807+09:00 DONE moved 2026-11-20-705 to posted (type=画像付き)
