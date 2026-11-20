@@ -5,8 +5,9 @@ import io
 from pathlib import Path
 import sys
 import tempfile
+from types import SimpleNamespace
 import unittest
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import scheduled_poster as poster
@@ -66,6 +67,27 @@ class ManualDeliveryTests(unittest.TestCase):
             with self.assertRaises(SystemExit) as result:
                 poster.main(dry_run=True, requested_post_id="2030-01-01-704")
         self.assertEqual(result.exception.code, 2)
+
+    def test_sending_first_post_keeps_next_post_dispatchable(self):
+        self.pending.write_text(self.pending.read_text().replace("# queue\n\n", "# queue\n\n---\n", 1))
+        root = self.pending.parent
+        (root / "config").mkdir()
+        (root / "config" / "account.json").write_text('{"user_id":"123"}')
+        tweepy = MagicMock()
+        client = tweepy.Client.return_value
+        client.get_me.return_value = SimpleNamespace(data=SimpleNamespace(id="123", username="test"))
+        client.create_tweet.side_effect = [SimpleNamespace(data={"id": "one"}), SimpleNamespace(data={"id": "two"})]
+        tweepy.API.return_value.media_upload.return_value = SimpleNamespace(media_id_string="image")
+        creds = dict.fromkeys(("consumer_key", "consumer_secret", "access_token", "access_token_secret"), "test")
+        with patch.dict(sys.modules, {"tweepy": tweepy}), \
+             patch.object(poster, "SKILL_DIR", root), \
+             patch.object(poster, "load_credentials", return_value=creds), \
+             patch.object(poster, "mark_posted"):
+            poster.main(requested_post_id="2030-01-01-703")
+            self.assertIn("\n## 2030-01-01-704\n", self.pending.read_text())
+            poster.main(requested_post_id="2030-01-01-704")
+        self.assertEqual([call.kwargs["text"] for call in client.create_tweet.call_args_list], ["FIRST", "SECOND"])
+        self.assertNotIn("## 2030-01-01-", self.pending.read_text())
 
 
 if __name__ == "__main__":

@@ -413,7 +413,7 @@ def main(dry_run: bool = False, requested_post_id: str | None = None) -> None:
 
     # pending.md から該当エントリを削除
     posts.pop(target_idx)
-    new_content = header + "\n".join(posts) if posts else header
+    new_content = header.rstrip("\n") + "\n\n" + "\n".join(posts) if posts else header.rstrip("\n") + "\n"
     with open(PENDING, "w", encoding="utf-8") as f:
         f.write(new_content)
 
