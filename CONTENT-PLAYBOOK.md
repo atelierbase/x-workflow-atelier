@@ -24,8 +24,10 @@
 
 ## 次の下書き
 
-`storage/drafts/next-01-balance.txt` → `next-02-card.txt` → `next-03-budget.txt`。
-原稿のみ。画像制作・公開前の根拠確認・queue投入・投稿はまだ行っていない。
+`next-01-balance.txt`（給料日とカード代）は `2026-11-20-702` として2026-11-20 11:43 JSTに画像付き公開済み。
+公開URL: https://x.com/yarikuri_app/status/2123608185298686138
+
+次は `storage/drafts/next-02-card.txt` → `next-03-budget.txt`。この2本は原稿のみで、画像制作・queue投入・公開は未実施。
 連投を増やす前に、それぞれ何への反応を知りたいのかを決める。
 公開済みの移行告知と今回の挨拶の成績を、通常投稿の期待値として混同しない。
 
