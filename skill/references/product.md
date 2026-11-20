@@ -54,4 +54,6 @@ note ID: `yarikuri_app`。既存プロフィールの記録を引き継ぎ、Chr
 - App Store: https://apps.apple.com/jp/app/id6817269400
 - 製品サイト: https://yarikuri.atelierbase.app/
 
+製品紹介の案内先はLP（https://yarikuri.atelierbase.app/）を優先し、ダウンロードはLPからApp Storeへ案内する。
+
 公開URLは製品の開発記録による。今回の原稿作成でApp Storeの現況をライブ確認したとは扱わない。
