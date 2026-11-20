@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-11-20",
+  "sources": [
+    {
+      "url": "https://support.apple.com/ja-jp/118428",
+      "supports": "iPhone Settings/name/subscriptions route; tracing missing subscriptions via receipt/card issuer; cancellation status"
+    },
+    {
+      "url": "https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen545.html",
+      "supports": "Deleting an app does not cancel a subscription; follow provider cancellation process"
+    },
+    {
+      "url": "https://content.zaim.net/questions/show/60",
+      "supports": "Avoid adding both wallet charge and purchase into spending totals; only purchase spending in that method"
+    },
+    {
+      "url": "https://www.moj.go.jp/seinen/chapter_04/commentary.html",
+      "supports": "Card purchase is followed later by bank-account repayment; local reserve-memo method is our illustration, not a quote"
+    }
+  ],
+  "original_methods": "Shipping-total comparison, remaining-days budgeting, payday-count annual preparation, forecast-floor comparison, and three-line template are original hypothetical arithmetic examples. No savings results or guarantees are claimed."
+}

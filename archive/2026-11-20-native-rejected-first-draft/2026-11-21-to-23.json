@@ -1,0 +1,169 @@
+{
+  "account": "yarikuri_app",
+  "account_id": "1736331586814271488",
+  "timezone": "Asia/Tokyo",
+  "posts": [
+    {
+      "id": "2026-11-21-701",
+      "title": "カード代は先月の私",
+      "scheduled_at": "2026-11-21T08:10:00+09:00",
+      "text": "のこらん「今月は買い物してないのに、カード代が来た！」\nたまるん「先月買ったおやつの分かも。一緒に明細を見てみようね」\n\nのこらん「先月の私、おやつに積極的。」\n\nカードは「買った日」と「口座から出る日」が別。\nまずは、次の引落日と金額を確かめよう。",
+      "weighted_length": 244,
+      "image": "storage/images/2026-11-21-701.png",
+      "image_source": "new imagegen comic",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "d231f0281c5fb3fa5ec1f7a5f3d0e38297ef31c724bbf9a5784299b6dfa7b808",
+      "image_bytes": 2420206,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-21-702",
+      "title": "残高に予約席",
+      "scheduled_at": "2026-11-21T12:15:00+09:00",
+      "text": "のこらん「口座に8万円！ ごほうびも視野に入れております！」\nたまるん「その中に、来週のカード代も入っているかな？」\n\nのこらん「……残高って、全員フリーじゃないの？」\n\nカード代・次の入金までの生活費・予備費。\n行き先が決まった分を分けて見てみよう。\n※図は仮の例です。",
+      "weighted_length": 263,
+      "image": "storage/images/2026-11-21-702.png",
+      "image_source": "../note/assets/post-02-v3/02-reserved-balance.png",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "faf31758f44a600933b800d2cfd3a7cfaeeaba4c9aa63e8b89b42e117348e8c2",
+      "image_bytes": 2038926,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-21-703",
+      "title": "200円だけを5回",
+      "scheduled_at": "2026-11-21T20:30:00+09:00",
+      "text": "のこらん「200円だけ。これくらいなら！」\nたまるん「うんうん！ 今週は何回あったかな？」\n\nのこらん「……『だけ』が5回いました。」\n\n200円×5回＝1,000円。\n小さな楽しみも、合計を見ると予算を考えやすい。\nまずは今週の「ちょっとだけ」を数えてみよう。\n※金額・回数は仮の例。",
+      "weighted_length": 263,
+      "image": "storage/images/2026-11-21-703.png",
+      "image_source": "new imagegen comic",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "655eb127178776d8a279c8a9c25451e2bec809c55df49f254e96894b6962bd6f",
+      "image_bytes": 2377318,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-22-701",
+      "title": "予算内でも買う日に足りる",
+      "scheduled_at": "2026-11-22T08:10:00+09:00",
+      "text": "のこらん「1万円の買い物、予算内です！」\nたまるん「買う日の口座にも、足りるかな？」\n\nのこらん「予算の話に、日付も出てきた。」\n\n残り予算1万円でも、買う日の残高が5,000円なら足りない。\n大きな買い物の前に、支払日と給料日の順番を見ておこう。\n※図は仮の例。",
+      "weighted_length": 250,
+      "image": "storage/images/2026-11-22-701.png",
+      "image_source": "../note/assets/post-03-v3/02-budget-and-purchase-day.png",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "936c6e96cd5d567f75c9bfdc586a00b5439d84754e63b3f76493086a68aa9776",
+      "image_bytes": 2129334,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-22-702",
+      "title": "月は4週間ぴったりではない",
+      "scheduled_at": "2026-11-22T12:15:00+09:00",
+      "text": "のこらん「生活費6万円を4週で割る！ 完璧！」\nたまるん「次のお給料まで、何日あるかな？」\n\nのこらん「……最後の2日が、こちらを見ています。」\n\n30日分なら、28日で使い切らない配分に。\n週の予算を決める前に、次の給料日までの日数を数えてみよう。\n※図は仮の例。",
+      "weighted_length": 251,
+      "image": "storage/images/2026-11-22-702.png",
+      "image_source": "../note/assets/post-01-v3/03-weekly-budget.png",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "8a939476a12c88d0f034cf9ce3c1114699f2bc265b05e32d790116bd286418c7",
+      "image_bytes": 1992562,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-22-703",
+      "title": "ごほうびも予算の仲間",
+      "scheduled_at": "2026-11-22T20:30:00+09:00",
+      "text": "のこらん「家計を見直す。つまり、おやつとお別れ……？」\nたまるん「支払い分を残したら、楽しみの分も一緒に考えようね♪」\n\nのこらん「プリンにも、席を用意していいんだ。」\n\n楽しみの予算も、先に決めておく。\n次の給料日までに必要な分と、ごほうびの分を分けてみよう。",
+      "weighted_length": 256,
+      "image": "storage/images/2026-11-22-703.png",
+      "image_source": "new imagegen comic",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "4f181c16177ad6775c57f0b3a0af9c1c119fb005f9e72fa407950f9289be68e6",
+      "image_bytes": 2470012,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-23-701",
+      "title": "年払いは残り回数で",
+      "scheduled_at": "2026-11-23T08:10:00+09:00",
+      "text": "のこらん「年払い12万円。月1万円でいける！」\nたまるん「次の支払いまで、何回よけておけるかな？」\n\nのこらん「……12回あるとは限らないのか。」\n\n必要額から準備済みの分を引き、支払日までの残り回数で割る。\nまずは、いちばん近い年払いの日付を確認しよう。\n※図は仮の例。",
+      "weighted_length": 260,
+      "image": "storage/images/2026-11-23-701.png",
+      "image_source": "../note/assets/post-01-v3/04-annual-payment.png",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "e5735a7f4211d79d4f76a75ec5aee9660cf6651734ad333d15b5072081590a6c",
+      "image_bytes": 1943353,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-23-702",
+      "title": "月末の残高は今日使えない",
+      "scheduled_at": "2026-11-23T12:15:00+09:00",
+      "text": "のこらん「月末は16万円残る！ 安心！」\nたまるん「その前の日の残高も、一緒に見てみようね」\n\nのこらん「……24日は5,000円。月末、前倒しできませんか？」\n\n月末に残っても、途中で足りないことはある。\n次の給料日までに、残高がいちばん少なくなる日を探してみよう。\n※図は仮の例。",
+      "weighted_length": 267,
+      "image": "storage/images/2026-11-23-702.png",
+      "image_source": "../note/assets/post-01-v3/01-balance-timing.png",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "ff026ea9525f5ee648e7bfe5efa11d15a1f5e0c4c14804756c840cf27d50ceff",
+      "image_bytes": 2039690,
+      "dimensions": [
+        1671,
+        941
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    },
+    {
+      "id": "2026-11-23-703",
+      "title": "給料に行き先をつける",
+      "scheduled_at": "2026-11-23T20:30:00+09:00",
+      "text": "のこらん「手取り23万円！ 全員、買い物についてきて！」\nたまるん「支払い分をよけると、生活費に回す分が見えるね♪」\n\nのこらん「……生活費チームは6万円でした。」\n\n給料が入ったら、支払い・予備費・年払い準備・生活費を分けてみる。\n金額は自分の予定に合わせよう。\n※図は仮の例。",
+      "weighted_length": 269,
+      "image": "storage/images/2026-11-23-703.png",
+      "image_source": "../note/assets/post-01-v3/02-payday-allocation.png",
+      "status": "prepared",
+      "route": "X native scheduled posts",
+      "sha256": "48d4cfe8cb41ed94c95fba4966264e1df85486f155ab5d7d5b3714ce0fe57a7d",
+      "image_bytes": 1925652,
+      "dimensions": [
+        1671,
+        941
+      ],
+      "qa": "Japanese text, speakers, numeric example and character identity checked"
+    }
+  ]
+}

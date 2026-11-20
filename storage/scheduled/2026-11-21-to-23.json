@@ -1,0 +1,231 @@
+{
+  "account": "yarikuri_app",
+  "account_id": "1736331586814271488",
+  "timezone": "Asia/Tokyo",
+  "revision": 2,
+  "posts": [
+    {
+      "id": "2026-11-21-701",
+      "scheduled_at": "2026-11-21T08:10:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-21-701.png",
+      "title": "送料無料の方が200円高い",
+      "format": "比較レシート",
+      "text": "送料無料まであと700円。でも送料は500円。\n\n必要な物2,500円＋送料500円＝3,000円。\n不要な物を700円足すと、送料無料でも3,200円。\n\n「無料」につられて足す前に、決済総額を2通りで比べる。\nこの例なら、送料を払う方が200円少なく済みます。\n※仮の例。",
+      "weighted_length": 238,
+      "sources": [],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "c16eb2bbfd4c6118d0582b09626b228f5857ebc93239e7c116f86b62ec3d8f41",
+      "image_bytes": 2360182,
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "verified_in_x": true,
+      "x_date_label": "2026年11月21日(土)の午前8:10に送信されます",
+      "x_media_url": "https://pbs.twimg.com/media/HXkMiK1bIAA0zq_.jpg"
+    },
+    {
+      "id": "2026-11-21-702",
+      "scheduled_at": "2026-11-21T12:15:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-21-702.png",
+      "title": "カードを使った日に取り置く",
+      "format": "記入できるメモ",
+      "text": "カード代は「請求が来てから」より、使った日に取り置くメモを。\n\n①3,000円使う\n②買った日の予算を3,000円減らす\n③引落口座の中で「カード用3,000円」と分けておく\n\n口座の数字が減らなくても、使った分をもう一度使いにくくなる。\n引落時に同じ買い物を予算から二重に引かない。\n※仮の例。",
+      "weighted_length": 273,
+      "sources": [
+        "https://www.moj.go.jp/seinen/chapter_04/commentary.html"
+      ],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "3621bdf34c3e6119676fae1c3ca77a15ee99f913de64871a37dd63ac4c9b2ca6",
+      "image_bytes": 2337407,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "verified_in_x": true,
+      "x_date_label": "2026年11月21日(土)の午後0:15に送信されます",
+      "x_media_url": "https://pbs.twimg.com/media/HXkNv7FbgAAiQXy.jpg"
+    },
+    {
+      "id": "2026-11-21-703",
+      "scheduled_at": "2026-11-21T20:30:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-21-703.png",
+      "title": "消す前に解約する",
+      "format": "スマホ手順カード",
+      "text": "サブスク、アプリを消しただけで終わっていませんか？\n\niPhoneなら\n設定→自分の名前→サブスクリプション→対象の契約へ。\n\n一覧になければ、領収書やカード明細から請求元を探す。契約先の方法で解約し、完了表示も確認。\n消す前のひと手間で、放置した請求に気づけます。\nhttps://support.apple.com/ja-jp/118428",
+      "weighted_length": 278,
+      "sources": [
+        "https://support.apple.com/ja-jp/118428",
+        "https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen545.html"
+      ],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "d1bdb0114165f379fa5c85a9220df4aa27329069ea8acab317955e282a71bd00",
+      "image_bytes": 2159165,
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月21日(土)の午後8:30に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkOupQaEAAnj90.jpg"
+    },
+    {
+      "id": "2026-11-22-701",
+      "scheduled_at": "2026-11-22T08:10:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-22-701.png",
+      "title": "生活費は給料日から区切る",
+      "format": "つながるカレンダー",
+      "text": "25日が給料日なら、生活費メモを「25日〜翌24日」の1セットにしてみる。\n\n月が替わっても残額をリセットしなければ、次の給料日前までの生活費が見える。\n\n家計簿の月別集計はそのまま。\n別のメモに「この給料で暮らす最終日」を書くだけでも始められます。\n※25日入金の例。",
+      "weighted_length": 255,
+      "sources": [],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "733b73486aca9959127dfcf6d6885a0d211f910e764432ff1432cc76210411ea",
+      "image_bytes": 2285975,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月22日(日)の午前8:10に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkO1robEAAMG-v.jpg"
+    },
+    {
+      "id": "2026-11-22-702",
+      "scheduled_at": "2026-11-22T12:15:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-22-702.png",
+      "title": "年払いは間に合う給料で割る",
+      "format": "給料日の逆算カレンダー",
+      "text": "「年12万円だから月1万円」で間に合わない例。\n\n2/10払い・準備済み3万円・給料は25日。\n11/20から間に合う給料は11月・12月・1月の3回。\n残り9万円÷3回＝毎回3万円。\n\n2/25の給料は数えない。\n年払いメモに「支払日までの入金回数」を足すと、準備額を逆算できます。\n※仮の例。",
+      "weighted_length": 259,
+      "sources": [],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "d59f01395365e616beaf032c6215bdc362c566f374963e7022f2dbde4fb0752a",
+      "image_bytes": 2142577,
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月22日(日)の午後0:15に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkO4nJbwAAHyxI.jpg"
+    },
+    {
+      "id": "2026-11-22-703",
+      "scheduled_at": "2026-11-22T20:30:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-22-703.png",
+      "title": "チャージと買い物を二重に足さない",
+      "format": "お金の移動図",
+      "text": "電子マネーへ5,000円チャージして、2,000円使った。\n「支出7,000円」にしていませんか？\n\n買い物時に支出を数える方式なら、チャージはお金の移動。\n買い物の支出は2,000円、電子マネーの残りは3,000円。\n\n口座の残高では、チャージの5,000円出金も残す。\n使った額と口座の動きは分ける。\n※仮の例。",
+      "weighted_length": 278,
+      "sources": [
+        "https://content.zaim.net/questions/show/60"
+      ],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "25d5b6f4a1241585595b9e2ac9191182a03606b379fbd41ceb700542470a938e",
+      "image_bytes": 2093503,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月22日(日)の午後8:30に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkPKwGboAAxqaC.jpg"
+    },
+    {
+      "id": "2026-11-23-701",
+      "scheduled_at": "2026-11-23T08:10:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-23-701.png",
+      "title": "使いすぎた週の予算を再計算",
+      "format": "残額から作り直す計算カード",
+      "text": "週の予算を超えたら、月初の配分のまま走らず「残額÷残日数」で立て直す方法も。\n\n食費あと2万円、給料日まで20日なら\n2万円÷20日＝1日1,000円。\n次の7日分は7,000円が目安。\n\n残額が変わったら、もう一度割り直す。\n外食など大きな予定は先に別枠で確保して調整を。\n※仮の例。",
+      "weighted_length": 258,
+      "sources": [],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "44637bb70657ed377a13c75b12d95e547934e945389e8a5b28a82f3eb2e098b0",
+      "image_bytes": 2550584,
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月23日(月)の午前8:10に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkPQAvasAAJ_F9.jpg"
+    },
+    {
+      "id": "2026-11-23-702",
+      "scheduled_at": "2026-11-23T12:15:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-23-702.png",
+      "title": "追加出費は最低残高から逆算",
+      "format": "残高の谷のグラフ",
+      "text": "買っていいか迷うときは、今の残高からではなく「給料日前の底」から逆算する方法も。\n\n生活費と予定の支払いを全部入れた最低残高が1.5万円。\n1万円は残したいなら、追加出費の計算上の目安は5,000円。\n\n買い物の予定を入れ直し、底がどこまで下がるかを見る。\n※仮の例。未登録の支出は別に反映。",
+      "weighted_length": 277,
+      "sources": [],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "1063d1d653117403ba4930c6e6eafb95a2228f4a9d541cca53931369234f3b8c",
+      "image_bytes": 2267199,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月23日(月)の午後0:15に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkPVyYacAAvz-d.jpg"
+    },
+    {
+      "id": "2026-11-23-703",
+      "scheduled_at": "2026-11-23T20:30:00+09:00",
+      "route": "X native scheduled posts",
+      "image": "storage/images/2026-11-23-703.png",
+      "title": "過去を埋めず3行で再開",
+      "format": "そのまま写せる3行テンプレ",
+      "text": "レシートがたまって家計簿を開けない日は、過去を全部埋める前にこの3行から。\n\n今日の実際の残高：＿＿円\n次の入金：＿＿日／＿＿円\nそれまでの支払い＋生活費：＿＿円\n\nまず、入金前に足りるかを計算する。\n昔の記録を完成させなくても、直近の支払いに備える作業は始められます。",
+      "weighted_length": 262,
+      "sources": [],
+      "status": "scheduled",
+      "revision": 2,
+      "value_gate": "concrete method, usable example/template, explicit reader benefit",
+      "sha256": "2659c8f7f30bc873060c013d2a04c6aced7377837a73f4f345dea1731a1d9ba5",
+      "image_bytes": 2341532,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "qa": "mouths, Japanese, example arithmetic, source and useful method verified",
+      "x_date_label": "2026年11月23日(月)の午後8:30に送信されます",
+      "verified_in_x": true,
+      "x_media_url": "https://pbs.twimg.com/media/HXkPhuqagAATz2T.jpg"
+    }
+  ]
+}

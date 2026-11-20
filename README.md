@@ -14,3 +14,7 @@ X [@yarikuri_app](https://x.com/yarikuri_app) と配信repo [atelierbase/x-workf
 
 配信はGitHub Actions。現在は手動dispatch、定期配信は停止中。
 旧AIアカウント用の指示は `archive/2026-11-19-ai-account/` に保存した。
+
+## X本体の予約投稿（2026-11-20確認）
+
+ユーザー指定の1日3本×3日分を、11/21〜11/23の8:10・12:15・20:30 JSTに画像付きで予約済み。本文・時刻・画像をX上で9件照合した。実用版の正本は `storage/scheduled/2026-11-21-to-23.json`、一覧は `storage/stocks/native-scheduled.md`。予約一覧 https://x.com/compose/post/unsent/scheduled 。公開済みのURLや反応は実際の配信後に取得する。

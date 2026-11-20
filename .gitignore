@@ -36,3 +36,7 @@ archive/2026-11-19-ai-account/x-delete-verification.json
 
 # Full third-party post bodies are kept locally for analysis, not republished.
 storage/research/*-raw.json
+
+# Unpublished rejected image drafts remain local; current nine assets are tracked.
+archive/2026-11-20-native-rejected-first-draft/*.png
+archive/2026-11-20-native-rejected-first-draft/*.txt
