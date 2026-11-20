@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-11-20T12:00:56.382683+09:00",
+  "operations": [
+    {
+      "operation": "description",
+      "status": 200
+    },
+    {
+      "operation": "update_profile_image",
+      "status": 200
+    },
+    {
+      "operation": "update_profile_banner",
+      "status": 201
+    }
+  ],
+  "profile": {
+    "description": "ほっぺに種を残すたまるんと、つい食べちゃうのこらん。\n給料日前の金欠、カード代、年払い。家計の「困った」を、会話と図解で一緒に考えるよ！\n家計簿アプリ「やりくり」公式｜全機能無料",
+    "id": "1736331586814271488",
+    "name": "たまるんとのこらん｜やりくり公式",
+    "profile_image_url": "https://pbs.twimg.com/profile_images/2123612520699371520/EXfvPBKC_normal.jpg",
+    "url": "https://t.co/OUlGRvyQ3w",
+    "username": "yarikuri_app"
+  }
+}

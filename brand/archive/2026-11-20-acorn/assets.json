@@ -1,0 +1,21 @@
+{
+  "header_generator": "built-in image_gen",
+  "header_prompt": "header-prompt.txt",
+  "assets": [
+    {
+      "file": "profile-header-x-v1.png",
+      "bytes": 2138177,
+      "sha256": "e0252ed575b2f2686b7fc1a8113a179f4bf45eda1a4f251610bf993fd4e85732"
+    },
+    {
+      "file": "character-reference.png",
+      "bytes": 1820876,
+      "sha256": "21f8165d94bfdab4554b38c4bbefb42dcbcd8329377a0df30652aea966a63af9"
+    },
+    {
+      "file": "profile-icon-v1.png",
+      "bytes": 1534741,
+      "sha256": "b3e58bafcdb6a67ec69c53327adf7c0dbb30099481535b148bb0990bc66220ca"
+    }
+  ]
+}

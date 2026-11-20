@@ -38,4 +38,10 @@
 配信時には数値アカウントIDを照合してから画像をアップロードし、実際のユーザー名で投稿URLを記録する。
 日本語・URLを含む文字数の検査、認証不要のdry-run、誤ったアカウントで画像アップロード・投稿が行われないことを確認した。
 
-新ヘッダーは組み込みimage_genで制作。画像は `brand/profile-header-x-v1.png`、生成プロンプトは `brand/header-prompt.txt`、制作情報は `brand/assets.json`。
+新ヘッダーは組み込みimage_genで制作。画像は `brand/archive/2026-11-20-acorn/profile-header-x-v1.png`、当時の生成プロンプト・制作情報は `brand/archive/2026-11-20-acorn/`。
+
+## 2026-11-20 ひまわりの種への刷新
+
+Xプロフィールのアイコン・ヘッダー・紹介文をAPIで更新し、アカウントIDと公開画面を確認。のこらんは空の頬と口・小さめの顔、たまるんは種を残した片頬に変更。現行素材は `brand/README.md`。API結果は `storage/analytics/2026-11-20-sunflower-profile.json`。
+
+投稿済みの3件は画像だけの置換ができないため、削除・再投稿の選択をユーザーへ確認中。新版の画像は `brand/refresh/` に準備済み。回答までは元の投稿と配信記録を保持する。

@@ -1,0 +1,41 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-11-20",
+  "records": [
+    {
+      "key": "canonical-pair-v4",
+      "prompt": "Use case: identity-preserve.\nAsset type: canonical original hamster character pair reference for a comprehensive brand refresh. Landscape PNG around 1536x1024, warm cream paper.\nEdit target: the attached existing pair reference. Preserve their original watercolor picture-book rendering, cocoa outlines, gentle adult-friendly charm, milk-tea/ivory Tamarun on LEFT and milk-grey/ivory Nokoran on RIGHT, short plush bodies and rounded ears. Preserve the readable names 「たまるん」 and 「のこらん」 below them, and the same overall side-by-side full-body composition.\nMANDATORY CHANGES:\n1. Replace EVERY acorn with realistic recognisable SUNFLOWER SEEDS: small elongated pointed oval shells, charcoal-gray with cream longitudinal stripes, no cap, no round acorn silhouette.\n2. Tamarun remains the same kind milk-tea hamster with ONE conspicuously puffed ivory cheek on the viewer's left, tiny brown bowtie, gently confident closed-mouth smile. He has saved sunflower seeds in his cheek pouch and holds one striped sunflower seed in both hands.\n3. Nokoran must have EMPTY cheek pouches and a visibly more SLENDER FACE than Tamarun: remove the large lateral cheek bulges, no food-stuffed jowls, no double bulging cheeks. Keep a softly rounded compact oval hamster head, small cream muzzle, normal soft body, and original short limbs; he is cute and healthy, NOT gaunt. Head width approximately 75 percent of Tamarun's broad puffed face. His round slightly folded ear and milk-grey palette identify him. His mouth is EMPTY, relaxed little wry smile, one playful sweat bead; no acorn or seed protrudes from mouth.\n4. Nokoran holds a tiny open EMPTY paper snack bag, casually turning its opening toward the viewer. At his feet only TWO empty striped sunflower seed hull halves, no pile of full food. His expression says “Oops, I ate them” but remains cheerful and self-confident, never pitiful.\n5. Add no extra text beyond the two names. No new accessories other than empty snack bag. No scene, charts, logos, watermark, rabbit ears, pink fur or green background.\nThe contrast MUST read instantly: Tamarun has saved one cheekful, Nokoran has nothing saved in his cheeks. Preserve the characters' personalities and original palette. This new version replaces the former acorn identity.",
+      "files": [
+        "brand/character-reference.png"
+      ]
+    },
+    {
+      "key": "profile-icon-v2",
+      "prompt": "Use case: logo-brand. Square profile icon PNG around 1024x1024, legible at 48px. Reference is the new canonical original hamster pair. Tamarun LEFT: milk-tea and ivory, one large puffed cheek on viewer's left, tiny cocoa bowtie, kind smile, saved sunflower seeds. Nokoran RIGHT: milk-grey and ivory, narrow compact oval face with EMPTY cheek pouches, NO lateral puffed jowls, empty mouth, small folded ROUND ear, playful warm wry smile, an EMPTY snack bag. Keep the strong head-width contrast, Nokoran about 75% Tamarun. Both cute healthy hamsters, not gaunt, no pink/green/rabbit. Sunflower seeds are elongated charcoal shells with cream longitudinal stripes, never acorns or oak nuts. Warm cream textured watercolor picture-book style with cocoa outlines. Show ONLY both faces and their upper chests side by side, closely grouped in central 70% of canvas so circular avatar cropping preserves both ears and eyes. Tamarun left cheek visibly puffed; Nokoran distinctly smaller narrow face and empty mouth. Small sunflower seed held below Tamarun face and tiny open empty bag below Nokoran, but faces are dominant. No text, no border, no badge, no watermark. Soft warm ivory backdrop.",
+      "files": [
+        "brand/profile-icon-v2.png"
+      ]
+    },
+    {
+      "key": "profile-header-x-v2",
+      "prompt": "Use case: illustration-story. X/Twitter header PNG very wide 3:1 composition, about 1536x512 or equivalent. Reference is the new canonical original hamster pair. Tamarun LEFT: milk-tea and ivory, one large puffed cheek on viewer's left, tiny cocoa bowtie, kind smile, saved sunflower seeds. Nokoran RIGHT: milk-grey and ivory, narrow compact oval face with EMPTY cheek pouches, NO lateral puffed jowls, empty mouth, small folded ROUND ear, playful warm wry smile, an EMPTY snack bag. Keep the strong head-width contrast, Nokoran about 75% Tamarun. Both cute healthy hamsters, not gaunt, no pink/green/rabbit. Sunflower seeds are elongated charcoal shells with cream longitudinal stripes, never acorns or oak nuts. Warm cream textured watercolor picture-book style with cocoa outlines. Both hamsters on right half checking a paper calendar together; Tamarun has one striped sunflower seed, Nokoran cheerfully shows an empty snack bag. Bottom left quarter stays clear for the overlapping circular X avatar. Text in central-left, all inside safe margins, exact large title 「たまるんとのこらん」, smaller 「ごほうびも楽しむ家計管理」 and brand 「やりくり公式」. Only those three text blocks, no numbers, no dates, no URLs, no other text. Preserve face and text readability at mobile size.",
+      "files": [
+        "brand/profile-header-x-v2.png"
+      ]
+    },
+    {
+      "key": "x-greeting-v2",
+      "prompt": "Edit image ONE using image TWO only as the new canonical character identity. This is a precise mascot/food refresh; keep original illustration style, composition, layout and ALL Japanese text/numbers verbatim and fully legible. Reference is the new canonical original hamster pair. Tamarun LEFT: milk-tea and ivory, one large puffed cheek on viewer's left, tiny cocoa bowtie, kind smile, saved sunflower seeds. Nokoran RIGHT: milk-grey and ivory, narrow compact oval face with EMPTY cheek pouches, NO lateral puffed jowls, empty mouth, small folded ROUND ear, playful warm wry smile, an EMPTY snack bag. Keep the strong head-width contrast, Nokoran about 75% Tamarun. Both cute healthy hamsters, not gaunt, no pink/green/rabbit. Sunflower seeds are elongated charcoal shells with cream longitudinal stripes, never acorns or oak nuts. Warm cream textured watercolor picture-book style with cocoa outlines. Preserve exact Japanese headline, dialogue, names, descriptions, layout, pudding, cookie bag and cookies. Nokoran mouth empty, remove mouth acorn, cheeks narrow. Notebook acorn logo becomes striped sunflower seed logo. Replace EVERY acorn/oak nut with elongated striped sunflower seeds, or EMPTY hulls at Nokoran feet. No acorn caps. Do not remove or change functional explanatory objects. Preserve dimensions/aspect ratio.",
+      "files": [
+        "brand/refresh/2026-11-19-704-v2.png"
+      ]
+    },
+    {
+      "key": "x-payday-v2",
+      "prompt": "Edit image ONE using image TWO only as the new canonical character identity. This is a precise mascot/food refresh; keep original illustration style, composition, layout and ALL Japanese text/numbers verbatim and fully legible. Reference is the new canonical original hamster pair. Tamarun LEFT: milk-tea and ivory, one large puffed cheek on viewer's left, tiny cocoa bowtie, kind smile, saved sunflower seeds. Nokoran RIGHT: milk-grey and ivory, narrow compact oval face with EMPTY cheek pouches, NO lateral puffed jowls, empty mouth, small folded ROUND ear, playful warm wry smile, an EMPTY snack bag. Keep the strong head-width contrast, Nokoran about 75% Tamarun. Both cute healthy hamsters, not gaunt, no pink/green/rabbit. Sunflower seeds are elongated charcoal shells with cream longitudinal stripes, never acorns or oak nuts. Warm cream textured watercolor picture-book style with cocoa outlines. Preserve exact Japanese headline/dialogue/names/footer/layout/calendar. In this payday story keep bowls temporarily full but change every acorn into elongated striped sunflower seeds. Nokoran face must be compact, EMPTY cheeks, NO seed protruding from mouth in either panel, can open empty mouth in speech. Tamarun saved one big cheek. No acorns anywhere. Replace EVERY acorn/oak nut with elongated striped sunflower seeds, or EMPTY hulls at Nokoran feet. No acorn caps. Do not remove or change functional explanatory objects. Preserve dimensions/aspect ratio.",
+      "files": [
+        "brand/refresh/2026-11-20-702-v2.png"
+      ]
+    }
+  ]
+}

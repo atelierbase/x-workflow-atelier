@@ -56,3 +56,7 @@ gh workflow run scheduled-post.yml -R atelierbase/x-workflow-atelier -f slot=夜
 dry-runは認証・ネットワーク不要。実配信はアカウントIDを照合してから画像をアップロードする。
 Actionsの完了と `posted.md` の実際の投稿URLを確認する。キュー投入を投稿完了と扱わない。
 旧原稿・運用指示は `archive/2026-11-19-ai-account/` に保管。現在のプロフィールは `profile.md`、移行結果は `MIGRATION.md`。
+
+## 2026-11-20 キャラクター刷新
+
+食べ物は縦じまの細長いひまわりの種。たまるんは片方に残した大きな頬、のこらんは空の頬と口で顔幅を小さめにする。空袋や食べ終わった殻を使う。旧どんぐり・膨らんだのこらんは新規生成に使わない。詳細は `skill/references/characters.md`、正本は `brand/character-reference.png`。

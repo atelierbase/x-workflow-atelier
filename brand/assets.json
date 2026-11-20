@@ -1,21 +1,30 @@
 {
-  "header_generator": "built-in image_gen",
-  "header_prompt": "header-prompt.txt",
+  "generator": "built-in image_gen",
+  "updated": "2026-11-20",
+  "canonical": "character-reference.png",
+  "setting": "sunflower seeds; Nokoran empty cheeks and mouth",
+  "prompts": "sunflower-refresh-prompts.json",
   "assets": [
     {
-      "file": "profile-header-x-v1.png",
-      "bytes": 2138177,
-      "sha256": "e0252ed575b2f2686b7fc1a8113a179f4bf45eda1a4f251610bf993fd4e85732"
-    },
-    {
       "file": "character-reference.png",
-      "bytes": 1820876,
-      "sha256": "21f8165d94bfdab4554b38c4bbefb42dcbcd8329377a0df30652aea966a63af9"
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1954870,
+      "sha256": "e9538b12317e19b68da32027baf407506b04c80efdc254578325116408f79e6a"
     },
     {
-      "file": "profile-icon-v1.png",
-      "bytes": 1534741,
-      "sha256": "b3e58bafcdb6a67ec69c53327adf7c0dbb30099481535b148bb0990bc66220ca"
+      "file": "profile-icon-v2.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2088966,
+      "sha256": "5679123a611434ea4c16f156cd3ba1806ea71989589cb670256aa7089a153e96"
+    },
+    {
+      "file": "profile-header-x-v2.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2008489,
+      "sha256": "bdfdb6a208770961ca76eff668eaf6f38420f68240ae327d64a1b434d0813a31"
     }
   ]
 }
