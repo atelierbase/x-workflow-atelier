@@ -1,0 +1,60 @@
+{
+  "account": "yarikuri_app",
+  "account_id": "1736331586814271488",
+  "timezone": "Asia/Tokyo",
+  "timing_policy": {
+    "fixed_times": false,
+    "windows": {
+      "morning": "07:15–09:35",
+      "midday": "11:40–13:35"
+    },
+    "method": "Cryptographically random minute per slot, excluding selected round minutes and previous times"
+  },
+  "verification": {
+    "verified_at": "2026-11-21T11:37:55+09:00",
+    "source": "X native scheduled list",
+    "total_future_post_count": 10
+  },
+  "posts": [
+    {
+      "id": "2026-11-24-701",
+      "slot": "morning",
+      "scheduled_at": "2026-11-24T07:55:00+09:00",
+      "title": "カード代は1件で記録",
+      "route": "X native scheduled posts",
+      "status": "scheduled",
+      "text": "カード明細を全部入力しなくても、引落予定は見える。\n\n知りたいのが「口座からいつ、いくら減るか」なら、まだ入力していないカードから。確定した請求を「27日・カード引落・18,400円」と、引落日に1件だけ記録。\n\n買い物をすでに入力した請求分は、二重に足さないでね。",
+      "image": "storage/images/2026-11-24-701.png",
+      "draft": "storage/drafts/2026-11-24-701.txt",
+      "image_prompt": "storage/drafts/2026-11-24-701-image-prompt.txt",
+      "alt_text": "たまるんとのこらんの図解。レシートの束から1枚のカレンダーへ矢印。引落予定だけ知りたいときはカード代を1件で記録する例。27日、カード引落、18,400円。",
+      "weighted_length": 253,
+      "sha256": "112f4a760ca678c8d32e467e31cf83038e27ad554599f7d083e795b16254c643",
+      "image_bytes": 2222840,
+      "verified_in_x": true,
+      "alt_verified_in_x": true,
+      "x_date_label": "2026年11月24日(火)の午前7:55に送信されます",
+      "x_media_url": "https://pbs.twimg.com/media/HXnYjEwbQAAut8o.jpg"
+    },
+    {
+      "id": "2026-11-24-702",
+      "slot": "midday",
+      "scheduled_at": "2026-11-24T12:23:00+09:00",
+      "title": "家計簿、どこで止まる？",
+      "route": "X native scheduled posts",
+      "status": "scheduled",
+      "text": "のこらん「私、家計簿は『あとでまとめて』で止まります。」\nたまるん「うんうん。みんなは、どこで手が止まる？」\n\n① 記録する\n② 費目を選ぶ\n③ 見返す\n\n番号だけでも聞かせてね。集まった声をもとに、手間を減らす工夫を図解します🐹",
+      "image": "storage/images/2026-11-24-702.png",
+      "draft": "storage/drafts/2026-11-24-702.txt",
+      "image_prompt": "storage/drafts/2026-11-24-702-image-prompt.txt",
+      "alt_text": "たまるんとのこらんがノートを囲む図。「家計簿、どこで止まる？」選択肢は①記録する、②費目を選ぶ、③見返す。",
+      "weighted_length": 220,
+      "sha256": "745da9b65e74deaa69ee9298e536c69c393df28a046a979badacf8ba3dbeed32",
+      "image_bytes": 2477815,
+      "verified_in_x": true,
+      "alt_verified_in_x": true,
+      "x_date_label": "2026年11月24日(火)の午後0:23に送信されます",
+      "x_media_url": "https://pbs.twimg.com/media/HXnZ0ZfawAAEiYj.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "observed_at": "2026-11-21T11:37:55+09:00",
+  "source": "X public profile viewed while signed in; observations recorded shortly after profile changes",
+  "account": "yarikuri_app",
+  "followers": 27,
+  "posts": [
+    {
+      "url": "https://x.com/yarikuri_app/status/2123925104623026638",
+      "title": "送料無料と送料の比較",
+      "published_at": "2026-11-21T08:43:00+09:00",
+      "views": 7,
+      "reposts": 0,
+      "likes": 0,
+      "replies": 0
+    },
+    {
+      "url": "https://x.com/yarikuri_app/status/2123957201572442577",
+      "title": "家計簿をスマホで記録する工夫の引用",
+      "published_at": "2026-11-21T10:50:32+09:00",
+      "views": 3,
+      "reposts": 0,
+      "likes": 0,
+      "replies": 0
+    },
+    {
+      "url": "https://x.com/yarikuri_app/status/2123626757869944942",
+      "title": "給料日とカード代",
+      "published_at": "2026-11-20T12:57:28+09:00",
+      "views": 30,
+      "reposts": 0,
+      "likes": 0,
+      "replies": 0
+    },
+    {
+      "url": "https://x.com/yarikuri_app/status/2123626511525904578",
+      "title": "キャラクター挨拶",
+      "published_at": "2026-11-20T12:56:30+09:00",
+      "views": 5,
+      "reposts": 0,
+      "likes": 0,
+      "replies": 0
+    },
+    {
+      "url": "https://x.com/yarikuri_app/status/2123625924864455069",
+      "title": "リニューアルのお知らせ",
+      "published_at": "2026-11-20T12:54:10+09:00",
+      "views": 29,
+      "reposts": 0,
+      "likes": 0,
+      "replies": 0
+    }
+  ],
+  "note": {
+    "profile": "https://note.com/yarikuri_app",
+    "x_link_verified": true,
+    "profile_followers_observed": 0,
+    "article_x_links_verified": [
+      "n0a079b0500f4",
+      "n99ce095288e4",
+      "n0f7b08301306"
+    ]
+  },
+  "changes": {
+    "x_bio": "updated and verified",
+    "pinned_post": "https://x.com/yarikuri_app/status/2123925104623026638",
+    "note_bio": "X link added and verified",
+    "profile_clicks": "not measured",
+    "paid_promotion": "none"
+  }
+}
