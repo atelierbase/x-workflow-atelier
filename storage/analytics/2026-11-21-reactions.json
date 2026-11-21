@@ -1,0 +1,75 @@
+{
+  "observed_at": "2026-11-21T10:37:43.204157+09:00",
+  "account": "yarikuri_app",
+  "source": "X visible profile timeline and announcement post detail, read-only browser observation",
+  "followers": 27,
+  "following": 12,
+  "public_post_count": 4,
+  "posts": [
+    {
+      "local_id": "2026-11-21-701",
+      "post_id": "2123925104623026638",
+      "title": "送料無料と送料の比較",
+      "url": "https://x.com/yarikuri_app/status/2123925104623026638",
+      "published_at": "2026-11-21T08:43:00+09:00",
+      "age_hours": 1.91,
+      "views": 2,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "bookmarks": null
+    },
+    {
+      "local_id": "2026-11-20-706",
+      "post_id": "2123626757869944942",
+      "title": "給料日とカード代",
+      "url": "https://x.com/yarikuri_app/status/2123626757869944942",
+      "published_at": "2026-11-20T12:57:28+09:00",
+      "age_hours": 21.67,
+      "views": 29,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "bookmarks": null
+    },
+    {
+      "local_id": "2026-11-20-705",
+      "post_id": "2123626511525904578",
+      "title": "キャラクター挨拶",
+      "url": "https://x.com/yarikuri_app/status/2123626511525904578",
+      "published_at": "2026-11-20T12:56:30+09:00",
+      "age_hours": 21.69,
+      "views": 5,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "bookmarks": null
+    },
+    {
+      "local_id": "2026-11-20-704",
+      "post_id": "2123625924864455069",
+      "title": "リニューアルのお知らせ",
+      "url": "https://x.com/yarikuri_app/status/2123625924864455069",
+      "published_at": "2026-11-20T12:54:10+09:00",
+      "age_hours": 21.73,
+      "views": 28,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "bookmarks": 0
+    }
+  ],
+  "unmeasured": [
+    "profile visits",
+    "link clicks",
+    "app signups",
+    "unique viewers",
+    "quotes"
+  ],
+  "notes": [
+    "Deleted earlier versions excluded.",
+    "Views are displayed counts, not unique people.",
+    "The first practical scheduled post was published at the intended time. Only one of nine is public at observation time.",
+    "No new posts, likes, follows, or schedule changes performed."
+  ]
+}
